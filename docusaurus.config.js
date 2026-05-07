@@ -90,18 +90,13 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {
-            href: 'https://github.com/datachamp-processamentos-e-servicos/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentos',
             items: [
               {
                 label: 'Tutorial',
@@ -110,33 +105,29 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Fale Conosco',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '(54) 3462-2875',
+                href: 'https://wa.me/5434622875',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'datachamp@datachamp.com.br',
+                href: 'mailto:datachamp@datachamp.com.br',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Sobre nós',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/datachamp-processamentos-e-servicos/docusaurus',
+                label: 'Acesse nosso site',
+                href: 'https://www.datachamp.com.br/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Datachamp Processamento e Serviços LTDA, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
