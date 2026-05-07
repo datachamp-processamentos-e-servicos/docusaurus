@@ -14,6 +14,16 @@ const config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: '2058CFAAE80D6D12',
+      },
+    },
+  ],
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -83,9 +93,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Datachamp Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Datachamp Docs Logo',
           src: 'img/logo.svg',
         },
         items: [
