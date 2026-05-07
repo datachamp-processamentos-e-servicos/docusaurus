@@ -5,10 +5,10 @@
   "source": "@site/docs/intro.mdx",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/docs/intro",
+  "permalink": "/docusaurus/docs/intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.mdx",
+  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/blob/main/docs/intro.mdx",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Tutorial - Basics",
-    "permalink": "/docs/category/tutorial---basics"
+    "permalink": "/docusaurus/docs/category/tutorial---basics"
   }
 }

@@ -5,10 +5,10 @@
   "source": "@site/docs/tutorial-basics/deploy-your-site.mdx",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/deploy-your-site",
-  "permalink": "/docs/tutorial-basics/deploy-your-site",
+  "permalink": "/docusaurus/docs/tutorial-basics/deploy-your-site",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.mdx",
+  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/blob/main/docs/tutorial-basics/deploy-your-site.mdx",
   "tags": [],
   "version": "current",
   "sidebarPosition": 5,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Markdown Features",
-    "permalink": "/docs/tutorial-basics/markdown-features"
+    "permalink": "/docusaurus/docs/tutorial-basics/markdown-features"
   },
   "next": {
     "title": "Congratulations!",
-    "permalink": "/docs/tutorial-basics/congratulations"
+    "permalink": "/docusaurus/docs/tutorial-basics/congratulations"
   }
 }

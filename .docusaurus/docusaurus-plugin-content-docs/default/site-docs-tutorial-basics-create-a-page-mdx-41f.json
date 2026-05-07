@@ -1,14 +1,14 @@
 {
   "id": "tutorial-basics/create-a-page",
-  "title": "Create a Page",
-  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "title": "create-a-page",
+  "description": "GRAXA",
   "source": "@site/docs/tutorial-basics/create-a-page.mdx",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-page",
-  "permalink": "/docs/tutorial-basics/create-a-page",
+  "permalink": "/docusaurus/docs/tutorial-basics/create-a-page",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.mdx",
+  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/blob/main/docs/tutorial-basics/create-a-page.mdx",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Tutorial - Basics",
-    "permalink": "/docs/category/tutorial---basics"
+    "permalink": "/docusaurus/docs/category/tutorial---basics"
   },
   "next": {
     "title": "Create a Document",
-    "permalink": "/docs/tutorial-basics/create-a-document"
+    "permalink": "/docusaurus/docs/tutorial-basics/create-a-document"
   }
 }

@@ -5,10 +5,10 @@
   "source": "@site/docs/tutorial-basics/markdown-features.mdx",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/markdown-features",
-  "permalink": "/docs/tutorial-basics/markdown-features",
+  "permalink": "/docusaurus/docs/tutorial-basics/markdown-features",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
+  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/blob/main/docs/tutorial-basics/markdown-features.mdx",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Create a Blog Post",
-    "permalink": "/docs/tutorial-basics/create-a-blog-post"
+    "permalink": "/docusaurus/docs/tutorial-basics/create-a-blog-post"
   },
   "next": {
     "title": "Deploy your site",
-    "permalink": "/docs/tutorial-basics/deploy-your-site"
+    "permalink": "/docusaurus/docs/tutorial-basics/deploy-your-site"
   }
 }

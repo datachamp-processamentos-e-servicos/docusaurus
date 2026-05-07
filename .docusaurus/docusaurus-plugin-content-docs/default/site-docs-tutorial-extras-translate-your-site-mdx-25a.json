@@ -5,10 +5,10 @@
   "source": "@site/docs/tutorial-extras/translate-your-site.mdx",
   "sourceDirName": "tutorial-extras",
   "slug": "/tutorial-extras/translate-your-site",
-  "permalink": "/docs/tutorial-extras/translate-your-site",
+  "permalink": "/docusaurus/docs/tutorial-extras/translate-your-site",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.mdx",
+  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/blob/main/docs/tutorial-extras/translate-your-site.mdx",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Manage Docs Versions",
-    "permalink": "/docs/tutorial-extras/manage-docs-versions"
+    "permalink": "/docusaurus/docs/tutorial-extras/manage-docs-versions"
   }
 }
