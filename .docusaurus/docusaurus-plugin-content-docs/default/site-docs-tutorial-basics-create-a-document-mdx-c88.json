@@ -5,10 +5,10 @@
   "source": "@site/docs/tutorial-basics/create-a-document.mdx",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-document",
-  "permalink": "/docs/tutorial-basics/create-a-document",
+  "permalink": "/docusaurus/docs/tutorial-basics/create-a-document",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.mdx",
+  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/blob/main/docs/tutorial-basics/create-a-document.mdx",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Create a Page",
-    "permalink": "/docs/tutorial-basics/create-a-page"
+    "title": "create-a-page",
+    "permalink": "/docusaurus/docs/tutorial-basics/create-a-page"
   },
   "next": {
     "title": "Create a Blog Post",
-    "permalink": "/docs/tutorial-basics/create-a-blog-post"
+    "permalink": "/docusaurus/docs/tutorial-basics/create-a-blog-post"
   }
 }

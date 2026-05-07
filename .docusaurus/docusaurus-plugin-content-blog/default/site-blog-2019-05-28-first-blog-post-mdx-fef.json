@@ -1,6 +1,6 @@
 {
-  "permalink": "/blog/first-blog-post",
-  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.mdx",
+  "permalink": "/docusaurus/blog/first-blog-post",
+  "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/blob/main/blog/2019-05-28-first-blog-post.mdx",
   "source": "@site/blog/2019-05-28-first-blog-post.mdx",
   "title": "First Blog Post",
   "description": "Lorem ipsum dolor sit amet...",
@@ -9,13 +9,13 @@
     {
       "inline": false,
       "label": "Hola",
-      "permalink": "/blog/tags/hola",
+      "permalink": "/docusaurus/blog/tags/hola",
       "description": "Hola tag description"
     },
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/blog/tags/docusaurus",
+      "permalink": "/docusaurus/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -27,7 +27,7 @@
       "title": "Docusaurus maintainer",
       "url": "https://sebastienlorber.com",
       "page": {
-        "permalink": "/blog/authors/all-sebastien-lorber-articles"
+        "permalink": "/docusaurus/blog/authors/all-sebastien-lorber-articles"
       },
       "socials": {
         "x": "https://x.com/sebastienlorber",
@@ -43,7 +43,7 @@
       "title": "Ex-Meta Staff Engineer, Co-founder GreatFrontEnd",
       "url": "https://linkedin.com/in/yangshun",
       "page": {
-        "permalink": "/blog/authors/yangshun"
+        "permalink": "/docusaurus/blog/authors/yangshun"
       },
       "socials": {
         "x": "https://x.com/yangshunz",
@@ -70,6 +70,6 @@
   "unlisted": false,
   "prevItem": {
     "title": "Long Blog Post",
-    "permalink": "/blog/long-blog-post"
+    "permalink": "/docusaurus/blog/long-blog-post"
   }
 }
