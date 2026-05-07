@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35e9638b-43d0-482f-ac43-f693d812740b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/18c41134.66cf3139.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/25aee49d.d7fca258.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/7180d3e2.45713399.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/af321b0b.2d7e5381.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/c15d9823.46bc6f98.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/main.9e61adca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/runtime~main.529133df.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/archive/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/authors/all-sebastien-lorber-articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/authors/all-sebastien-lorber-articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/authors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/authors/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/authors/yangshun/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/authors/yangshun/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/first-blog-post/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/first-blog-post/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/long-blog-post/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/long-blog-post/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/mdx-blog-post/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/mdx-blog-post/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/tags/docusaurus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/tags/docusaurus/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/tags/facebook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/tags/facebook/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/tags/hello/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/tags/hello/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/tags/hola/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/tags/hola/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog/welcome/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/welcome/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/category/tutorial---basics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/category/tutorial---basics/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/category/tutorial---extras/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/category/tutorial---extras/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/intro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/intro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/tutorial-basics/congratulations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/tutorial-basics/congratulations/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/tutorial-basics/create-a-blog-post/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/tutorial-basics/create-a-blog-post/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/tutorial-basics/create-a-document/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/tutorial-basics/create-a-document/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/tutorial-basics/create-a-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/tutorial-basics/create-a-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/tutorial-basics/deploy-your-site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/tutorial-basics/deploy-your-site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/tutorial-basics/markdown-features/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/tutorial-basics/markdown-features/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/tutorial-extras/manage-docs-versions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/tutorial-extras/manage-docs-versions/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docs/tutorial-extras/translate-your-site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/tutorial-extras/translate-your-site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/markdown-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/markdown-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/sitemap.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3DOYvFkdJGEDp7LcyuzXp3dQEE2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/datachamp/projects/docusaurus&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="docusaurus" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="docusaurus" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35e9638b-43d0-482f-ac43-f693d812740b" name="Changes" comment="" />
+      <created>1778154811893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778154811893</updated>
+    </task>
+    <servers />
+  </component>
+</project>
