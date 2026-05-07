@@ -31,7 +31,7 @@ export default {
   },
   "url": "https://your-docusaurus-site.example.com",
   "baseUrl": "/",
-  "organizationName": "facebook",
+  "organizationName": "datachamp-processamentos-e-servicos",
   "projectName": "docusaurus",
   "onBrokenLinks": "throw",
   "i18n": {
@@ -48,7 +48,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
           "showReadingTime": true,
@@ -59,7 +59,7 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "editUrl": "https://github.com/datachamp-processamentos-e-servicos/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
@@ -96,7 +96,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/datachamp-processamentos-e-servicos/docusaurus",
           "label": "GitHub",
           "position": "right"
         }
@@ -141,7 +141,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/datachamp-processamentos-e-servicos/docusaurus"
             }
           ]
         }

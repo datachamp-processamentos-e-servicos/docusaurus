@@ -2,14 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35e9638b-43d0-482f-ac43-f693d812740b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.docusaurus/client-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/client-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-archive-f05.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/p/blog-archive-f05.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2019-05-28-first-blog-post-mdx-fef.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2019-05-28-first-blog-post-mdx-fef.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2019-05-29-long-blog-post-mdx-d66.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2019-05-29-long-blog-post-mdx-d66.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2021-08-01-mdx-blog-post-mdx-593.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2021-08-01-mdx-blog-post-mdx-593.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2021-08-26-welcome-index-mdx-718.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-blog/default/site-blog-2021-08-26-welcome-index-mdx-718.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/__mdx-loader-dependency.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/__mdx-loader-dependency.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-intro-mdx-f84.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-intro-mdx-f84.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-congratulations-mdx-d20.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-congratulations-mdx-d20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-create-a-blog-post-mdx-bcf.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-create-a-blog-post-mdx-bcf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-create-a-document-mdx-c88.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-create-a-document-mdx-c88.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-create-a-page-mdx-41f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-create-a-page-mdx-41f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-deploy-your-site-mdx-8b4.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-deploy-your-site-mdx-8b4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-markdown-features-mdx-18c.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-basics-markdown-features-mdx-18c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-extras-manage-docs-versions-mdx-af3.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-extras-manage-docs-versions-mdx-af3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-extras-translate-your-site-mdx-25a.json" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus-plugin-content-docs/default/site-docs-tutorial-extras-translate-your-site-mdx-25a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docusaurus/docusaurus.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/.docusaurus/docusaurus.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/js/18c41134.66cf3139.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/js/25aee49d.d7fca258.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/js/7180d3e2.45713399.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/js/af321b0b.2d7e5381.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/js/c15d9823.46bc6f98.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/js/main.9e61adca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/js/runtime~main.529133df.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/15df8608.b612ac53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/18c41134.4047e3eb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/1f4725da.d4112ecf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/25aee49d.46b3e52b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/41f7977f.71db83d1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/59362658.74f09c2e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/7180d3e2.2fc6e9a0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/804b58ce.f575284a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/8b48892d.734cbc1e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/af321b0b.2e67341b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/bcf87191.1a4c8a7e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/c88346e3.83387a3b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/d2046142.5ffd7524.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/d669559b.5384f75e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/f4f34a3a.3990d795.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/f81c1134.0251034e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/f8409a7e.aef7243d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/fefdd57e.8dd67de2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/main.c443dfb7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/js/runtime~main.bdac7ba4.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/blog/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/archive/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/blog/authors/all-sebastien-lorber-articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/authors/all-sebastien-lorber-articles/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/blog/authors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog/authors/index.html" afterDir="false" />
@@ -35,9 +66,178 @@
       <change beforePath="$PROJECT_DIR$/build/docs/tutorial-basics/markdown-features/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/tutorial-basics/markdown-features/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/docs/tutorial-extras/manage-docs-versions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/tutorial-extras/manage-docs-versions/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/docs/tutorial-extras/translate-your-site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/docs/tutorial-extras/translate-your-site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/helloMarkdown/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/helloMarkdown/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/helloReact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/helloReact/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/markdown-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/markdown-page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/meta/1/3b65e26c32d28f58" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/meta/1/3b65e26c32d28f58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/meta/scope_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/meta/scope_meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/0/dcc00efce2000cc7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/1/e696ae7f61b3b9d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/10/3917820ae9a2778e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/10/774ebbfd8d232ad7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/10/831b8a3766874764" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/11/4f39c05504f263d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/11/eb43a090dd061b06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/12/0cb212b284107554" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/13/02926cd8d5eb8e59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/13/47583e131f489a90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/14/3afc9f463d71bbd8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/15/0df47237acdf7db7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/15/4925ba7fd8ccd828" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/16/02198de3851bbec2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/17/315c0175934ab062" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/18/a11a9e849fdf9d5d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/19/0505c500b427aec3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/19/1033a05d9419d7b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/19/9e0a699293bc5da7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/2/2940433c11495b3c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/3/aedbc142097f3004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/3/d0ca42527aa5316b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/4/11d422273adad929" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/4/358bb6a1eaee2ec0" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/4/358bb6a1eaee2ec0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/5/c97f998fb26cf03d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/6/61062fcb4dda1f5d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/6/8c60c55a214de6cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/7/23e8ca3f58c68105" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/8/aca938ee2b386d57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/9/6962e8afdf588774" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/scope_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/occasion_make_module_graph/scope_meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_build/3/cb8b9fc3cdaac3fe" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_build/3/cb8b9fc3cdaac3fe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_build/scope_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_build/scope_meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_context/0/5b59a08221cd2cad" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_context/0/5b59a08221cd2cad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_context/scope_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_context/scope_meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/0/e22d3feaaa990bb7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/1/dd264e7f64d383dc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/10/d5945ce85363a5c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/11/34de61c017aa35de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/12/9ed2faba4a99e3c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/13/7f5eadcdba3abea5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/14/905e11af02b5e1ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/15/c464a3e7f62786e4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/16/21fd284cbc4ca368" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/17/ca79493d19eeb776" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/18/f883d8d8ee0e011e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/19/a245a238360dadb5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/2/964fbbf99c6fb608" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/3/edf68397f5c90ed4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/4/cf0cf11cfa514a98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/5/275438d0055f283b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/6/08519e3f618dc3be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/7/b032195f84cc1299" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/8/a9d2f19b105910e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/9/94033976562180f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/scope_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_file/scope_meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/0/bd123ca482dc8755" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/1/ac0ce63b73965956" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/10/3504cb2a04030734" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/11/a93344cfc6a6b557" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/12/b772fd8b22f62bc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/13/18c696a1f3d4ad59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/14/69f9a190701c55e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/15/70a4c995ec63638b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/16/f1076d9c727ff682" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/17/3d91fc2e392daa4b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/18/8b764e46ca4e0d39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/19/6715d8572d5e0f53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/2/88f8f354f1caa165" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/3/55abffd3f0ad16f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/4/58394ccb05f527a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/5/4b40a612bc49d577" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/6/c53a6462aec9ade8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/7/7e63ee8632d975ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/8/3a090e01eb343535" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/9/37883487d5277951" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/scope_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/snapshot_missing/scope_meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/storage_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/255208b4706865bf/storage_meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/meta/1/3b65e26c32d28f58" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/meta/1/3b65e26c32d28f58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/meta/scope_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/meta/scope_meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/0/32aa348c01b7a5fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/1/af810699e835ebd5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/10/4b7b9de5fdd21536" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/10/4b7b9de5fdd21536" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/10/8a0232e64cd73ddf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/11/2c4d8c078a581ac9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/11/329cbbe328fef905" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/12/f2d3788e2d2c0fe0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/13/1d6c1aa9c22cc432" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/14/3e4944f6175953b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/15/69c1331700604bf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/15/711ffb4be4c38510" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/16/1a20a731c1627e6c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/17/38167b1beb1df30e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/18/e94b5471defd38b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/19/df60a4cdb759572b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/19/e2d3ea917584a819" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/2/1531e0c51c517ffb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/2/7d1c165c28f117f1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/3/e51a17e581a1de62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/3/ee83fd85b8292a02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/4/4f736793ea87699b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/4/cb3d285c8f4d75df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/5/7b5af6670d4f0d43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/6/61062fcb4dda1f5d" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/6/61062fcb4dda1f5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/6/c252acf614cd975e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/7/e28cfcb1178d1f1a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/7/fcc99b17bf15d55c" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/7/fcc99b17bf15d55c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/8/0dd7779236695fea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/9/090c081e73234e9a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/9/50716c33cab3329d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/scope_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/occasion_make_module_graph/scope_meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_build/3/cb8b9fc3cdaac3fe" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_build/3/cb8b9fc3cdaac3fe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_build/scope_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_build/scope_meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/0/5b59a08221cd2cad" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/0/5b59a08221cd2cad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/1/349d332501f388c2" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/1/349d332501f388c2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/11/9261aa31fc05f395" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/11/9261aa31fc05f395" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/14/1456f22114b7a193" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/14/1456f22114b7a193" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/15/ce9e04c6e135805b" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/15/ce9e04c6e135805b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/18/0e2a05b02ee8ce78" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/18/0e2a05b02ee8ce78" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/19/24f6e2fbdff671b1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/19/24f6e2fbdff671b1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/2/a7fb001ea425fb81" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/2/a7fb001ea425fb81" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/scope_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_context/scope_meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/0/23d7a777f8531b77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/1/4b2de73547e5f4a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/10/8ddcea577125fe58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/11/43ddcdd30eb9d418" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/12/54e834166c9807bb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/13/e128f8562cbf51d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/14/905e11af02b5e1ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/15/841fcfe6c4dc2db0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/16/61d64e6b7f2844a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/17/bf86e893e40105c1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/18/7224bada64736446" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/19/3f340ddafef7ac2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/2/614bf8a18cb51725" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/3/edf68397f5c90ed4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/4/10f0307717e1928b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/5/da298bd342488e43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/6/08519e3f618dc3be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/7/2916ac3134a87095" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/8/e3243d18f9728a87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/9/53f873ffa4286c0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/scope_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_file/scope_meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/0/4be410d4e937462e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/1/1f480d85f1903e15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/10/30bc5f52a2efd2d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/11/15f812ec5a123fe5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/12/cfa3e80169c90682" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/13/18c696a1f3d4ad59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/14/04f707c0bc131e45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/15/a441bc948362c2ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/16/f862ed882400d5d8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/17/a2b6df2df4a4c2dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/18/a1c4fce02847507f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/19/4119a087ebcf69df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/2/b94b7d44d4483e5c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/3/4cb62d129f200683" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/4/a5cfbda21081ebd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/5/199983b5dffef23e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/6/86f8be91ea2ef695" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/7/cdf685846114e8d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/8/f9585477f6dbc0ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/9/d4ac721f26ace61d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/scope_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/snapshot_missing/scope_meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/storage_meta" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/rspack/c5ac8481fcbb4a77/storage_meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
