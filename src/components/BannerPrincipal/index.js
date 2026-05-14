@@ -17,7 +17,7 @@ export default function Hero() {
             alt="Datachamp"
             className={styles.heroLogo}
           />
-          <h1 id="hero-title" className={styles.heroTitle}>
+          <h1 className={styles.heroTitle}>
             Datachamp<span style={{ fontWeight: 400 }}>Docs</span>
           </h1>
         </div>

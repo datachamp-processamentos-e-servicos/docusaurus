@@ -4,6 +4,28 @@
   text-align: center;
 }
 
+.header {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.55s var(--ease-out), transform 0.55s var(--ease-out);
+}
+
+.headerVisible {
+  opacity: 1;
+  transform: none;
+}
+
+.cardWrapper {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.5s var(--ease-out), transform 0.5s var(--ease-out);
+}
+
+.cardWrapperVisible {
+  opacity: 1;
+  transform: none;
+}
+
 .ctaBannerTitle {
   font-size: var(--text-2xl);
   font-weight: 700;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
@@ -49,17 +49,42 @@ function StepCard({ label, to, icon }) {
 }
 
 export default function GettingStarted() {
+  const [visible, setVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.40 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section className={styles.section}>
+    <section ref={ref} className={styles.section}>
       <div className={styles.inner}>
-        <div className={styles.header}>
-          <h2 id="getting-started-title" className={styles.title}>
+        <div className={`${styles.header} ${visible ? styles.headerVisible : ''}`}>
+          <h2 className={styles.title}>
             Dando os seus primeiros passos?
           </h2>
         </div>
         <div className={styles.grid}>
-          {steps.map((step) => (
-            <StepCard key={step.id} {...step} />
+          {steps.map((step, i) => (
+            <div
+              key={step.id}
+              className={`${styles.cardWrapper} ${visible ? styles.cardWrapperVisible : ''}`}
+              style={{ transitionDelay: visible ? `${0.40 + i * 0.12}s` : '0s' }}
+            >
+              <StepCard {...step} />
+            </div>
           ))}
         </div>
       </div>

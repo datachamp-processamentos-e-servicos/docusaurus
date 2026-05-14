@@ -149,7 +149,6 @@ body {
   z-index: 9999 !important;
 }
 
-/* Force DocSearch to always use light theme */
 :root,
 [data-theme='dark'] {
   --docsearch-text-color: #1c1e21;
@@ -278,16 +277,12 @@ html[data-page='home'] [class*='colorModeToggle'] {
   border-radius: 4px;
 }
 
-/* ─── Mobile sidebar ─────────────────────────────────────────── */
 @media (max-width: 996px) {
-  /* Reset DocSearch to static flow so it doesn't bleed into the
-     mobile navbar overlay at an arbitrary 50 vw offset */
+
   .navbar__search {
-    position: static !important;
     left: auto !important;
+    right: 4px !important;
     transform: none !important;
-    width: 100%;
-    padding: var(--space-2) var(--space-4);
   }
 
   .DocSearch-Button {
@@ -295,10 +290,37 @@ html[data-page='home'] [class*='colorModeToggle'] {
     top: auto !important;
     left: auto !important;
     transform: none !important;
-    width: 100% !important;
+    width: auto !important;
   }
 
-  /* Mobile navbar overlay — align items flush to the left */
+  .navbar-sidebar--show .navbar__search,
+  .navbar-sidebar--show .DocSearch-Button {
+    display: none !important;
+  }
+
+  .navbar__items:not(.navbar__items--right) {
+    flex: 0 0 auto;
+  }
+
+  .navbar__brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 !important;
+    white-space: nowrap;
+  }
+
+  .navbar-sidebar--show .navbar__brand {
+    position: static !important;
+    left: auto !important;
+    transform: none !important;
+  }
+
+  .navbar__items--right {
+    flex: 0 0 auto;
+    margin-left: auto;
+  }
+
   .navbar-sidebar {
     width: 100%;
     max-width: 100%;
@@ -308,7 +330,6 @@ html[data-page='home'] [class*='colorModeToggle'] {
     padding: var(--space-4);
   }
 
-  /* Sidebar items inside the mobile drawer */
   .navbar-sidebar__items .menu__list {
     padding-left: 0;
   }
@@ -322,13 +343,33 @@ html[data-page='home'] [class*='colorModeToggle'] {
     padding: 0;
   }
 
-  /* Remove any accidental horizontal overflow */
   .navbar-sidebar__items {
     overflow-x: hidden;
   }
+
+  .navbar-sidebar__brand [class*='toggle'] {
+    display: none !important;
+  }
+
+  .navbar-sidebar__brand .navbar__logo img {
+    height: 24px;
+    width: 24px;
+  }
+
+  .navbar-sidebar__brand .navbar__title {
+    font-size: var(--text-base);
+  }
+
+  .navbar__logo img {
+    height: 24px;
+    width: 24px;
+  }
+
+  .navbar__title {
+    font-size: 13px;
+  }
 }
 
-/* ─── Reduced motion ─────────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
 
   *,
