@@ -1,0 +1,115 @@
+.section {
+  background: var(--prim-slate-50);
+  padding: var(--space-16) var(--space-12) var(--space-18);
+}
+
+.inner {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.title {
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  color: var(--prim-navy-950);
+  letter-spacing: -0.5px;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 480px));
+  gap: var(--space-8);
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  padding: var(--space-6) var(--space-7);
+  background: var(--prim-white);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--card-shadow);
+  text-decoration: none !important;
+  color: var(--prim-navy-950) !important;
+  transition: transform var(--duration-normal) var(--ease-out),
+    box-shadow var(--duration-normal) var(--ease-out);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--card-shadow-hover);
+  color: var(--prim-navy-950) !important;
+  text-decoration: none !important;
+}
+
+.cardIcon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--prim-slate-50);
+  border-radius: 50%;
+  color: var(--prim-blue-500);
+}
+
+.cardLabel {
+  flex: 1;
+  font-size: var(--text-md);
+  font-weight: 600;
+  color: var(--prim-navy-950);
+  line-height: 1.4;
+}
+
+.cardArrow {
+  flex-shrink: 0;
+  color: var(--prim-blue-500);
+  opacity: 0.5;
+  transition: transform var(--duration-normal) var(--ease-out),
+    opacity var(--duration-normal) var(--ease-out);
+}
+
+.card:hover .cardArrow {
+  transform: translateX(4px);
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .section {
+    padding: var(--space-12) var(--space-6) var(--space-14);
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 480px));
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: var(--space-10) var(--space-4) var(--space-12);
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: var(--space-5);
+  }
+}

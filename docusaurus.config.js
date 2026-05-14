@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -27,6 +27,7 @@ const config = {
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    experimental_vcs: false,
   },
 
   // Set the production url of your site here
@@ -56,8 +57,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/datachamp-processamentos-e-servicos/docusaurus/blob/main/',
         },
@@ -76,18 +75,35 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
+      algolia: {
+        appId: 'ZR9E3OBYZK',
+        apiKey: '959f69400cf777d4fe4aa03e04d38fd9',
+        indexName: 'DatachampDocs',
+        translations: {
+          button: {
+            buttonText: 'Como podemos te ajudar? Pesquise aqui...',
+          },
+        },
+      },
       navbar: {
-        title: 'Datachamp Docs',
+        title: 'Datachamp',
         logo: {
-          alt: 'Datachamp Docs Logo',
-          src: 'img/logo.svg',
+          alt: 'Datachamp',
+          src: 'img/datachamp_logo.png',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            to: '/docs/category/sentus',
+            label: 'Sentus',
+          },
+          {
+            type: 'search',
             position: 'left',
-            label: 'Tutorial',
+          },
+          {
+            href: 'https://wa.me/5434622875',
+            label: 'Contato',
+            position: 'right',
           },
         ],
       },
@@ -98,8 +114,8 @@ const config = {
             title: 'Documentos',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Sentus',
+                to: '/docs/category/sentus',
               },
             ],
           },
@@ -114,6 +130,15 @@ const config = {
                 label: 'datachamp@datachamp.com.br',
                 href: 'mailto:datachamp@datachamp.com.br',
               },
+            ],
+          },
+          {
+            title: 'Endereço',
+            items: [
+              {
+                label: 'Rua Vicente Dal Bó, 478 - Sala 05Home',
+                href: 'https://www.google.com/maps/search/?api=1&query=Rua+Vicente+Dal+Bó,+478+-+Sala+05,+Garibaldi+-+RS',
+              }
             ],
           },
           {

@@ -1,0 +1,45 @@
+.ctaBanner {
+  background: linear-gradient(179.98deg, var(--prim-navy-700) 0%, var(--prim-blue-600) 99.70%);
+  padding: var(--space-12) var(--space-6);
+  text-align: center;
+}
+
+.ctaBannerTitle {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--prim-white);
+  margin-bottom: var(--space-7);
+}
+
+.btnCta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: var(--prim-white);
+  color: var(--prim-navy-700) !important;
+  font-size: var(--text-base);
+  font-weight: 600;
+  padding: 13px 32px;
+  border-radius: var(--radius-md);
+  text-decoration: none !important;
+  transition: background-color var(--duration-normal) var(--ease-out),
+    transform var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-normal) var(--ease-out);
+}
+
+.btnCta:hover {
+  background: #f0f4ff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(255, 255, 255, 0.25);
+}
+
+.btnCta:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .ctaBannerTitle {
+    font-size: 22px;
+  }
+}
