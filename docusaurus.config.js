@@ -136,7 +136,7 @@ const config = {
             title: 'Endereço',
             items: [
               {
-                label: 'Rua Vicente Dal Bó, 478 - Sala 05Home',
+                label: 'Rua Vicente Dal Bó, 478 - Sala 05 - Garibaldi, RS',
                 href: 'https://www.google.com/maps/search/?api=1&query=Rua+Vicente+Dal+Bó,+478+-+Sala+05,+Garibaldi+-+RS',
               }
             ],

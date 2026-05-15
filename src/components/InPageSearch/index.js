@@ -12,10 +12,10 @@ function stripHtml(str) {
 function getTitle(hit) {
   return stripHtml(
     hit.hierarchy?.lvl3 ||
-      hit.hierarchy?.lvl2 ||
-      hit.hierarchy?.lvl1 ||
-      hit.hierarchy?.lvl0 ||
-      'Seção'
+    hit.hierarchy?.lvl2 ||
+    hit.hierarchy?.lvl1 ||
+    hit.hierarchy?.lvl0 ||
+    'Seção'
   );
 }
 
