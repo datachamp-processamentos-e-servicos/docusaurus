@@ -1,0 +1,46 @@
+---
+sidebar_position: 3
+---
+
+## Exportar XML ou PDF de Notas Emitidas
+
+## Como acessar a listagem de notas
+
+Para exportar os arquivos das notas emitidas, siga o passo a passo abaixo:
+
+1. Acesse o módulo **Comercial**;
+2. Clique em **NFe**;
+3. Clique no ícone de **lupa** para realizar a busca;
+4. No campo de data, informe o período desejado para consulta;
+5. Aplique o filtro.
+
+## Como exportar os arquivos
+
+Após aplicar o filtro com as notas desejadas:
+
+1. Clique no botão **Opções** (botão preto no canto superior direito);
+2. Clique em **Exportar**;
+3. Escolha o formato desejado:
+   - **XML**
+   - **PDF**
+
+## Tipos de exportação
+
+Ao exportar, o sistema permite duas opções:
+
+- **Listados**: exporta todas as notas retornadas no filtro, independentemente da quantidade de páginas;
+- **Selecionados**: exporta apenas as notas marcadas manualmente (checkbox).
+
+## Formato dos arquivos
+
+- **XML**: será gerado um arquivo compactado (.zip) contendo todos os XMLs individuais;
+- **PDF**:
+  - Pode ser gerado um único arquivo com todas as notas;
+  - Ou arquivos individuais, conforme a opção escolhida.
+
+## Finalizando a exportação
+
+Após definir todas as opções:
+
+1. Clique em **Exportar**;
+2. O sistema iniciará automaticamente o download do arquivo.
