@@ -1,8 +1,8 @@
+<MDX
 ---
 sidebar_position: 3
+title: Exportar XML ou PDF de Notas Emitidas
 ---
-
-## Exportar XML ou PDF de Notas Emitidas
 
 ## Como acessar a listagem de notas
 
@@ -14,6 +14,8 @@ Para exportar os arquivos das notas emitidas, siga o passo a passo abaixo:
 4. No campo de data, informe o período desejado para consulta;
 5. Aplique o filtro.
 
+---
+
 ## Como exportar os arquivos
 
 Após aplicar o filtro com as notas desejadas:
@@ -24,6 +26,8 @@ Após aplicar o filtro com as notas desejadas:
    - **XML**
    - **PDF**
 
+---
+
 ## Tipos de exportação
 
 Ao exportar, o sistema permite duas opções:
@@ -31,12 +35,16 @@ Ao exportar, o sistema permite duas opções:
 - **Listados**: exporta todas as notas retornadas no filtro, independentemente da quantidade de páginas;
 - **Selecionados**: exporta apenas as notas marcadas manualmente (checkbox).
 
+---
+
 ## Formato dos arquivos
 
 - **XML**: será gerado um arquivo compactado (.zip) contendo todos os XMLs individuais;
 - **PDF**:
   - Pode ser gerado um único arquivo com todas as notas;
   - Ou arquivos individuais, conforme a opção escolhida.
+
+---
 
 ## Finalizando a exportação
 
