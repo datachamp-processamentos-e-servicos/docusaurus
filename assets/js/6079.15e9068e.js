@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkteste=self.webpackChunkteste||[]).push([["6079"],{6402(e,t,s){s.d(t,{createArchitectureServices:()=>c.S});var c=s(5016);s(9302)}}]);
