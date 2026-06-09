@@ -1,0 +1,217 @@
+---
+title: Emissão de CIOT
+description: Passo a passo para emissão de CIOT no sistema
+---
+
+# PASSO A PASSO – EMISSÃO DE CIOT NO SISTEMA
+
+## 1. Verificação Inicial
+
+Antes de iniciar, verifique se o módulo de **Contratos** está liberado no sistema.
+
+- Acesse as configurações de documentos  
+- Confirme se existe a **Série 08 – CIOT**
+
+---
+
+## 2. Preparação do MDF-e
+
+- Gere o MDF-e normalmente  
+- **Não autorize o MDF-e neste momento**
+
+---
+
+## 3. Gerar CIOT
+
+Com o MDF-e ainda em digitação:
+
+- Clique em **“Ações” (+)**  
+- Selecione **“Gerar CIOT”**  
+- O sistema abrirá a tela de **Contrato**
+
+---
+
+## 4. Preenchimento da Tela de Contrato
+
+### 4.1 Dados Gerais
+
+Preencha os seguintes campos:
+
+- Data de Emissão  
+- Data de Saída  
+- Data de Chegada  
+
+### Operação
+
+Selecione o tipo de operação:
+
+- **01 – Carga Lotação**  
+- **02 – Carga Fracionada**  
+- **03 – Operação TAC Agregado**
+
+> ⚠️ **IMPORTANTE**  
+> **NÃO PREENCHER O NÚMERO DO CIOT**  
+> (Este campo será gerado automaticamente pelo sistema/ANTT)
+
+---
+
+## 5. Participantes
+
+**Contratante:**  
+Pessoa física ou jurídica que paga pelo frete e contrata o serviço.
+
+**Contratado:**  
+Empresa de transporte (ETC) responsável pela execução do transporte.
+
+**Destinatário:**  
+Quem recebe a carga (não emite CIOT, mas é obrigatório no MDF-e).
+
+**Condutor:**  
+Motorista responsável pela viagem.
+
+> ⚠️ **Carga Fracionada**  
+> Para operações do tipo **02 – Carga Fracionada**, é obrigatório preencher:  
+> **Contratantes da Carga Fracionada**
+
+---
+
+## 6. Valores
+
+**Peso Bruto:**  
+Preenchido automaticamente pelo MDF-e  
+
+**Valor do Frete:**
+
+- Deve ser preenchido corretamente  
+- O sistema pode trazer o valor da carga automaticamente  
+- O valor informado deve respeitar o piso mínimo da ANTT  
+
+### Regra do Piso Mínimo
+
+> O piso mínimo deve ser respeitado quando houver transporte rodoviário remunerado de cargas, contratado por viagem, em âmbito nacional, com veículo movido a diesel, e a operação for de carga lotação, salvo exceções previstas na regulamentação.
+
+### Carga Fracionada
+
+> A carga fracionada pode exigir CIOT, porém, em regra, não se sujeita ao piso mínimo de frete.
+
+---
+
+## 7. Dados do Veículo
+
+- Placa e RNTRC são preenchidos automaticamente pelo MDF-e  
+- **Número de eixos é obrigatório**
+
+> ⚠️ Verifique o cadastro do veículo:
+> - O número de eixos deve estar correto  
+> - A ANTT cruza essas informações  
+> - O cálculo do piso depende de **eixos + valor do frete**
+
+---
+
+## 8. Origem e Destino
+
+- Clique no botão de edição  
+
+Informe:
+
+- CEP de origem  
+- CEP de destino  
+- Distância da viagem  
+
+### Carga Fracionada
+
+Devem ser informadas todas as origens e destinos.
+
+**Exemplo:**
+
+- Origem: Garibaldi/RS – CEP 95720-000  
+- Destino: Santos/SP – CEP conforme documento  
+- Distância: 1204 km  
+
+Para múltiplos destinos:
+
+- Clique em **+ Novo**  
+- Repita o processo
+
+---
+
+## 9. Pagamentos
+
+Selecione o tipo de pagamento:
+
+### Conta Bancária
+
+Informar:
+
+- Código da Instituição Financeira  
+- Agência  
+- Conta  
+- Indicador de pagamento  
+- CNPJ/CPF do favorecido  
+
+### PIX
+
+Informar:
+
+- CNPJ/CPF do favorecido  
+- Chave PIX  
+
+---
+
+## 10. Natureza da Carga
+
+Selecionar o tipo de carga:
+
+- **1 – Carga Geral**  
+- **2 – Carga Fracionada**
+
+---
+
+## 11. Salvamento do Contrato
+
+Após preencher todas as informações:
+
+- Clique em **Salvar**  
+- O contrato será registrado, porém ainda não enviado à ANTT  
+
+---
+
+## 12. Envio do CIOT
+
+Após salvar:
+
+- Acesse a tela de **Contratos**  
+- Localize o contrato criado  
+- Marque a **checkbox**  
+- Clique em **“Opções”**  
+- Clique em **“Enviar”**
+
+---
+
+## 13. Retorno da ANTT e Vinculação ao MDF-e
+
+Após o envio:
+
+- Se autorizado, o sistema exibirá o CIOT no campo **Número**  
+- Copie o CIOT gerado  
+
+### Importante
+
+- Retorne ao MDF-e  
+- Informe o CIOT  
+- Preencha o **CNPJ/CPF do responsável pela emissão**
+
+---
+
+## 14. Finalização
+
+- Após vincular o CIOT ao MDF-e  
+- Autorize o MDF-e normalmente  
+
+---
+
+## Observações Importantes
+
+- O MDF-e só deve ser autorizado **após a geração do CIOT**  
+- Informações inconsistentes podem causar rejeição pela ANTT  
+- Sempre valide cadastros antes da emissão  
