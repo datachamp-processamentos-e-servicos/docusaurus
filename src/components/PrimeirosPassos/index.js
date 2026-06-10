@@ -6,7 +6,7 @@ const steps = [
   {
     id: 'acesso',
     label: 'Como acessar o Sentus',
-    to: '/docs/sentus/Acesso#como-acessar-o-sentus',
+    to: '/docs/sentus/acesso#como-acessar-o-sentus',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
         stroke="currentColor" strokeWidth="2"
@@ -20,7 +20,7 @@ const steps = [
   {
     id: 'cadastros',
     label: 'Cadastros básicos',
-    to: '/docs/sentus/cadastros/cadastro-de-Itens',
+    to: '/docs/sentus/cadastros/cadastro-de-itens',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
         stroke="currentColor" strokeWidth="2"
