@@ -1,0 +1,62 @@
+# MDF-e com Cargas em Estados Diferentes
+
+Para emitir MDF-e com cargas destinadas a estados diferentes, é necessário emitir um MDF-e para cada estado de descarregamento.
+
+Cada MDF-e deve conter apenas os CT-es referentes às entregas daquele estado específico.
+
+## Passo a Passo
+
+### 1. Agrupar os CT-es
+
+separar todos os Conhecimentos de Transporte (CT-es) conforme o estado de descarregamento.
+
+### 2. Criar um MDF-e por Estado
+
+Emitir um MDF-e para cada estado onde haverá entrega de carga.
+
+### 3. Vincular os CT-es
+
+Em cada MDF-e, incluir apenas os CT-es correspondentes ao estado de destino informado.
+
+### 4. Realizar o Descarregamento
+
+Ao chegar ao primeiro estado de destino:
+
+- Realizar a entrega das mercadorias;
+- Encerrar o MDF-e correspondente.
+
+### 5. Continuar a Viagem
+
+Após o encerramento do primeiro MDF-e;
+
+- Prosseguir a viagem com o MDF-e referente ao próximo estado de descarregamento.
+
+### 6. Finalizar os Demais MDF-es
+
+Repetir o processo até que todas as entregas sejam realizadas e todos os MDF-es sejam encerrados.
+
+
+## Exemplo
+
+### Carga destinada para:
+
+- Rio Grande do Sul
+- Santa Catarina
+- Paraná
+
+Deverão ser emitidos:
+
+- 1 MDF-e para os CT-es do Rio Grande do Sul;
+- 1 MDF-e para os CT-es de Santa Catarina;
+- 1 MDF-e para os CT-es do Paraná.
+
+À medida que cada estado for atendido, o MDF-e correspondente deverá ser encerrado.
+
+---
+
+## Observações Importantes
+
+- Não é permitido emitir um único MDF-e contendo descarregamentos em estados diferentes.
+- Cada MDF-e é válido para apenas um estado de descarregamento.
+- O sistema de SEFAZ permite múltiplos MDF-es para o mesmo veículo durante a viagem.
+- cada MDF-e deve ser encerrado após a conclusão das entregas do respectivo estado.
