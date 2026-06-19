@@ -1,0 +1,222 @@
+# Cadastro de Colaboradores
+
+## Visão Geral
+
+A tela de **Cadastro de Colaboradores** é utilizada para cadastrar, consultar e gerenciar os colaboradores da empresa. 
+Nela são armazenadas informações cadastrais, endereços, contatos e dados complementares que poderão ser utilizados em diversos processos internos do sistema.
+
+---
+
+## Observações Importantes
+
+- Todos os campos marcados com (*) são obrigatórios.
+- Caso o colaborador possua Inscrição Estadual ativa, selecione **Contribuinte**.
+- Caso não possua IE, selecione **Não Contribuinte**.
+- Caso seja isento, selecione **Isento**.
+- O campo CEP deve ser preenchido apenas com números.
+- Caso o endereço não possua número, informe **SN**.
+- Alterações de CPF/CNPJ caracterizam um novo cadastro.
+
+---
+
+## Principais Funcionalidades
+
+### Novo Cadastro
+
+Clique em **+ Novo** para cadastrar um novo colaborador.
+
+Durante o cadastro, informe os dados obrigatórios marcados com (*).
+
+Campos principais:
+
+- CPF ou CNPJ;
+- Nome;
+- E-mail;
+- Telefone;
+- Data de Nascimento;
+- Grupo e Subgrupo;
+- Endereço Principal.
+
+> Atenção: Após o cadastro, não altere o CPF/CNPJ do colaborador. Caso seja alterado, o sistema considerará um novo cadastro. 
+
+### Informações Cadastrais
+
+Nesta seção são armazenadas as principais informações do colaborador.
+
+É possível configurar:
+
+- Código interno;
+- Indicador de Inscrição Estadual;
+- Inscrição Estadual;
+- Regime Tributário;
+- Nome;
+- Nome Fantasia;
+- E-mail;
+- Telefone;
+- Fundação/Nascimento;
+- Inscrição Municipal;
+- Suframa;
+- Grupo;
+- Subgrupo;
+- Tags;
+- Observações;
+- Dados Financeiros. 
+
+### Regras e Parâmetros
+
+Após cadastrar o colaborador:
+
+1. Localize o colaborador.
+2. Clique em **Ações (+)**.
+3. Selecione **Regras e Parâmetros**.
+4. Configure o tipo do colaborador.
+
+Opções disponíveis:
+
+- Comprador = 1
+- Motorista = 5
+- Não se Aplica = 0 
+
+---
+
+## Endereço Principal
+
+Preencha corretamente os dados do endereço principal do colaborador.
+
+Campos disponíveis:
+
+- Logradouro;
+- Número;
+- Complemento;
+- Bairro;
+- CEP;
+- Município;
+- Coordenadas. 
+
+### Coordenadas
+
+Caso utilize localização geográfica, informe apenas:
+
+- Latitude;
+- Longitude.
+
+Exemplo:
+
+-29.2604131,-51.5256993,17 
+
+---
+
+## Demais Endereços
+
+Permite cadastrar endereços adicionais além do endereço principal.
+
+Exemplos:
+
+- Correspondência;
+- Entrega;
+- Endereço Secundário.
+
+Campos disponíveis:
+
+- Tipo;
+- Logradouro;
+- Número;
+- Complemento;
+- Bairro;
+- CEP;
+- Município;
+- Observações;
+- Número ART;
+- Número CEI. 
+Também podem ser informados:
+
+- Número da Matrícula;
+- Número do Projeto. 
+
+---
+
+## Dados do Colaborador
+
+Nesta área o sistema apresenta informações resumidas do cadastro.
+
+Campos disponíveis:
+
+- CPF/CNPJ;
+- Nome;
+- Supervisor;
+- Situação.
+
+### Situação
+
+O colaborador poderá possuir os seguintes status:
+
+- Ativo;
+- Inativo;
+- Bloqueado.
+
+---
+
+## Menu
+
+### Exportar
+
+Clique em **Menu > Exportar** para gerar uma planilha Excel com os colaboradores cadastrados.
+
+O sistema realizará o download automático do arquivo contendo as informações exibidas na tela principal.
+
+---
+
+## Pesquisa Avançada
+
+Clique na pesquisa avançada para localizar colaboradores específicos.
+
+Filtros disponíveis:
+
+- Código;
+- CPF/CNPJ;
+- Tags;
+- Inscrição Estadual;
+- Nome;
+- Nome Fantasia;
+- Supervisor.
+
+Utilize os filtros para localizar rapidamente colaboradores cadastrados no sistema.
+
+---
+
+## Dúvidas Frequentes
+
+### Não consigo salvar o cadastro
+
+Verifique se:
+
+- Todos os campos obrigatórios (*) foram preenchidos;
+- O CPF/CNPJ foi informado corretamente;
+- O endereço está completo;
+- O CEP foi informado apenas com números.
+
+### O colaborador não possui Inscrição Estadual. O que informar?
+
+Configure o campo **Indicador IE** como:
+
+- Não Contribuinte.
+
+Caso seja isento, selecione:
+
+- Isento. 
+
+### Como definir um colaborador como motorista?
+
+1. Cadastre o colaborador.
+2. Clique em **Ações (+)**.
+3. Selecione **Regras e Parâmetros**.
+4. Informe o valor **5** para Motorista.
+5. Salve as alterações. 
+
+### Como editar um colaborador?
+
+1. Localize o colaborador desejado.
+2. Clique em **Ações (+)**.
+3. Selecione **Editar**.
+4. Realize as alterações necessárias.
+5. Clique em **Salvar**.
