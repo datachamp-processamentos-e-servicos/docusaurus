@@ -37,21 +37,14 @@ Com o MDF-e ainda em digitação:
 
 ## 3. Preenchimento da Tela de Contrato
 
-### 3.1 Dados Gerais
+3.1 Dados Contrato
 
 Preencha os seguintes campos:
 
-- Data de Emissão  
-- Data de Saída  
-- Data de Chegada  
-
-### Operação
-
-Selecione o tipo de operação:
-
-- **01 – Carga Lotação**  
-- **02 – Carga Fracionada**  
-- **03 – Operação TAC Agregado**
+- Data de Emissão (do CIOT)
+- Data de Saída  (da viagem)
+- Data de Chegada  (da viagem 
+- Operação - **01 – Carga Lotação** - **02 – Carga Fracionada** - **03 – Operação TAC Agregado**
 
 > ⚠️ **IMPORTANTE**  
 > **NÃO PREENCHER O NÚMERO DO CIOT**  
@@ -59,19 +52,12 @@ Selecione o tipo de operação:
 
 ---
 
-## 4. Participantes
+3.2 Participantes
 
-**Contratante:**  
-Pessoa física ou jurídica que paga pelo frete e contrata o serviço.
-
-**Contratado:**  
-Empresa de transporte (ETC) responsável pela execução do transporte.
-
-**Destinatário:**  
-Quem recebe a carga (não emite CIOT, mas é obrigatório no MDF-e).
-
-**Condutor:**  
-Motorista responsável pela viagem.
+- **Contratante:** - Pessoa física ou jurídica que paga pelo frete e contrata o serviço.
+- **Contratado:** - Empresa de transporte (ETC) responsável pela execução do transporte.
+- **Destinatário:** - Quem recebe a carga (não emite CIOT, mas é obrigatório no MDF-e).
+- **Condutor:** - Motorista responsável pela viagem.
 
 > ⚠️ **Carga Fracionada**  
 > Para operações do tipo **02 – Carga Fracionada**, é obrigatório preencher:  
@@ -79,16 +65,10 @@ Motorista responsável pela viagem.
 
 ---
 
-## 5. Valores
+3.3 Valores
 
-**Peso Bruto:**  
-Preenchido automaticamente pelo MDF-e  
-
-**Valor do Frete:**
-
-- Deve ser preenchido corretamente  
-- O sistema pode trazer o valor da carga automaticamente  
-- O valor informado deve respeitar o piso mínimo da ANTT  
+- **Peso Bruto:** - Preenchido automaticamente pelo MDF-e  
+- **Valor do Frete:** - Deve ser preenchido corretamente - O sistema pode trazer o valor da carga automaticamente - O valor informado deve respeitar o piso mínimo da ANTT  
 
 ### Regra do Piso Mínimo
 
@@ -98,11 +78,15 @@ Preenchido automaticamente pelo MDF-e
 
 > A carga fracionada pode exigir CIOT, porém, em regra, não se sujeita ao piso mínimo de frete.
 
+### Calculadora disponibilizada pela ANTT
+> https://calculadorafrete.antt.gov.br/
+
 ---
 
-## 6. Dados do Veículo
+3.4 Dados do Veículo
 
 - Placa e RNTRC são preenchidos automaticamente pelo MDF-e  
+
 - **Número de eixos é obrigatório**
 
 > ⚠️ Verifique o cadastro do veículo:
@@ -110,12 +94,11 @@ Preenchido automaticamente pelo MDF-e
 > - A ANTT cruza essas informações  
 > - O cálculo do piso depende de **eixos + valor do frete**
 
-- Depois de preenchidos os dados Clicar em CONFIRMAR
 ---
 
-## 7. Origem e Destino
+## 3.5 Origem e Destino
 
-- Clique no botão de edição  
+- Em caso de necessidade de alterar os dados, clique no botão de edição  
 
 Informe:
 
@@ -142,7 +125,7 @@ Para múltiplos destinos:
 
 ---
 
-## 8. Pagamentos
+## 3.6 Pagamentos
 
 Selecione o tipo de pagamento:
 
@@ -155,6 +138,7 @@ Informar:
 - Conta  
 - Indicador de pagamento  
 - CNPJ/CPF do favorecido  
+> Após clicar em CONFIRMAR
 
 ### PIX
 
@@ -162,11 +146,11 @@ Informar:
 
 - CNPJ/CPF do favorecido  
 - Chave PIX  
-Após clicar em CONFIRMAR
+> Após clicar em CONFIRMAR
 
 ---
 
-## 9. Natureza da Carga
+## 3.7 Dados da Carga
 
 Informar o tipo de carga:
 - **NCM - Os 4 primeiros dígitos do NCM**
@@ -175,7 +159,7 @@ Informar o tipo de carga:
 
 ---
 
-## 10. Salvamento do Contrato
+## 4. Salvamento do Contrato
 
 Após preencher todas as informações:
 
@@ -184,7 +168,7 @@ Após preencher todas as informações:
 
 ---
 
-## 11. Envio do CIOT
+## 5. Envio do CIOT
 
 Após salvar:
 
@@ -196,7 +180,7 @@ Após salvar:
 
 ---
 
-## 12. Retorno da ANTT e Vinculação ao MDF-e
+## 6. Retorno da ANTT e Vinculação ao MDF-e
 
 Após o envio:
 
@@ -211,7 +195,7 @@ Após o envio:
 
 ---
 
-## 13. Finalização
+## 7. Finalização
 
 - Após vincular o CIOT ao MDF-e  
 - Autorize o MDF-e normalmente  
