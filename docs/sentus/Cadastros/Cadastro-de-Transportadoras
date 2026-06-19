@@ -1,0 +1,277 @@
+# Cadastro de Transportadoras
+
+## Visão Geral
+
+A tela de **Cadastro de Transportadoras** é utilizada para cadastrar, consultar e gerenciar as empresas responsavéis pelo transporte de mercadorias.
+Nela são armazenadas informações cadastrais, fiscais, comerciais e operacionais que serão utilizadas em processos logísticos, emissão de documentos fiscais e controles de transporte.
+
+---
+
+## Principais Funcionalidades
+
+### Novo Cadastro
+
+Clique em **+ Novo** para cadastrar uma nova transportadora.
+
+Durante o cadastro, informe:
+
+- CPF ou CNPJ;
+- Nome ou Razão Social;
+- Nome Fantasia;
+- Inscrição Estadual
+- Regime Tributário;
+- Telefone;
+- E-mail;
+- Endereço completo.
+
+Preencha todos os campos obrigatórios (*) antes de salvar.
+
+### Informações Cadastrais
+
+Nesta seção são armazenadas as prncipais informações da transportadora.
+
+É possível configurar:
+
+- Código interno;
+- Indicador de Inscrição Estadual;
+- Inscrição Estadual;
+- Regime Tributário;
+- Nome;
+- Nome Fantasia;
+- Telefone;
+- E-mail;
+- Inscrição Municipal;
+- Observações.
+
+### Endereço
+
+Informe corretamente os dados do endereço da transportadora.
+
+Campos principais:
+
+- CEP;
+- Logradouro;
+- Número;
+- Complemento;
+- Bairro;
+- Município;
+- Estado.
+
+Caso o endereço não possua número, informe **SN**.
+
+### Contatos
+
+Permite cadastrar responsáveis e contatos da transportadora.
+
+É possível registrar:
+
+- Nome;
+- Telefone;
+- E-mail;
+- Setor;
+- Observações.
+
+---
+
+## Menu
+
+### Exportar
+
+Clique em **Menu > Exportar** para gerar uma planilha Excel com os dados das transportadoras cadastradas.
+
+O sistema irá exportar  as informações exibidas na tela e realizar o download do arquivo automaticamente.
+
+---
+
+## Pesquisa Avançada
+
+Clique no ícone de pesquisa avançada para localizar transportadoras utilizando filtros específicos.
+
+Filtros Disponíveis:
+
+- Código;
+- CPF/CNPJ;
+- Tags;
+- Inscrição Estadual;
+- Nome;
+- Nome Fantasia;
+- Supervisor;
+- Município;
+- Observação;
+- Situação.
+
+### Ordenação
+
+Também é possível organizar os resultados por:
+
+- Nome;
+- Código;
+- Grupo.
+
+---
+
+### Ordenação
+
+Também é possível organizar os resultados por:
+
+- Nome;
+- Código;
+- Grupo. 
+
+---
+
+## Mais Ações
+
+Para acessar recursos adicionais, localize a transportadora desejada e clique em **Ações (+)**.
+
+### Editar
+
+Clique em **Editar** para alterar as informações cadastrais da transportadora.
+
+### Contas
+
+Permite acessar informações de contas vinculadas à transportadora.
+
+> Disponível apenas para administradores do ERP.
+
+### Veículos 
+
+Clique em **Veículos** para visualizar ou cadastrar informações dos veículos vinculados à transportadora.
+
+### Distâncias
+
+Permite consultar a distância percorrida entre o ponto de partida e o destino do transporte.
+
+### Abrir Conversa
+
+Clique em **Abrir Conversa** para acessar rapidamente os contatos da transportadora.
+
+Recursos disponíveis:
+
+- Ligação telefônica;
+- WhatsApp.
+
+---
+
+### Dúvidas Frequentes
+
+### Não consigo salvar o cadastro
+
+Verifique se:
+
+- Todos os campos obrigatórios foram preenchidos;
+- O CPF/CNPJ está correto;
+- O endereço foi informado corretamente;
+- O e-mail está em um formato válido.
+
+### Como editar uma transportadora já cadastrada?
+
+1. Localize a transportadora desejada.
+2. Clique em **Ações (+)**.
+3. Selecione **Editar**.
+4. Realize as alterações necessárias.
+5. Clique em **Salvar**.
+
+### Como exportar a lista de transportadoras?
+
+1. Acesse o menu superior.
+2. Clique em **Exportar**.
+3. Aguarde a geração do arquivo Excel.
+4. O download será realizado automaticamente.
+
+### Como entrar em contato com a transportadora?
+
+1. Localize o cadastro.
+2. Clique em **Ações (+)**.
+3. Selecione **Abrir Conversa**.
+4. Escolha entre telefone ou WhatsApp.
+
+---
+
+## Observações Importantes
+
+- Todos os campos marcados com (*) são obrigatórios.
+- O CPF/CNPJ deve ser informado corretamente.
+- O CEP deve conter apenas números.
+- Caso o endereço não possua número, informe **SN**.
+- Mantenha os contatos sempre atualizados para facilitar a comunicação.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
