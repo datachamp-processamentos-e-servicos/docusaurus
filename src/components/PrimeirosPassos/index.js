@@ -20,7 +20,7 @@ const steps = [
   {
     id: 'cadastros',
     label: 'Cadastros básicos',
-    to: '/docs/sentus/Cadastros/itens',
+    to: '/docs/sentus/Cadastros',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
         stroke="currentColor" strokeWidth="2"
