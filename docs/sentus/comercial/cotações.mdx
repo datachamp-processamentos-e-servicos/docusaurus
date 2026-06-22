@@ -2,201 +2,172 @@
 sidebar_position: 1
 ---
 
-# Pedidos
+# Cotações
 
 ## Visão Geral
 
-A tela de Pedidos é utilizada para registrar e gerenciar pedidos de venda realizados por representantes ou através da plataforma Sentus.
+A tela de Cotações é utilizada para elaborar propostas comerciais antes da efetivação da venda.
 
-Nela é possível selecionar clientes, adicionar produtos, configurar condições comerciais, definir transporte e acompanhar o faturamento do pedido.
-
----
-
-## Observações Importantes
-
-- Os campos marcados com (*) são obrigatórios.
-- O número do pedido é gerado automaticamente pelo sistema.
-- Algumas funcionalidades são restritas ao administrador do ERP.
-- O faturamento gera os documentos fiscais relacionados ao pedido.
-
----
+Nela é possível selecionar clientes, informar produtos, definir preços, descontos, condições de pagamento e dados de transporte, permitindo a negociação antes da geração do pedido.
 
 ## Principais Funcionalidades
 
 ### Novo Cadastro
 
-Clique em **+ Novo** para criar um pedido.
+Clique em **+ Novo** para criar uma nova cotação.
 
-Preencha as informações do cliente, dados comerciais, itens e transporte.
+Preencha os campos obrigatórios e clique em **Salvar** para concluir o cadastro.
 
-Após concluir o preenchimento, clique em **Salvar**.
+### Informações da Cotação
 
-### Informações Cadastrais
+#### Número
 
-#### Cabeçalho
+Identificador gerado automaticamente pelo sistema.
 
-Permite informar os dados principais do pedido:
+#### Emissão
 
-- Número
-- Emissão
-- Embarque
-- Ordem de Compra
-- Operação
-- Situação
+Data e hora da criação da cotação.
 
-#### Cliente
+#### Embarque
 
-Permite localizar e vincular o cliente ao pedido através de:
+Data prevista para embarque dos produtos.
 
+#### Ordem de Compra
+
+Número da ordem de compra vinculada à negociação.
+
+#### Operação
+
+Define o tipo de operação utilizada na cotação.
+
+#### Situação
+
+Apresenta o status atual da cotação.
+
+### Cliente
+
+Permite selecionar o cliente que receberá a proposta.
+
+A pesquisa pode ser realizada por:
+
+- CPF/CNPJ
 - Nome
 - Código
-- CPF/CNPJ
 
-#### Informações Comerciais
+Também são exibidas informações como:
 
-Permite configurar:
+- Nome
+- Documento
+- Município
+- Telefone
 
-- Representante
-- Forma de Pagamento
-- Modalidade de Frete
-- Operação Tributária
-- Prioridade
-- Emitente
+### Informações Comerciais
 
-#### Itens
+#### Representante
 
-Adicione os produtos que farão parte do pedido.
+Responsável pela negociação.
 
-Para cada item é possível informar:
+#### Modalidade de Frete
 
-- Produto
+Define como será realizado o transporte.
+
+#### Forma de Pagamento
+
+Condição de pagamento negociada.
+
+#### Operação Tributária
+
+Define a tributação aplicada à venda.
+
+#### Prioridade
+
+Nível de prioridade da negociação.
+
+#### Emitente
+
+Empresa responsável pela emissão dos documentos fiscais.
+
+### Itens
+
+Permite incluir os produtos ou serviços da cotação.
+
+Os principais campos são:
+
+- Referência / EAN
+- Código ou Nome
+- Unidade
 - Quantidade
 - Valor Unitário
+- Valor da Mercadoria
 - Desconto
+- Valor de Tabela
+- Pedido de Compra
 
-O sistema calcula automaticamente os valores totais do pedido.
+### Transporte
 
-#### Transporte
+Permite informar os dados de transporte da cotação.
+
+#### Responsável pelo Transporte
+
+Opções disponíveis:
+
+- A Definir
+- Emitente
+- Cliente
+- Transportador
+
+#### Transportador
 
 Permite informar:
 
-- Responsável pelo transporte
-- Transportadora
-- Dados de contato
-- Endereço de entrega
-
-## Menu
-
-### Checkout Faturar / Encerrar
-
-Realiza o faturamento ou encerramento do pedido.
-
-### Totalizar
-
-Exibe os totais dos pedidos cadastrados.
-
-### Etiqueta
-
-Gera etiquetas de transporte.
-
-### Exportador
-
-Permite gerar arquivos para impressão ou compartilhamento.
-
-### Enviar E-mail
-
-Envia o pedido por e-mail.
-
-### Desmembrar
-
-Divide um pedido em mais de um pedido.
-
-### Integração E-commerce
-
-Disponível para empresas que possuem integração com plataformas de e-commerce.
-
-## Pesquisa Avançada
-
-Utilize a Pesquisa Avançada para localizar pedidos específicos.
-
-### Filtros Disponíveis
-
-- Número
-- Ordem de Compra
-- Cliente
-- Representante
-- Operação
-- Forma de Pagamento
-- Origem
-- Frete
-- Situação
-- Somente Pendentes
-- Sem Transportador
-- Período
+- Nome
+- Documento
+- Inscrição Estadual
+- E-mail
+- Telefone
+- Endereço
+- Município
+- CEP
 
 ## Mais Ações
 
 ### Editar
 
-Permite alterar as informações do pedido.
+Permite alterar os dados do item informado.
 
 ### Excluir
 
-Permite remover itens do pedido.
+Remove o item da cotação.
 
-### Imprimir
+### Mais Informações
 
-Imprime os dados do pedido.
-
-### Exportador
-
-Exporta o pedido em PDF ou XML.
-
-### Faturar
-
-Realiza o faturamento do pedido.
-
-### Visão Geral
-
-Exibe um resumo das informações do pedido.
-
-### Conferência
-
-Encaminha o pedido para conferência.
-
-### Duplicar
-
-Cria um novo pedido com base em um pedido existente.
-
-### Arquivos
-
-Permite anexar documentos ao pedido.
-
-### Download
-
-Permite baixar arquivos anexados.
+Exibe informações adicionais relacionadas aos impostos do item.
 
 ## Dúvidas Frequentes
 
-### Como criar um pedido?
+### Como criar uma nova cotação?
 
-Clique em **+ Novo**, preencha os dados necessários e clique em **Salvar**.
+Clique em **+ Novo**, preencha os dados da negociação e clique em **Salvar**.
 
 ### Como adicionar produtos?
 
-Acesse a seção **Itens**, selecione os produtos e confirme a inclusão.
+Acesse a seção de itens, informe os produtos desejados e confirme a inclusão.
 
-### Como faturar um pedido?
+### Como informar descontos?
 
-Acesse **Menu > Checkout Faturar / Encerrar**.
+Utilize os campos de desconto disponíveis no item da cotação.
 
-### Como localizar um pedido?
+### Como selecionar um cliente?
 
-Utilize a **Pesquisa Avançada** e informe os filtros desejados.
+Pesquise pelo CPF/CNPJ, nome ou código do cliente.
+
+### Posso alterar o CPF/CNPJ após o cadastro?
+
+Não é recomendado, pois o sistema poderá interpretar a alteração como um novo registro.
 
 ## Observações Importantes
 
-- Os campos marcados com (*) são obrigatórios.
-- O número do pedido é gerado automaticamente pelo sistema.
-- Algumas funcionalidades são restritas ao administrador do ERP.
-- O faturamento gera os documentos fiscais relacionados ao pedido.
+- Todos os campos marcados com (*) são obrigatórios.
+- Revise os valores antes de concluir a cotação.
+- Verifique as condições de pagamento e tributação antes de salvar.
+- Confirme os dados do cliente antes da emissão da proposta.
