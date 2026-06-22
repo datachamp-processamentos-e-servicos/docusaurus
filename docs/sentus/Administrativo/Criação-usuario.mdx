@@ -1,0 +1,158 @@
+# Criação de Usuário Representante
+
+## Visão Geral
+
+A funcionalidade de criação de usuário representante permite conceder acesso ao sistema para representantes comerciais, garantindo que cada usuário visualize apenas os pedidos vinculados ao seu próprio cadastro.
+
+---
+
+## Observações Importantes
+
+- O representante deve estar previamente cadastrado no sistema.
+- O grupo REPRESENTANTES já está configurado no sistema.
+- O usuário não deve conter domínio.
+- A associação entre usuário e representante é obrigatória.
+- O Papel Emitente deve ser configurado corretamente para permitir as vendas.
+- Revise todas as informações antes de salvar o cadastro.
+
+---
+
+## Principais Funcionalidades
+
+### Verificar Cadastro do Representante
+
+Antes de criar o usuário, confirme que o representante já está cadastrado no sistema.
+
+Acesse:
+
+**Cadastros → Representantes**
+
+Caso o representante não esteja cadastrado, realize o cadastro antes de prosseguir.
+
+### Novo Cadastro
+
+Clique em:
+
+**Administrativo → Usuários → + Novo**
+
+Preencha os dados necessários para criação do usuário representante.
+
+### Informações Cadastrais
+
+#### Nome
+
+Informe o nome do representante.
+
+#### Grupo
+
+Selecione:
+
+**REPRESENTANTES**
+
+#### Papel
+
+Selecione:
+
+**Representante**
+
+#### Usuário
+
+Informe o nome de usuário seguindo o padrão definido pela empresa.
+
+Exemplo:
+
+- azzorepresentante
+
+Não informe o domínio no usuário.
+
+Exemplos:
+
+Correto:
+
+- azzorepresentante
+
+Incorreto:
+
+- azzorepresentante@azzoutilidades
+
+#### Senha
+
+Informe a senha desejada.
+
+#### Confirmar Senha
+
+Repita a senha para confirmação.
+
+### Vincular o Representante ao Usuário
+
+Na parte inferior da tela, localize a área de associação entre usuário e representante.
+
+Esta vinculação é necessária para que o representante tenha acesso apenas aos próprios pedidos.
+
+Preencha os seguintes campos:
+
+#### Papel
+
+Selecione:
+
+**Representante**
+
+#### Representante
+
+Pesquise pelo nome do representante cadastrado.
+
+#### Adicionar
+
+Clique em **+ Add** para concluir a associação.
+
+### Configurar Papel Emitente
+
+No campo **Papel Emitente**, selecione:
+
+**EMITENTE**
+
+Após selecionar a opção, pesquise e informe a empresa para a qual o representante realizará as vendas.
+
+## Dicas
+
+### Utilizar Usuário de Referência
+
+Caso tenha dúvidas sobre a configuração correta, utilize o cadastro do usuário **rep01** como referência para verificar os parâmetros já utilizados no sistema.
+
+## Dúvidas Frequentes
+
+### Não consigo vincular o representante ao usuário
+
+Verifique se o representante já está cadastrado em:
+
+**Cadastros → Representantes**
+
+Caso não exista cadastro, realize-o antes de criar o usuário.
+
+### O representante consegue visualizar pedidos de outros representantes?
+
+Não.
+
+A associação entre usuário e representante limita a visualização apenas aos pedidos vinculados ao seu cadastro. 
+
+### Qual grupo deve ser utilizado?
+
+Selecione o grupo:
+
+**REPRESENTANTES**
+
+### Qual papel deve ser utilizado?
+
+Selecione o papel:
+
+**Representante**
+
+### Posso informar o domínio no usuário?
+
+Não.
+
+O campo usuário deve conter apenas o login, sem domínio ou complementos.
+
+### Como definir a empresa para o representante?
+
+Configure o campo **Papel Emitente** com a opção **EMITENTE** e selecione a empresa correspondente.
