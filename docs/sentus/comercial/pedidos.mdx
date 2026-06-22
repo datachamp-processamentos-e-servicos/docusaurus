@@ -6,18 +6,19 @@ sidebar_position: 3
 
 ## Visão Geral
 
-A tela de Pedidos é utilizada para registrar e gerenciar pedidos de venda realizados por representantes ou através da plataforma Sentus.
+A tela de Pedidos é utilizada para registrar vendas realizadas por representantes ou através do sistema.
 
-Nela é possível selecionar clientes, adicionar produtos, configurar condições comerciais, definir transporte e acompanhar o faturamento do pedido.
+Por meio desta funcionalidade é possível controlar pedidos, acompanhar faturamentos, emitir documentos, realizar conferências e acompanhar todo o processo comercial.
 
 ---
 
 ## Observações Importantes
 
-- Os campos marcados com (*) são obrigatórios.
-- O número do pedido é gerado automaticamente pelo sistema.
-- Algumas funcionalidades são restritas ao administrador do ERP.
-- O faturamento gera os documentos fiscais relacionados ao pedido.
+- Todos os campos obrigatórios devem ser preenchidos.
+- Revise as informações antes de faturar o pedido.
+- Verifique a situação do pedido antes da emissão fiscal.
+- Utilize a conferência para validar os produtos antes da entrega.
+- O faturamento gera os documentos fiscais relacionados à venda.
 
 ---
 
@@ -25,95 +26,93 @@ Nela é possível selecionar clientes, adicionar produtos, configurar condiçõe
 
 ### Novo Cadastro
 
-Clique em **+ Novo** para criar um pedido.
+Clique em **+ Novo** para criar um novo pedido.
 
-Preencha as informações do cliente, dados comerciais, itens e transporte.
+Preencha os campos obrigatórios e clique em **Salvar** para concluir o cadastro.
 
-Após concluir o preenchimento, clique em **Salvar**.
+### Informações do Pedido
 
-### Informações Cadastrais
+#### Número
 
-#### Cabeçalho
+Código gerado automaticamente pelo sistema.
 
-Permite informar os dados principais do pedido:
+#### Emissão
 
-- Número
-- Emissão
-- Embarque
-- Ordem de Compra
-- Operação
-- Situação
+Data e hora da emissão do pedido.
+
+#### Embarque
+
+Data prevista para envio dos produtos.
 
 #### Cliente
 
-Permite localizar e vincular o cliente ao pedido através de:
+Cliente responsável pela compra.
 
-- Nome
-- Código
-- CPF/CNPJ
+#### Prioridade
 
-#### Informações Comerciais
+Nível de prioridade da venda.
 
-Permite configurar:
+#### Situação
 
-- Representante
-- Forma de Pagamento
-- Modalidade de Frete
-- Operação Tributária
-- Prioridade
-- Emitente
+Status atual do pedido.
 
-#### Itens
+#### Observações
 
-Adicione os produtos que farão parte do pedido.
+Informações complementares relacionadas ao pedido.
 
-Para cada item é possível informar:
+#### Dados Financeiros
 
-- Produto
-- Quantidade
-- Valor Unitário
-- Desconto
-
-O sistema calcula automaticamente os valores totais do pedido.
-
-#### Transporte
-
-Permite informar:
-
-- Responsável pelo transporte
-- Transportadora
-- Dados de contato
-- Endereço de entrega
+Informações financeiras vinculadas à venda.
 
 ## Menu
 
-### Checkout Faturar / Encerrar
+### Checkout (Faturar / Encerrar)
 
-Realiza o faturamento ou encerramento do pedido.
+Realiza o faturamento do pedido e a emissão dos documentos fiscais.
 
 ### Totalizar
 
-Exibe os totais dos pedidos cadastrados.
+Exibe os valores totais e quantidades dos pedidos selecionados.
 
 ### Etiqueta
 
-Gera etiquetas de transporte.
+Gera etiquetas para transporte ou identificação de volumes.
 
 ### Exportador
 
-Permite gerar arquivos para impressão ou compartilhamento.
+Permite gerar documentos para impressão ou compartilhamento.
 
 ### Enviar E-mail
 
-Envia o pedido por e-mail.
+Envia as informações do pedido por e-mail.
 
 ### Desmembrar
 
-Divide um pedido em mais de um pedido.
+Divide um pedido em dois ou mais pedidos.
+
+### Exportar
+
+Exporta os dados exibidos para planilha.
 
 ### Integração E-commerce
 
-Disponível para empresas que possuem integração com plataformas de e-commerce.
+Permite integração com plataformas de comércio eletrônico quando configuradas.
+
+## Exportar
+
+Acesse **Menu > Exportador**.
+
+Os formatos disponíveis podem incluir:
+
+- PDF
+- XML
+- Impressão Térmica
+
+Também é possível definir:
+
+- Modelo de impressão
+- Layout
+- Ficha técnica
 
 ## Pesquisa Avançada
 
@@ -126,47 +125,53 @@ Utilize a Pesquisa Avançada para localizar pedidos específicos.
 - Cliente
 - Representante
 - Operação
-- Forma de Pagamento
+- Pagamento
 - Origem
 - Frete
 - Situação
+
+### Filtros Adicionais
+
 - Somente Pendentes
 - Sem Transportador
-- Período
+
+### Filtro por Data
+
+Permite consultar registros por:
+
+- Emissão
+- Embarque
+- Inclusão
 
 ## Mais Ações
 
-### Editar
-
-Permite alterar as informações do pedido.
-
-### Excluir
-
-Permite remover itens do pedido.
-
 ### Imprimir
 
-Imprime os dados do pedido.
+Imprime as informações do pedido.
 
 ### Exportador
 
-Exporta o pedido em PDF ou XML.
+Permite exportar o pedido em PDF ou XML.
+
+### Situação
+
+Exibe a situação atual do pedido.
 
 ### Faturar
 
-Realiza o faturamento do pedido.
+Realiza o faturamento da venda.
 
 ### Visão Geral
 
-Exibe um resumo das informações do pedido.
+Exibe informações resumidas do pedido e dos itens faturados.
 
 ### Conferência
 
-Encaminha o pedido para conferência.
+Permite validar os produtos antes da expedição ou faturamento.
 
 ### Duplicar
 
-Cria um novo pedido com base em um pedido existente.
+Cria um novo pedido utilizando os mesmos dados do pedido selecionado.
 
 ### Arquivos
 
@@ -174,30 +179,30 @@ Permite anexar documentos ao pedido.
 
 ### Download
 
-Permite baixar arquivos anexados.
+Realiza o download dos arquivos anexados.
 
 ## Dúvidas Frequentes
 
-### Como criar um pedido?
+### Como criar um novo pedido?
 
-Clique em **+ Novo**, preencha os dados necessários e clique em **Salvar**.
-
-### Como adicionar produtos?
-
-Acesse a seção **Itens**, selecione os produtos e confirme a inclusão.
+Clique em **+ Novo**, preencha os dados obrigatórios e clique em **Salvar**.
 
 ### Como faturar um pedido?
 
-Acesse **Menu > Checkout Faturar / Encerrar**.
+Utilize a opção **Checkout (Faturar / Encerrar)** ou **Mais Ações > Faturar**.
 
 ### Como localizar um pedido?
 
-Utilize a **Pesquisa Avançada** e informe os filtros desejados.
+Utilize a Pesquisa Avançada e informe os filtros desejados.
 
-## Observações Importantes
+### Como exportar um pedido?
 
-- Os campos marcados com (*) são obrigatórios.
-- O número do pedido é gerado automaticamente pelo sistema.
-- Algumas funcionalidades são restritas ao administrador do ERP.
-- O faturamento gera os documentos fiscais relacionados ao pedido.
+Acesse **Menu > Exportador** ou **Mais Ações > Exportador**.
 
+### Como duplicar um pedido?
+
+Selecione o pedido desejado e utilize **Mais Ações > Duplicar**.
+
+### Como enviar um pedido por e-mail?
+
+Acesse **Menu > Enviar E-mail** e informe o destinatário.
