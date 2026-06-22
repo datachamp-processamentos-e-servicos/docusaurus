@@ -1,0 +1,310 @@
+# Ordens de Compra
+
+## Visão Geral
+
+A tela de Ordens de Compra é utilizada para registrar e controlar compras realizadas junto aos fornecedores.
+
+Por meio desta funcionalidade, é possível cadastrar ordens de compra, controlar itens adquiridos, acompanhar entregas, definir formas de pagamento e consultar informações relacionadas ao processo de aquisição.
+
+---
+
+## Observações Importantes
+
+- Todos os campos marcados com (*) são obrigatórios.
+- O CPF/CNPJ não deve ser alterado em registros existentes.
+- A Data Limite impede o recebimento de mercadorias após o período definido.
+- Utilize corretamente os centros de custo e grupos para manter os controles financeiros organizados.
+- Revise os itens e valores antes de concluir a ordem de compra.
+
+---
+
+## Principais Funcionalidades
+
+### Novo Cadastro
+
+Clique em **+ Novo** para criar uma nova ordem de compra.
+
+Preencha os campos obrigatórios marcados com (*) e clique em **Salvar** para concluir o cadastro.
+
+### Editar
+
+Localize a ordem desejada e selecione a opção de edição.
+
+Ao editar uma ordem de compra, não é permitido alterar o CPF/CNPJ vinculado ao cadastro. Caso seja alterado, o sistema poderá considerar como um novo registro. :contentReference[oaicite:1]{index=1}
+
+### Informações Cadastrais
+
+#### Número
+
+Número identificador da ordem de compra.
+
+#### Emissão
+
+Data e hora de emissão da ordem.
+
+#### Entrega
+
+Data prevista para entrega da mercadoria.
+
+#### Data Limite
+
+Data máxima permitida para recebimento da mercadoria.
+
+Após esta data, o recebimento não poderá ser realizado.
+
+#### Situação
+
+Define a situação atual da ordem de compra.
+
+### Fornecedor
+
+Apresenta as informações do fornecedor vinculado à ordem de compra.
+
+Os principais dados exibidos incluem:
+
+- Nome
+- Documento
+- Endereço
+- Contato
+- Inscrição Estadual
+
+#### Forma de Pagamento
+
+Define a forma de pagamento da compra.
+
+#### Centro de Custo
+
+Permite vincular a ordem de compra ao centro de custo correspondente.
+
+#### Grupo
+
+Define o grupo de custos ao qual a compra pertence.
+
+#### Comprador
+
+Usuário responsável pela geração da ordem de compra.
+
+### Itens
+
+Permite incluir os produtos ou serviços da ordem de compra.
+
+#### Referência
+
+Identificação interna do item.
+
+#### Código/Nome
+
+Pesquisa de produtos por:
+
+- Nome
+- Descrição
+- Código
+- EAN
+
+#### Operação
+
+Define a operação tributária utilizada.
+
+#### Quantidade
+
+Quantidade adquirida do item.
+
+#### Valor Unitário
+
+Valor unitário do produto.
+
+#### Valor Mercadoria
+
+Valor total da mercadoria.
+
+#### Desconto
+
+Valor de desconto aplicado ao item.
+
+#### Alíquota ICMS (Imposto sobre Circulação de Mercadorias e Serviços)
+
+Percentual de ICMS aplicado.
+
+#### Alíquota ICMS ST Substituição Tributária)
+
+Percentual de ICMS ST aplicado.
+
+#### Alíquota IPI (Imposto sobre Produtos Industrializados)
+
+Percentual de IPI aplicado.
+
+#### Alíquota PIS (Programa de Integração Social)
+
+Percentual de PIS aplicado.
+
+#### Alíquota COFINS (Contribuição para o Financiamento da Seguridade Social)
+
+Percentual de COFINS aplicado.
+
+#### Informações Adicionais
+
+Campo destinado a observações específicas do item.
+
+### Transporte
+
+#### Modalidade de Frete
+
+Define a modalidade de frete utilizada na compra.
+
+As opções podem incluir:
+
+- CIF
+- FOB
+- FCA/FAS
+- Próprio por conta do Remetente
+- Próprio por conta do Destinatário
+- Sem Frete
+
+#### Transportadora
+
+Empresa responsável pelo transporte da mercadoria.
+
+#### Total Frete
+
+Valor total do frete vinculado à ordem de compra.
+
+### Informações Adicionais
+
+Permite registrar observações complementares relacionadas à ordem de compra.
+
+## Menu
+
+### Alterar em Lote
+
+Permite realizar alterações em várias ordens de compra simultaneamente.
+
+### Totalizar
+
+Exibe a quantidade total de registros selecionados e o valor total das ordens de compra.
+
+### Exportador
+
+Permite exportar arquivos da ordem de compra.
+
+### Enviar E-mail
+
+Envia a ordem de compra para um endereço de e-mail cadastrado ou informado pelo usuário.
+
+## Exportar
+
+Acesse **Menu > Exportador**.
+
+Selecione o formato desejado e clique em **Exportar**.
+
+### Formatos Disponíveis
+
+- XML
+- PDF
+- XLS
+- Local de Coleta - PDF
+
+### Seleção
+
+Permite exportar:
+
+- Itens listados
+- Itens selecionados
+
+## Pesquisa Avançada
+
+Clique no ícone de pesquisa para localizar ordens de compra específicas.
+
+### Filtros Disponíveis
+
+#### Somente Emitente Selecionado
+
+Pesquisa apenas registros vinculados aos emitentes selecionados.
+
+#### Número
+
+Pesquisa pelo número da ordem de compra.
+
+#### Fornecedor
+
+Pesquisa pelo fornecedor vinculado à compra.
+
+#### Comprador
+
+Pesquisa pelo comprador responsável.
+
+#### Item
+
+Pesquisa por produtos ou serviços presentes na ordem.
+
+#### Observação
+
+Pesquisa por informações registradas nas observações.
+
+#### Situação
+
+Pesquisa pela situação da ordem de compra.
+
+#### Filtro por Data
+
+Permite pesquisar registros por período.
+
+Tipos disponíveis:
+
+- Emissão
+- Entrega
+
+## Mais Ações
+
+### Situação
+
+Permite consultar a situação atual da ordem de compra.
+
+### Conferência
+
+Exibe uma visão geral dos produtos e informações vinculadas ao documento.
+
+### Duplicar
+
+Cria uma nova ordem de compra utilizando os dados de uma ordem já existente.
+
+### Exportar
+
+Realiza o download de um documento Office contendo as informações da ordem.
+
+### Download
+
+Permite baixar o arquivo XML da ordem de compra.
+
+### Local de Coleta
+
+Abre uma nova aba contendo os dados do local de coleta.
+
+### Visão Geral
+
+Apresenta informações resumidas dos itens vinculados à ordem de compra.
+
+## Dúvidas Frequentes
+
+### Como criar uma nova ordem de compra?
+
+Clique em **+ Novo**, preencha os dados obrigatórios e clique em **Salvar**.
+
+### Posso alterar o CPF/CNPJ de uma ordem já cadastrada?
+
+Não é recomendado. O sistema poderá interpretar a alteração como um novo cadastro.
+
+### Como adicionar produtos à ordem?
+
+Acesse a aba **Itens**, informe os produtos desejados e confirme a inclusão.
+
+### Como exportar uma ordem de compra?
+
+Acesse **Menu > Exportador**, selecione o formato desejado e clique em **Exportar**.
+
+### Como enviar uma ordem de compra por e-mail?
+
+Acesse **Menu > Enviar E-mail** e informe o destinatário desejado.
+
+### Como duplicar uma ordem existente?
+
+Utilize a opção **Mais Ações > Duplicar**.
