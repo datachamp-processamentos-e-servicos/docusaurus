@@ -322,8 +322,7 @@ html[data-page='home'] [class*='colorModeToggle'] {
   }
 
   .navbar-sidebar {
-    width: 100%;
-    max-width: 100%;
+    width: min(500px, 100vw);
   }
 
   .navbar-sidebar__brand {
@@ -345,6 +344,15 @@ html[data-page='home'] [class*='colorModeToggle'] {
 
   .navbar-sidebar__items {
     overflow-x: hidden;
+    transform: none !important;
+  }
+
+  .navbar-sidebar__items--show-secondary .navbar-sidebar__item:first-of-type {
+    display: none;
+  }
+
+  .navbar-sidebar__back {
+    display: none !important;
   }
 
   .navbar-sidebar__brand [class*='toggle'] {
