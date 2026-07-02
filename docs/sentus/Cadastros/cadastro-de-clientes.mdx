@@ -2,239 +2,90 @@
 sidebar_position: 2
 ---
 
-# ClientesⓍ
+# Clientes
 
-## Visão Geral
+## Acesso rápido
 
-A tela de **Cadastro de Clientes** é utilizada para consultar, cadastrar e gerenciar clientes no sistema. Nela são armazenadas todas as informações cadastrais, fiscais, financeiras e de contato necessárias para emissão de documentos, controles comerciais e integração com os demais módulos do sistema.
+- Cadastro Básico
+- Como cadastrar um cliente MEI
+- Como incluir contatos nos clientes
+- Como incluir demais endereços
+- Parametrizar regras comerciais
 
----
+:::warning[Antes de começar]
 
-## Observações Importantes
+- Todos os campos marcados com **(*)** são obrigatórios.
+- **Cliente sem Inscrição Estadual** é diferente de **Cliente Isento**.
+- Para clientes **MEI**, informe a Inscrição Estadual quando houver.
+- Caso o endereço não possua número, informe **SN**.
+- O CEP deve ser informado apenas com números.
 
-- Todos os campos marcados com **( * )** são obrigatórios.
-- Clientes MEI devem possuir Inscrição Estadual cadastrada.
-- Caso o cliente não possua Inscrição Estadual, selecionar **Não Contribuinte**.
-- Caso seja isento, selecionar **Isento**.
-- O campo CEP deve ser preenchido apenas com números.
-- Caso o endereço não possua número, informar **SN**.
+:::
 
----
+## Como cadastrar um cliente
 
-## Principais Funcionalidades
+Acesse:
 
-### Novo Cadastro
+**Cadastros → Clientes**
 
-Ao clicar em **+ Novo**, o usuário pode cadastrar um novo cliente informando dados básicos como:
+### 1. Informe o documento
 
-- Tipo de pessoa (Física, Jurídica ou Estrangeiro);
-- CPF ou CNPJ;
+Na tela inicial:
+
+1. Selecione o **Tipo de Pessoa**.
+2. Informe o **CPF**, **CNPJ** ou **Documento de Estrangeiro**.
+3. Clique em **Avançar**.
+
+### 2. Preencha as informações cadastrais
+
+Preencha os campos obrigatórios:
+
 - Nome ou Razão Social;
+- Indicador da Inscrição Estadual;
 - Inscrição Estadual;
 - Regime Tributário;
 - Telefone;
-- E-mail;
-- Endereço completo.
+- Grupo;
+- Demais informações necessárias.
 
-### Dados Fiscais
+Ao finalizar, clique em **Salvar**.
 
-O cadastro permite definir informações fiscais importantes, como:
+### 3. Cadastre o endereço principal
 
-- Indicador de Inscrição Estadual;
-- Inscrição Estadual;
-- Regime Tributário;
-- Inscrição Municipal;
-- Suframa;
-- Operação Tributária padrão do cliente.
-
-### Endereços
-
-Além do endereço principal, é possível cadastrar endereços adicionais para diferentes finalidades, contendo:
+Informe:
 
 - Logradouro;
 - Número;
-- Complemento;
 - Bairro;
 - CEP;
-- Município;
-- Coordenadas geográficas. 
+- Município.
 
-### Informações Comerciais e Financeiras
+### 4. Cadastre outros endereços (Opcional)
 
-O cadastro também permite configurar:
+Caso o cliente possua mais de um endereço:
 
-- Forma de pagamento padrão;
-- Portador bancário;
-- Grupo e subgrupo de clientes;
-- Tags de identificação;
-- Observações gerais e financeiras.
+1. Clique na aba **Demais Endereços**.
+2. Informe os dados do endereço.
+3. Salve o cadastro.
 
-### Contatos
+## Outras configurações
 
-É possível cadastrar diversos contatos para recebimento de documentos, definindo:
+Após concluir o cadastro, também é possível configurar:
 
-- Nome;
-- Setor;
-- Telefone;
-- E-mail;
-- Tipo de documento recebido;
-- Tipo de anexo (PDF, XML, PDF + XML, etc.).
+- Contatos;
+- Informações Comerciais;
+- Informações Complementares;
+- Regras Comerciais;
+- Endereços adicionais;
+- Histórico do cliente.
 
----
+:::tip[Próximo passo]
 
-## Objetivo da Tela
+Após cadastrar o cliente, consulte os artigos específicos para configurar:
 
-Centralizar todas as informações do cliente em um único cadastro, garantindo a correta emissão de documentos fiscais, integração financeira, controle comercial e comunicação com os clientes.
+- Cliente MEI;
+- Contatos;
+- Demais Endereços;
+- Regras Comerciais.
 
-### Mais Ações
-
-A opção Mais Ações reúne funcionalidade complementares para gerenciamento do cliente.
-
-Principais recursos disponíveis:
-
-- Editar cadastro;
-- Vincular contas;
-- Configurar informações comerciais;
-- Adicionar informações complementares;
-- Abrir conversa via telefone ou WhatsApp;
-- Consultar histórico de movimentações.
-- Consultar histórico de movimentações.
-
----
-
-### Contas
-
-Permite vincular contas relacionadas ao cadastro do cliente.
-
-E possível informar;
-
-- Origem do vínculo;
-- Conta correspondente.
-
-Essa funcionalidade é utilizada quando um mesmo cadastro possui relacionamento em diferentes áreas do sistema, como cliente, fornecedor ou transportadora.
-
----
-
-### Informações Comerciais
-
-Área destinada às configurações comerciais do cliente.
-
-Permite:
-
-- Vincular representantes;
-- Definir tabelas de preços;
-- Configurar regras comerciais específicas.
-
----
-
-Campo livre utilizado para registrar observações complementares que não se enquadram nos demais campos do cadastro.
-
-Exemplos:
-
-- Preferências de atendimentos;
-- Restrições comerciais;
-- Informações operacionais.
-
----
-
-### Abrir Conversa
-
-Facilita o contato com o cliente através dos meios de comunicação cadastrados.
-
-Disponibiliza:
-
-- Telefone;
-- WhatsApp.
-
----
-
-### Histórico
-
-Permite consultar todas as movimentações relacionadas ao cliente.
-
-entre elas:
-
-- Pedidos;
-- Notas fiscais;
-- Movimentações financeiras;
-- Histórico comercial.
-
----
-
-## Menu 
-
-O menu superior disponibiliza recursos auxiliares para consulta e gerenciamento dos cadastros.
-
-### Pesquisa por Documento
-
-Permite Localizar clientes através do CPF, CNPJ ou documentos vinculados ao cadastro.
-
-## Integração E-Commerce
-
-Função destinada aos clientes que utilizam integração com plataformas de e-commerce.
-
-### Exportar
-
-Exporta as informações exibidas na tela para um arquivo Excel.
-
-Pode ser utilizado para:
-
-- Relatórios;
-- Auditorias;
-- Conferências;
-- Importações externas.
-
----
-
-A pesquisa Avançada permite localizar clientes utilizando diversos filtros.
-
-Filtros disponíveis:
-
-- Código;
-- CPF/CNPJ;
-- Tags;
-- Inscrição Estadual;
-- Nome;
-- Nome Fantasia;
-- Município;
-- Representante;
-- Grupo;
-- Observações;
-- Situação.
-
-Também é possível ordenar os resultados por:
-
-- Nome;
-- Código;
-- Grupo.
-
----
-
-## Vinculação de Representantes
-
-Permite associar representantes comerciais aos clientes.
-
-Através dessa funcionalidade é possível:
-
-- Definir representantes responsáveis;
-- Configurar tabelas de preços;
-- Definir percentuais de desconto;
-- Configurar comissões.
-
----
-
-### Tabela de Preços
-
-Permite associar tabelas comerciais específicas ao cliente ou representante
-
-As tabelas podem definir:
-
-- Preços diferenciados;
-- Descontos permitidos;
-- Condições comerciais específicas.
-
-### Comissão
-
-Define o percentual de comissão que será aplicado ao representante vinculado ao cliente.
-
-Essa configuração é utilizada posteriormente nos processos de vendas e apuração de comissões.
+:::
