@@ -2,169 +2,102 @@
 sidebar_position: 3
 ---
 
-# RepresentantesⓍ
+# Representantes
 
-## Visão Geral
+:::note[Antes de começar]
 
-A tela de Cadastro de Representantes é utilizada para cadastrar, consultar e gerenciar os representantes comerciais da empresa. 
-Nela são armazenadas informações cadastrais, fiscais e comerciais que serão utilizadas nos processos de vendas, comissões e relacionamento comercial com os clientes.
+- Todos os campos marcados com **(*)** são obrigatórios.
+- O representante deve possuir um CPF, CNPJ ou documento de estrangeiro válido.
+- Caso o representante já esteja cadastrado como participante, utilize a opção **Pesquisar Participante Existente** para aproveitar as informações já registradas.
+
+:::
+
+## Como cadastrar um representante
+
+Acesse:
+
+**Cadastros → Representantes**
+
+1. Clique em **+ Novo**.
+2. Selecione o **Tipo de Pessoa**:
+   - Física;
+   - Jurídica;
+   - Estrangeiro.
+3. Informe o **CPF**, **CNPJ** ou **Documento de Estrangeiro**.
+4. Caso o participante já exista no sistema, utilize **Pesquisar Participante Existente**.
+5. Clique em **Avançar**.
 
 ---
 
-## Principais Funcionalidades
+## Informações cadastrais
 
-### Novo Cadastro
+Preencha os dados do representante, como:
 
-Ao clicar em **+ Novo**, é possível cadastrar um novo representante informando os dados cadastrais obrigatórios.
-
-Campos principais:
-
-- CPF ou CNPJ;
-- Nome ou Razão Social;
-- Nome Fantasia;
-- Inscrição Estadual;
-- Regime Tributário;
+- Nome;
 - Telefone;
 - E-mail;
-- Data de Fundação ou Nascimento.
+- Endereço;
+- Grupo;
+- Demais informações cadastrais.
 
-### Informações Cadastrais
+### Indicador de IE
 
-O cadastro permite registrar:
+Escolha a opção correspondente à situação fiscal do representante:
 
-- Código interno do representante;
-- Indicador de Inscrição Estadual;
-- Inscrição Estadual;
-- Regime Tributário;
-- Nome;
-- Nome Fantasia;
-- E-mail;
-- Telefone;
-- Fundação ou Nascimento;
-- Inscrição Municipal.
+- Contribuinte;
+- Contribuinte Isento;
+- Não Contribuinte;
+- Contribuinte - Compra para Consumo Próprio;
+- Não Contribuinte - Tratado como Contribuinte (MEI - Revenda);
+- Contribuinte Isento - Tratado como Contribuinte (MEI - Revenda).
 
-### Consulta de Cadastro
+### Regime Tributário
 
-Através da opção **Consultar Cadastro**, é possível obter informações complementares do CNPJ informado, auxiliando no preenchimento correto dos dados cadastrais.
+Selecione o regime tributário do representante:
 
----
+- Simples Nacional;
+- Simples Nacional - Excesso de Sublimite da Receita Bruta;
+- MEI.
 
-## Atualização de Comissão
+### Grupo
 
-Permite atualizar a comissão dos representantes de forma centralizada.
+Selecione o grupo desejado.
 
-É possível definir:
+Por padrão, o cadastro utiliza o grupo **Diversos**.
 
-- Representante;
-- Data Inicial;
-- Data Final;
-- Tipo de Movimentação;
-- Atualização das comissões.
+### Pessoa
 
-Essa funcionalidade é utilizada para revisar percentuais de comissão aplicados às vendas.
+Defina o tipo de pessoa conforme o cadastro:
 
----
-
-## Mensagem para Vendas
-
-Permite enviar comunicados ou orientações para um ou mais representantes.
-
-Informações disponíveis:
-
-- Seleção do representante;
-- Campo para digitação da mensagem.
-
-Também permite:
-
-- Exportar representantes para Excel;
-- Exportar parâmetros (somente administradores do ERP).
+- Física;
+- Jurídica;
+- Estrangeiro.
 
 ---
 
-## Pesquisa Avançada
+## Finalizar o cadastro
 
-A Pesquisa Avançada permite localizar representantes através de diversos filtros.
+Após clicar em **Avançar**, preencha as informações específicas do representante.
 
-Filtros disponíveis:
+Os principais campos são:
 
-- Código;
-- CPF/CNPJ;
-- Tags;
-- Inscrição Estadual;
-- Nome;
-- Nome Fantasia;
 - Supervisor;
-- Município;
-- Observações;
+- IRRF;
+- Lote/Carga;
 - Situação.
 
-Também é possível ordenar os resultados por:
+### Situação
 
-- Nome;
-- Código;
-- Grupo.
-
----
-
-## Mais Ações
-
-A opção **Mais Ações** reúne funcionalidades complementares para gerenciamento dos representantes.
-
-Principais recursos disponíveis:
-
-- Editar cadastro;
-- Alterar situação;
-- Configurar informações comerciais;
-- Abrir conversa;
-- Regras e parâmetros (somente administradores).
-
-### Situação do Representante
-
-Permite controlar o status do cadastro.
-
-Situações disponíveis:
+Defina a situação do representante:
 
 - Ativo;
-- Inativo;
-- Bloqueado.
+- Bloqueado;
+- Inativo.
 
-### Informações Comerciais
+Após preencher as informações, clique em **Salvar** para concluir o cadastro.
 
-Permite vincular informações comerciais ao representante.
+:::tip[Dica]
 
-É possível configurar:
+Caso o representante já exista como participante no sistema, utilize a pesquisa de participantes para evitar cadastros duplicados e reaproveitar as informações já cadastradas.
 
-- Tabelas de preço;
-- Limites de desconto;
-- Percentuais de comissão.
-
-### Tabela de Preços
-
-Define as condições comerciais que poderão ser utilizadas pelo representante.
-
-Configurações disponíveis:
-
-- Representante;
-- Percentual máximo de desconto;
-- Percentual de comissão.
-
-### Abrir Conversa
-
-Disponibiliza acesso rápido aos meios de contato do representante.
-
-Recursos:
-
-- Ligação telefônica;
-- WhatsApp.
-
----
-
-## Observações Importantes
-
-- Todos os campos marcados com (*) são obrigatórios.
-- Caso o representante possua Inscrição Estadual ativa, selecionar **Contribuinte** e informar a IE.
-- Caso não possua IE, selecionar **Não Contribuinte**.
-- Caso seja isento, selecionar **Isento**.
-- O CEP deve ser informado apenas com números.
-- Caso o endereço não possua número, informar **SN**.
-- Alterações de CPF ou CNPJ caracterizam um novo cadastro.
+:::
