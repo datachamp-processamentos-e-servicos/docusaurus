@@ -4,264 +4,107 @@ sidebar_position: 4
 
 # NF-e Ⓧ
 
-## Visão Geral
+:::note[Antes de começar]
 
-A tela de NF-e é utilizada para emissão e gerenciamento da Nota Fiscal Eletrônica.
+- Antes de emitir uma Nota Fiscal, verifique se o cliente, os produtos e as configurações fiscais já estão cadastrados.
+- Revise todas as informações antes de finalizar a emissão.
 
-Por meio desta funcionalidade, é possível registrar operações de venda, transferência, devolução e demais movimentações fiscais, controlando produtos, destinatários, tributos e documentos relacionados.
+:::
+
+## Como cadastrar
+
+Acesse:
+
+**Fiscal → Nota Fiscal**
+
+1. Clique em **+ Novo** para iniciar uma nova Nota Fiscal.
+2. Preencha as informações da nota.
+3. Clique em **Avançar** para prosseguir entre as etapas.
+4. Informe os produtos e demais dados necessários.
+5. Clique em **Salvar** para concluir.
 
 ---
 
-## Observações Importantes
+## Dados da NF-e
 
-- Todos os campos marcados com (*) são obrigatórios.
-- O número da NF-e é gerado automaticamente pelo sistema.
-- Algumas funcionalidades exigem autorização da SEFAZ.
-- O cancelamento exige justificativa.
-- A carta de correção possui limitações definidas pela legislação fiscal.
-- As informações tributárias devem estar de acordo com a configuração fiscal da empresa.
-- Algumas funcionalidades são restritas a usuários administradores.
+Nesta etapa são informadas as informações gerais da Nota Fiscal, como modelo, série, número, destinatário, datas e configurações fiscais.
+
+Preencha os campos necessários, lembrando que os campos com **(*)** são obrigatórios.
 
 ---
 
-## Principais Funcionalidades
+## Itens da NF-e
 
-### Novo Cadastro
+Nesta seção são adicionados os produtos ou serviços que compõem a Nota Fiscal.
 
-Clique em **+ Novo** para criar uma nova NF-e.
+Informe os itens desejados e clique em **Confirmar** para adicioná-los à lista.
 
-Preencha os dados do documento, informe o destinatário, adicione os produtos e revise as informações fiscais antes da emissão.
+---
 
-Após concluir o preenchimento, clique em **Salvar** para registrar a nota.
+## Totais
 
-### Documento
+Nesta etapa são apresentados os valores totais da Nota Fiscal, incluindo produtos, impostos, frete, descontos e demais totais calculados automaticamente.
 
-Nesta seção são informados os dados principais da NF-e.
+Revise as informações antes de prosseguir.
 
-Os principais campos incluem:
+---
 
-- Modelo
-- Série
-- Número
-- Data de emissão
-- Data e hora de entrada ou saída
-- Chave de acesso
+## Transporte
 
-O número da nota é gerado automaticamente pelo sistema.
+Nesta seção são informadas as informações referentes ao transporte da mercadoria.
 
-### Destinatário
+Caso necessário, preencha os dados de transporte conforme a operação.
 
-Selecione ou pesquise o destinatário da nota.
+---
 
-O sistema permite localizar clientes já cadastrados e preencher automaticamente os dados principais.
+## Cobrança
 
-Entre as informações disponíveis estão:
+Nesta etapa são configuradas as formas de pagamento e o parcelamento da Nota Fiscal.
 
-- Nome
-- Documento
-- Inscrição Estadual
-- E-mail
-- Telefone
-- Endereço
+Adicione as formas de pagamento necessárias e confira os valores informados.
 
-### Detalhes da Nota
+---
 
-Permite configurar características da operação fiscal.
+## Documentos Referenciados
 
-Entre as principais opções estão:
+Nesta seção podem ser informados documentos fiscais relacionados à Nota Fiscal.
 
-- Finalidade da NF-e
-- Formato da DANFE
-- Indicador de Presença
-- Operação Fiscal
+Preencha os campos quando houver necessidade de referenciar outro documento.
 
-### Produtos e Serviços
+---
 
-Adicione os produtos ou serviços que serão faturados.
+## Informações Adicionais
 
-Para cada item é possível informar:
+Nesta etapa podem ser registradas informações complementares da Nota Fiscal, informações de interesse do contribuinte, do fisco e demais observações.
 
-- Produto
-- Quantidade
-- Unidade
-- Valores
-- Tributação
-- Informações fiscais complementares
+Preencha apenas as informações necessárias.
 
-### Informações Tributárias
+---
 
-O sistema disponibiliza configurações relacionadas aos tributos da operação.
+## Coleta / Entregas
 
-Dependendo da operação, podem ser configuradas informações relacionadas a:
+Nesta seção podem ser informadas as informações de retirada e entrega da mercadoria.
 
-- ICMS
-- ICMS ST
-- IPI
-- PIS
-- COFINS
-- Benefícios fiscais
+Caso a operação exija, preencha os dados correspondentes.
 
-Essas informações normalmente são definidas conforme a parametrização fiscal da empresa.
+---
 
-### Fiscal e Contábil
+## Exportação / Compras / Agropecuário
 
-Permite vincular informações fiscais e contábeis à nota.
+Nesta etapa podem ser informadas informações específicas para operações de exportação, compras governamentais ou operações agropecuárias.
 
-Entre os principais dados estão:
+Preencha somente quando a operação exigir.
 
-- Operação Tributária
-- Operação Contábil
-- Conta Contábil
-- Depósito de Saída
-- Depósito de Entrada
+---
 
-### Totais da Nota
+## Autorizações
 
-O sistema calcula automaticamente os valores da operação.
+Nesta seção é possível configurar os e-mails autorizados para recebimento dos arquivos da Nota Fiscal e demais autorizações disponíveis.
 
-Os principais totais incluem:
+Adicione apenas as autorizações necessárias.
 
-- Valor dos produtos
-- ICMS
-- ICMS ST
-- IPI
-- Valor total da nota
+---
 
-## Menu
+## Finalizando
 
-### Etiqueta
-
-Gera etiquetas de transporte ou identificação de volumes.
-
-### Manifestação
-
-Permite registrar eventos relacionados à nota fiscal.
-
-### Exportador
-
-Permite exportar a NF-e em PDF ou XML.
-
-### Exportar
-
-Gera uma planilha Excel contendo os registros exibidos na tela.
-
-### Gerador NF-e
-
-Funcionalidade disponível para usuários com permissões administrativas.
-
-## Pesquisa Avançada
-
-Utilize a Pesquisa Avançada para localizar NF-es específicas.
-
-Informe os filtros desejados e clique em **Pesquisar**.
-
-### Filtros Disponíveis
-
-- Número
-- Série
-- Modelo
-- Participante
-- Representante
-- Portador
-- Operação
-- Situação
-- Somente com Pendências
-
-## Mais Ações
-
-### Carta de Correção
-
-Permite corrigir informações da NF-e através de evento fiscal.
-
-Informe uma justificativa detalhando os dados corrigidos.
-
-### Cancelamento
-
-Permite cancelar uma NF-e emitida.
-
-Informe a justificativa para concluir a operação.
-
-### Comprovante de Entrega
-
-Permite registrar o recebimento da mercadoria.
-
-É possível informar:
-
-- Documento do recebedor
-- Nome da pessoa responsável
-- Data e hora da entrega
-- Comprovantes e imagens
-
-### Download
-
-Realiza o download dos arquivos da NF-e.
-
-### Financeiro
-
-Permite acessar informações financeiras relacionadas à nota.
-
-Disponível conforme permissões do usuário.
-
-### Boleto
-
-Permite consultar informações de cobrança vinculadas à NF-e.
-
-Disponível conforme permissões do usuário.
-
-### E-mail
-
-Permite enviar a NF-e para um ou mais destinatários.
-
-Os arquivos PDF e XML podem ser enviados junto ao e-mail.
-
-### Duplicar
-
-Cria uma nova NF-e utilizando os dados de uma nota já existente.
-
-### Referenciamento
-
-Permite consultar documentos e informações relacionadas à operação fiscal.
-
-## Dúvidas Frequentes
-
-### Não consigo emitir a NF-e
-
-Verifique se todos os campos obrigatórios foram preenchidos.
-
-Confirme também se o destinatário, produtos e informações fiscais estão corretamente configurados.
-
-### Como localizar uma NF-e?
-
-Utilize a Pesquisa Avançada.
-
-Informe filtros como número, série, cliente ou situação da nota.
-
-### Como cancelar uma NF-e?
-
-Acesse **Mais Ações > Cancelamento**.
-
-Informe a justificativa e confirme a operação.
-
-### Como corrigir informações da nota?
-
-Acesse **Mais Ações > Carta de Correção**.
-
-Informe os dados que devem ser corrigidos e envie o evento.
-
-### Como enviar a NF-e para o cliente?
-
-Acesse **Mais Ações > E-mail**.
-
-Informe os destinatários e selecione os anexos desejados.
-
-### Como gerar uma nova nota com os mesmos dados?
-
-Acesse **Mais Ações > Duplicar**.
-
-O sistema criará uma nova NF-e utilizando as informações da nota original.
-
-### Como baixar o XML da nota?
-
-Acesse **Mais Ações > Download**.
-
-Selecione o documento desejado para realizar o download.
+Após revisar todas as informações, clique em **Salvar** para concluir a emissão da Nota Fiscal.
