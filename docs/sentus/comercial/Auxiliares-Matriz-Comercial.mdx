@@ -4,255 +4,65 @@ sidebar_position: 11
 
 # Auxiliares de Matriz Comercial Ⓧ
 
-## Visão Geral
+:::note[Antes de começar]
 
-A tela de Matriz Comercial é utilizada para definir regras comerciais aplicadas às vendas da empresa.
+- Antes de cadastrar uma Matriz Comercial, verifique se a Tabela de Preço já está cadastrada.
+- Defina as regras da matriz conforme a política comercial da empresa.
 
-Por meio desta funcionalidade, é possível configurar tabelas de preço, limites de desconto, percentual de comissão e regras específicas para clientes, representantes, grupos e formas de pagamento.
+:::
 
-A Matriz Comercial permite automatizar a aplicação das regras comerciais durante os processos de venda, garantindo maior padronização e controle das negociações.
+## Como cadastrar
+
+Acesse:
+
+**Comercial → Matrizes Comerciais**
+
+1. Clique em **+ Novo** para criar uma nova Matriz Comercial.
+2. Preencha as informações da matriz.
+3. Configure as regras e parâmetros conforme necessário.
+4. Clique em **Salvar** para concluir o cadastro.
 
 ---
 
-## Observações Importantes
+## Informações da Matriz
 
-- Todos os campos marcados com (*) são obrigatórios.
-- A posição da matriz influencia a ordem de aplicação das regras.
-- As tabelas de preço vinculadas impactam diretamente os valores apresentados nas vendas.
-- Os limites de desconto devem ser configurados conforme a política comercial da empresa.
-- A vigência da matriz deve ser revisada periodicamente para evitar utilização de regras expiradas.
-- A configuração correta de representantes, clientes e grupos garante que a matriz seja aplicada apenas nos cenários desejados.
+Nesta seção são definidas as informações gerais da Matriz Comercial.
+
+Preencha os campos necessários, lembrando que os campos com **(*)** são obrigatórios.
+
+Entre as informações disponíveis estão:
+
+- Nome da matriz;
+- Tabela de preço;
+- Tipo;
+- Situação;
+- Utilização;
+- Enquadramento;
+- Aplicação;
+- Percentuais de desconto, acréscimo e comissão;
+- Matriz complementar;
+- Observações.
 
 ---
 
-## Principais Funcionalidades
+## Regras e Parâmetros
 
-### Novo Cadastro
+Nesta seção são definidos os critérios que determinam quando a Matriz Comercial será utilizada.
 
-Clique em **+ Novo** para criar uma nova matriz comercial.
+Caso necessário, informe os parâmetros como:
 
-Preencha as informações obrigatórias e configure as regras que serão aplicadas durante as negociações.
+- Emitente;
+- Tipo de frete;
+- Representante;
+- Grupo e Subgrupo de Representantes;
+- Cliente;
+- Grupo e Subgrupo de Clientes;
+- Tags para associação da matriz.
 
-Após concluir o preenchimento, clique em **Salvar** para registrar a matriz comercial.
+Preencha apenas os critérios que serão utilizados para aplicação da matriz.
 
-### Informações Cadastrais
+---
 
-Nesta seção são definidos os dados principais da matriz comercial.
+## Finalizando
 
-#### Nome
-
-Informe um nome que facilite a identificação da matriz comercial.
-
-#### Posição
-
-Define a ordem de avaliação das regras cadastradas.
-
-Quando existirem múltiplas matrizes, o sistema utilizará esta informação para determinar a prioridade de aplicação.
-
-#### Tipo
-
-Selecione o tipo da matriz comercial.
-
-As opções disponíveis são:
-
-- Normal
-- Promocional
-
-#### Situação
-
-Define a disponibilidade da matriz comercial.
-
-As opções podem incluir:
-
-- Ativo
-- Restrição
-- Bloqueado
-- Removido
-- Inativo
-
-#### Tabela de Preço
-
-Selecione a tabela de preços que será utilizada como base para a regra comercial.
-
-#### Desconto Máximo
-
-Define o percentual máximo de desconto permitido para a matriz.
-
-#### Desconto Gerencial
-
-Define o limite de desconto que poderá ser aplicado mediante autorização gerencial.
-
-#### Desconto Incondicionado
-
-Permite configurar descontos aplicados diretamente sobre os preços da tabela.
-
-#### Comissão
-
-Informe o percentual de comissão sugerido para as vendas realizadas utilizando esta matriz.
-
-#### Observação
-
-Utilize este campo para registrar informações complementares relacionadas à regra comercial.
-
-### Regras e Parâmetros
-
-Permite definir para quais cenários a matriz comercial será aplicada.
-
-#### Emitente
-
-Selecione a empresa emitente relacionada à regra comercial.
-
-#### Representante
-
-Informe ou pesquise o representante responsável.
-
-A pesquisa pode ser realizada pelo nome, código, CPF ou CNPJ.
-
-#### Cliente
-
-Informe o cliente específico para o qual a regra será aplicada.
-
-#### Tipo de Frete
-
-Defina a modalidade de frete utilizada na operação.
-
-As opções podem incluir:
-
-- CIF
-- FOB
-- Por Conta de Terceiros
-- Próprio por Conta do Remetente
-- Próprio por Conta do Destinatário
-- Sem Frete
-
-#### Grupo
-
-Permite vincular a matriz a um grupo específico de clientes.
-
-#### Forma de Pagamento
-
-Defina quais formas de pagamento poderão utilizar a matriz comercial.
-
-## Menu
-
-### Gerenciar Vigências
-
-Permite controlar o período de validade da matriz comercial.
-
-Utilize esta opção para definir por quanto tempo uma tabela de preço permanecerá vigente.
-
-### Corrigir Campos Adicionais
-
-Permite ajustar informações complementares relacionadas à matriz comercial.
-
-Esta funcionalidade pode ser utilizada para atualizar percentuais e parâmetros vinculados à regra comercial.
-
-### Relatórios
-
-Permite gerar consultas e relatórios relacionados às informações comerciais cadastradas.
-
-## Pesquisa Avançada
-
-Clique em **Pesquisa Avançada** para localizar matrizes comerciais específicas.
-
-Informe um ou mais filtros e clique em **Pesquisar**.
-
-### Filtros Disponíveis
-
-#### Nome
-
-Localiza matrizes através do nome cadastrado.
-
-#### Tipo
-
-Permite filtrar matrizes do tipo Normal ou Promocional.
-
-#### Tabela de Preço
-
-Localiza matrizes vinculadas a uma tabela de preço específica.
-
-#### Emitente
-
-Permite pesquisar matrizes por empresa emitente.
-
-#### Representante
-
-Permite localizar matrizes vinculadas a representantes específicos.
-
-#### Cliente
-
-Permite pesquisar matrizes através do nome, CPF ou CNPJ do cliente.
-
-#### Grupo
-
-Localiza matrizes vinculadas a grupos específicos.
-
-#### Pagamento
-
-Permite pesquisar por forma de pagamento.
-
-#### Frete
-
-Permite filtrar matrizes pelo tipo de frete.
-
-#### Situação
-
-Permite pesquisar matrizes conforme sua situação cadastral. :contentReference[oaicite:6]{index=6}
-
-## Mais Ações
-
-Não foram identificadas opções do menu **Ações (+)** no conteúdo disponibilizado. :contentReference[oaicite:7]{index=7}
-
-### Editar
-
-Localize a matriz desejada.
-
-Abra o cadastro para realizar as alterações necessárias.
-
-Após concluir as modificações, clique em **Salvar**.
-
-### Excluir
-
-Não foram identificadas informações sobre exclusão de matrizes comerciais.
-
-### Histórico
-
-Não foram identificadas informações sobre consulta de histórico.
-
-### Abrir Conversa
-
-Não foram identificadas informações sobre abertura de conversa.
-
-## Dúvidas Frequentes
-
-### O que é uma Matriz Comercial?
-
-É uma configuração utilizada para controlar regras comerciais, tabelas de preço, descontos, comissões e condições de venda aplicadas aos clientes.
-
-### Como criar uma nova Matriz Comercial?
-
-Clique em **+ Novo**.
-
-Preencha os dados da matriz, configure as regras desejadas e clique em **Salvar**.
-
-### Qual a diferença entre uma matriz Normal e Promocional?
-
-A matriz Normal é utilizada nas operações padrão da empresa.
-
-A matriz Promocional pode ser utilizada para campanhas, ofertas ou condições comerciais específicas.
-
-### Como limitar descontos nas vendas?
-
-Utilize os campos **Desconto Máximo** e **Desconto Gerencial** para definir os limites permitidos para negociação.
-
-### Como definir quais clientes utilizarão uma matriz?
-
-Configure o cliente diretamente na seção **Regras e Parâmetros** ou utilize grupos de clientes quando a regra precisar ser aplicada a mais de um cadastro.
-
-### Como controlar a validade de uma matriz comercial?
-
-Acesse **Menu > Gerenciar Vigências** para definir o período de utilização da regra.
-
-### Como localizar uma matriz já cadastrada?
-
-Utilize a **Pesquisa Avançada** e informe filtros como nome, cliente, representante, tabela de preço ou situação.
+Após revisar todas as informações, clique em **Salvar** para concluir o cadastro da Matriz Comercial.
