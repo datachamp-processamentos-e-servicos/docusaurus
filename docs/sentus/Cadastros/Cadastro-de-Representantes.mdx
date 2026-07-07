@@ -8,83 +8,88 @@ Para um resumo em Slides [Clique Aqui](#resumo-em-slides)
 
 :::note[Antes de começar]
 
-- Todos os campos marcados com **(*)** são obrigatórios.
-- O representante deve possuir um **CPF** ou **CNPJ** válido.
-- Utilize **Pesquisar Participante Existente** para reaproveitar o cadastro.
+- O preenchimento dos campos com **(*)** é obrigatório.
+- Ao posicionar o cursor do mouse sobre um campo, o sistema exibe uma breve explicação sobre o preenchimento.
+
+<div style={{ textAlign: 'center' }}>
+  <img
+    src="/docusaurus/img/cadastros/representantes-imagem.png"
+    alt="Exemplo de ajuda exibida ao posicionar o cursor sobre um campo"
+    width="700"
+  />
+</div>
 
 :::
 
-## Como cadastrar um representante
+## Cadastrar Novo Representante
 
 Acesse:
 
 **Cadastros → Representantes**
 
-1. Clique em **+ Novo**.
-2. Informe o **CPF** ou **CNPJ** do representante.
-3. Clique em **Avançar**.
-4. Preencha os campos obrigatórios.
-5. Clique em **Salvar** para concluir o cadastro.
+1. Clique em **+ Novo** para cadastrar um representante;
+2. Selecione o tipo de pessoa;
+3. Informe o documento ou clique em **Pesquisar Participante Existente** para localizar uma pessoa já cadastrada com outro papel no sistema, como cliente, fornecedor, transportador ou colaborador;
+4. Clique em **Avançar**.
 
----
+## Informações Cadastrais
 
-## Informações cadastrais
+Nesta seção são registrados os dados principais do representante.
 
-Nesta seção, preencha as informações cadastrais do representante.
+Preencha os campos necessários, lembrando que os campos com **(*)** são obrigatórios.
 
-Configure os dados fiscais conforme a necessidade e informe os campos obrigatórios antes de prosseguir.
+- O campo **Código** é de livre escolha, não pode ser repetido entre representantes e aceita letras e números;
+- O **Indicador de IE** define se o representante possui Inscrição Estadual. Se possuir, selecione **Contribuinte**; caso contrário, selecione **Não Contribuinte**;
+- O **Regime Tributário** deve ser informado obrigatoriamente quando o representante for **MEI**, caso contrário a Inscrição Estadual não será aceita;
+- O campo **E-mail** não é utilizado para o envio automático de documentos. Para isso, é necessário cadastrar contatos;
+- O **Município** deve ser selecionado na lista de pesquisa, e não apenas digitado;
+- Caso necessário, é possível cadastrar outros endereços na opção **Demais Endereços**.
 
----
+Após preencher as informações, clique em **Avançar**.
 
-## Endereço
+## Configurações do Representante
 
-Preencha o endereço principal do representante.
+Nesta seção podem ser definidas informações utilizadas nas operações comerciais.
 
-Caso necessário, utilize a aba **Demais Endereços** para cadastrar endereços adicionais.
+As informações configuradas servirão como padrão para as operações do representante, mas poderão ser alteradas durante a emissão dos documentos.
 
----
+Entre as configurações disponíveis estão:
 
-## Dados do representante
-
-Informe as informações específicas do representante, como supervisor, situação e demais configurações disponíveis.
-
-Preencha os campos necessários, como:
-
-- Supervisor;
-- IRRF;
+- Portador;
+- Forma de pagamento;
+- Operação tributária;
 - Lote/Carga.
 
-### Situação
-
-Defina a situação do cadastro:
-
-- *Ativo*: o representante poderá ser utilizado normalmente.
-- *Bloqueado*: impede novas operações utilizando o representante.
-- *Inativo*: mantém o cadastro apenas para consulta e histórico.
-
-
----
+O campo **Situação** permite bloquear ou inativar o representante.
 
 ## Lista de Contatos
 
-Cadastre os contatos vinculados ao cliente para facilitar a comunicação.
+Cadastre um ou mais contatos vinculados ao representante para facilitar a comunicação.
 
-Entre as informações disponíveis estão:
+A principal função desses contatos é o envio automático de documentos por e-mail.
+
+Informe os campos necessários, como:
 
 - Nome;
-- Telefone;
+- Telefone (opcional);
+- Setor (opcional);
 - E-mail;
-- Setor;
-- Aplicação;
-- Anexos.
+- Aplicação (define quais documentos serão enviados para esse contato);
+- Anexos (define quais documentos serão anexados ao e-mail).
 
 Após preencher os dados do contato, clique em **Confirmar** para adicioná-lo à lista.
 
+É possível cadastrar vários contatos para o mesmo representante.
+
 ---
 
-Após conferir as informações, clique em *Salvar* para concluir o cadastro.
+## Finalizando
+
+Após revisar todas as informações, clique em **Salvar** para concluir o cadastro do representante.
 
 ## Resumo em Slides
+
+{/* Atualizar PDF */}
 
 <object
   data="/docusaurus/pdf/Guia_Cadastro_Representantes.pdf"
@@ -92,4 +97,3 @@ Após conferir as informações, clique em *Salvar* para concluir o cadastro.
   width="100%"
   height="550"
 ></object>
-
