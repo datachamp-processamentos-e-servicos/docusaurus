@@ -9,8 +9,15 @@ Para um resumo em Slides [Clique Aqui](#resumo-em-slides)
 :::note[Antes de começar]
 
 - O preenchimento dos campos com **(*)** é obrigatório.
-- Parando com o cursor do mouse em cima dos campos, o sistema mostra breve explicação sobre o que deve ser preenchido.
-AQUI COLOCAR UM PRINT DO MOUSE PARADO EM CIMA DE ALGUM CAMPO
+- Ao posicionar o cursor do mouse sobre um campo, o sistema exibe uma breve explicação sobre o preenchimento.
+
+<div style={{ textAlign: 'center' }}>
+  <img
+    src="/img/clientes/clientes-imagem.png"
+    alt="Exemplo de ajuda exibida ao posicionar o cursor sobre um campo"
+    width="700"
+  />
+</div>
 
 :::
 
@@ -21,8 +28,8 @@ Acesse:
 **Cadastros → Clientes**
 
 1. Clique em **+ Novo** para cadastrar um cliente;
-2. Selecionar o tipo de pessoa;
-3. Informar o documento ou clicar no botão **Pesquisar Participante Existente** e pesquisar pelo nome, documento ou código de uma pessoa que já esteja cadastrada com outro papel no sistema, por exemplo, como fornecedor, como representante, como transportador ou como colaborador;
+2. Selecione o tipo de pessoa;
+3. Informe o documento ou clique em **Pesquisar Participante Existente** para localizar uma pessoa já cadastrada com outro papel no sistema, como fornecedor, representante, transportador ou colaborador;
 4. Clique em **Avançar**.
 
 ## Informações Cadastrais
@@ -31,49 +38,58 @@ Nesta seção são registrados os dados principais do cliente.
 
 Preencha os campos necessários, lembrando que os campos com **(*)** são obrigatórios.
 
-- Campo Código é um campo de sua escolha, ele não pode ser repetido em dois clientes diferentes e pode ser preenchido com letras e números;
-- Indicador de IE define o perfil de contribuinte do cliente, basicamente se o cliente possui Inscrição Estadual, selecionar "contribuinte" e caso o cliente não possua Inscrição estadual, selecionar "não contribuinte"; 
-- Regime Tributário deve ser obrigatoriamente informado quando o cliente for MEI, caso contrário a Inscrição estadual de MEI não será aceita;
-- O campo de **E-mail** não é usado para envio automático de documentos, para isso é necessário cadastrar contatos;
-- Município dever ser selecionado da lista de pesquisa, não somente digitado.
-- É possível cadastrar outros endereços para o mesmo cliente, clicar em "demais endereços"
+- O campo **Código** é de livre escolha, não pode ser repetido entre clientes e aceita letras e números;
+- O **Indicador de IE** define se o cliente possui Inscrição Estadual. Se possuir, selecione **Contribuinte**; caso contrário, selecione **Não Contribuinte**;
+- O **Regime Tributário** deve ser informado obrigatoriamente quando o cliente for **MEI**, caso contrário a Inscrição Estadual não será aceita;
+- O campo **E-mail** não é utilizado para o envio automático de documentos. Para isso, é necessário cadastrar contatos;
+- O **Município** deve ser selecionado na lista de pesquisa, e não apenas digitado;
+- Caso necessário, é possível cadastrar outros endereços na opção **Demais Endereços**.
 
-CLIQUE EM AVANÇAR
+Após preencher as informações, clique em **Avançar**.
 
 ## Configurações do Cliente
 
 Nesta seção podem ser definidas informações utilizadas nas operações comerciais.
-A seleção de informações nesses campos ajuda a definir os padrões de faturamento para esse cliente, mas podem ser editadas na emissão de um documento.
+
+As informações configuradas servirão como padrão para as operações do cliente, mas poderão ser alteradas durante a emissão dos documentos.
+
+Entre as configurações disponíveis estão:
 
 - Portador;
 - Forma de pagamento;
 - Operação tributária;
 - Lote/Carga.
 
-O campo situação permite bloquear ou inativar um cliente.
+O campo **Situação** permite bloquear ou inativar o cliente.
 
 ## Lista de Contatos
 
 Cadastre um ou mais contatos vinculados ao cliente para facilitar a comunicação.
-A principal função desses contatos é o envio automático de documentos por E-mail.
+
+A principal função desses contatos é o envio automático de documentos por e-mail.
+
+Informe os campos necessários, como:
 
 - Nome;
 - Telefone (opcional);
 - Setor (opcional);
 - E-mail;
-- Aplicação (define quais documentos emitidos, serão enviados para esse contato);
-- Anexos (define quais documentos serão anexados no email para esse contato).
+- Aplicação (define quais documentos serão enviados para esse contato);
+- Anexos (define quais documentos serão anexados ao e-mail).
 
-Após preencher os dados do contato, clique em **Confirmar** para adicioná-lo à lista de contatos.
-Reforçando: Podem ser cadastrados vários contatos para cada cliente.
+Após preencher os dados do contato, clique em **Confirmar** para adicioná-lo à lista.
+
+É possível cadastrar vários contatos para o mesmo cliente.
 
 ---
 
-## Finalizando (aqui nao precisa ser link)
+## Finalizando
 
 Após revisar todas as informações, clique em **Salvar** para concluir o cadastro do cliente.
 
-## Resumo em Slides (refazer)
+## Resumo em Slides
+
+<!-- Atualizar PDF -->
 
 <object
   data="/docusaurus/pdf/Guia_Cadastro_Clientes.pdf"
@@ -82,7 +98,8 @@ Após revisar todas as informações, clique em **Salvar** para concluir o cadas
   height="550"
 ></object>
 
-comentar daqui pra baixa
+
+{/* 
 
 Entre as informações disponíveis estão:
 
@@ -110,4 +127,4 @@ Informe o endereço principal do cliente, incluindo:
 
 Caso o cliente possua outros endereços, utilize a aba **Demais Endereços** para cadastrá-los.
 
----
+*/}
