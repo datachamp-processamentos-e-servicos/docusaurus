@@ -2,85 +2,272 @@
 sidebar_position: 2
 ---
 
-# Cotação  Ⓧ
+# Cotação Ⓧ
 
 :::note[Antes de começar]
 
-- Antes de iniciar a cotação, verifique se o cliente e os produtos já estão cadastrados.
-- Revise todas as informações antes de concluir o cadastro.
+- Utilize a cotação para registrar orçamentos, adicionar itens, definir cobrança, transporte, volumes e formas de pagamento.
+- Ao posicionar o cursor do mouse sobre um campo, o sistema exibe uma breve explicação sobre o preenchimento.
+
+<div style={{ textAlign: 'center' }}>
+  <img
+    src="/docusaurus/img/cadastros/Comercialpng.png"
+    alt="Tela de cotação"
+    width="700"
+  />
+</div>
 
 :::
 
-## Como cadastrar
+## Cadastrar Nova Cotação
 
 Acesse:
 
 **Comercial → Cotação**
 
-1. Clique em **+ Novo** para iniciar uma nova cotação.
-2. Preencha as informações do cabeçalho.
-3. Clique em **Avançar** para prosseguir entre as etapas.
-4. Adicione os produtos e preencha as demais informações necessárias.
-5. Clique em **Salvar** para concluir.
-
----
+1. Clique em **+ Novo** para cadastrar uma cotação ou clique em uma cotação existente na lista abaixo para editá-la.
+2. Preencha as informações de cada etapa do pedido.
+3. Clique em **Salvar** para concluir o cadastro.
 
 ## Cabeçalho
 
-Nesta etapa são informadas as informações gerais da cotação, como cliente, datas, operação, representante e demais dados comerciais.
+Nesta etapa são informadas as configurações gerais da cotação e os dados do cliente.
 
-Preencha os campos necessários, lembrando que os campos com **(*)** são obrigatórios.
+Preencha as informações necessárias, como:
 
----
+- Número;
+- Série;
+- Data de Emissão;
+- Data de Embarque;
+- Operação;
+- Prioridade;
+- Lote;
+- Tags;
+- Situação;
+- Cliente.
+
+Na seção **Cliente**, pesquise pelo CPF/CNPJ, nome ou código para localizar o cliente desejado.
+
+Também é possível consultar o **Histórico** do cliente ou editar as informações relacionadas ao cadastro, quando disponível.
+
+## Informações Comerciais
+
+Nesta seção são definidas as informações comerciais utilizadas na cotação.
+
+Informe as informações necessárias, como:
+
+- Representante;
+- Modalidade de Frete;
+- Matriz Comercial;
+- Tabela de Preço;
+- Forma de Pagamento;
+- Operação Tributária;
+- Emitente.
+
+Essas informações definem os padrões comerciais utilizados na cotação, como tabela de preço, forma de pagamento, operação tributária e responsável comercial.
+
+## Observações Internas
+
+Nesta seção é possível registrar observações internas relacionadas à cotação.
+
+O campo possui editor de texto, permitindo organizar as informações com formatação quando necessário.
+
+As observações internas auxiliam no acompanhamento da negociação e no registro de informações importantes para a equipe.
+
+## Endereço de Entrega / Obra
+
+Caso a cotação possua entrega ou obra em local específico, marque a opção **End. Entrega/Obra** e informe os dados necessários.
+
+Entre as informações disponíveis estão:
+
+- Data de Entrega;
+- Endereço de Entrega/Obra;
+- Município;
+- Logradouro;
+- Número;
+- Complemento;
+- Bairro;
+- CEP;
+- Observação;
+- Número ART;
+- Número CNO/CEI;
+- Número da Matrícula;
+- Número do Projeto.
+
+Após preencher as informações do cabeçalho, clique em **Avançar** para prosseguir.
 
 ## Itens
 
-Nesta etapa são adicionados os produtos ou serviços que farão parte da cotação.
+Nesta etapa são adicionados os produtos e serviços que farão parte da cotação.
 
-Informe os itens desejados e clique em **Confirmar** para adicioná-los à lista.
+Informe as informações necessárias, como:
 
----
+- Referência/EAN;
+- Código/Nome;
+- Matriz Comercial;
+- Quantidade;
+- Valor Unitário;
+- Valor da Mercadoria;
+- Valor de Tabela;
+- Desconto (%);
+- Valor do Desconto;
+- Comissão;
+- Pedido de Compra;
+- Item do Pedido;
+- Posição.
+
+Após preencher as informações do item, clique em **Confirmar** para adicioná-lo à lista.
+
+Caso necessário, utilize a opção **+ Novo** para incluir novos itens na cotação.
+
+Na lista de itens é possível visualizar os produtos já adicionados, além de editar, excluir ou acessar outras ações disponíveis.
+
+## Lista de Itens
+
+Nesta seção são exibidos os itens adicionados à cotação.
+
+Entre as informações apresentadas estão:
+
+- Referência;
+- Descrição;
+- Unidade;
+- Quantidade;
+- Valor Unitário;
+- Valor da Mercadoria;
+- Desconto;
+- Total;
+- Ações.
+
+Revise os itens adicionados antes de avançar para as próximas etapas.
+
+## Totais
+
+Nesta seção são apresentados os valores consolidados da cotação.
+
+Entre as informações exibidas estão:
+
+- Quantidade de Itens;
+- ICMS;
+- Total de ICMS ST;
+- Total do IPI;
+- Valor da Mercadoria;
+- Desconto;
+- Frete;
+- Total da Cotação.
+
+Após conferir os valores, clique em **Avançar** para prosseguir.
 
 ## Cobrança
 
-Nesta seção são definidos os dados de cobrança da cotação, incluindo portador, forma de pagamento e parcelamento.
+Nesta etapa são definidas as informações de cobrança da cotação.
 
-Revise os valores antes de prosseguir.
+Informe as informações necessárias, como:
 
----
+- Número da Fatura;
+- Portador;
+- Forma de Pagamento;
+- Valor Original.
+
+A seção **Parcelamento** apresenta as parcelas geradas conforme a forma de pagamento selecionada.
+
+Entre as informações disponíveis no parcelamento estão:
+
+- Forma de Pagamento;
+- Número;
+- Dia;
+- Vencimento;
+- Valor;
+- Ações.
+
+Após revisar as informações de cobrança, clique em **Avançar** para prosseguir.
 
 ## Transporte
 
-Nesta etapa são informadas as informações de transporte da cotação, como modalidade de frete, responsável pelo transporte e transportadora.
+Nesta etapa são definidas as informações referentes ao transporte da mercadoria.
 
-Caso seja necessário adicionar reboques, informe os dados e clique em **Adicionar**.
+Informe as informações necessárias, como:
 
----
+- Modalidade de Frete;
+- Responsável pelo Transporte;
+- Transportador.
+
+Ao selecionar um transportador cadastrado, seus dados podem ser preenchidos automaticamente.
+
+Na seção **Transportador**, são exibidas informações como:
+
+- Nome;
+- Documento;
+- Inscrição Estadual;
+- E-mail do Transportador;
+- Telefone;
+- Logradouro;
+- Número;
+- Complemento;
+- Bairro;
+- Município;
+- CEP.
+
+## Reboques
+
+Caso exista reboque vinculado ao transporte, informe os dados na seção **Reboques**.
+
+Entre as informações disponíveis estão:
+
+- Tipo de Transporte;
+- Placa;
+- UF;
+- RNTC.
+
+Clique em **Add** para adicionar o reboque à lista.
+
+Após revisar as informações de transporte, clique em **Avançar** para prosseguir.
 
 ## Volumes
 
-Nesta seção podem ser cadastrados os volumes que serão transportados.
+Nesta etapa são informados os volumes transportados na cotação.
 
-Caso necessário, clique em **+ Novo** para adicionar um volume.
+A lista apresenta os volumes já cadastrados, contendo informações como:
 
----
+- Quantidade;
+- Espécie;
+- Marca;
+- Peso Bruto;
+- Peso Líquido;
+- Cubagem;
+- Numeração;
+- Ações.
+
+Caso necessário, clique em **+ Novo** para adicionar um novo volume.
+
+Também é possível editar ou excluir volumes já cadastrados.
+
+Após revisar as informações, clique em **Avançar** para prosseguir.
 
 ## Informações Adicionais
 
-Nesta etapa podem ser registradas observações complementares, informações internas e demais dados relacionados à cotação.
+Nesta etapa podem ser registradas informações complementares da cotação.
 
-Preencha apenas as informações necessárias.
+Utilize esta seção para preencher observações, instruções ou dados adicionais que sejam necessários para o pedido.
 
----
+Após preencher as informações adicionais, clique em **Avançar** para prosseguir.
 
 ## Formas de Pagamento
 
-Nesta seção são informadas as formas de pagamento utilizadas na cotação.
+Nesta etapa são definidas as formas de pagamento vinculadas à cotação.
 
-Adicione as formas de pagamento necessárias e confira os valores informados.
+Informe as informações necessárias, como:
+
+- Número;
+- Portador;
+- Forma de Pagamento;
+- Valor.
+
+Clique em **Add** para adicionar a forma de pagamento à lista.
+
+A lista apresenta as formas de pagamento já adicionadas e permite remover registros quando necessário.
 
 ---
 
-## Finalizando
+**Finalizando**
 
-Após revisar todas as informações, clique em **Salvar** para concluir a cotação.
+Após revisar todas as etapas da cotação, clique em **Salvar** para concluir o cadastro.
