@@ -4,83 +4,233 @@ sidebar_position: 3
  
 # Pedidos Ⓧ
 
+Para um resumo em Slides [Clique Aqui](#resumo-em-slides)
+
 :::note[Antes de começar]
 
-- Antes de iniciar o pedido, verifique se o cliente e os produtos já estão cadastrados.
-- Revise todas as informações antes de concluir o cadastro.
+- Utilize este cadastro para registrar pedidos de venda no sistema.
+- Ao posicionar o cursor do mouse sobre um campo, o sistema exibe uma breve explicação sobre o preenchimento.
+
+<div style={{ textAlign: 'center' }}>
+  <img
+    src="/docusaurus/img/cadastros/Comercialpng.png"
+    alt="Tela de cadastro de pedidos"
+    width="700"
+  />
+</div>
 
 :::
 
-## Como cadastrar
+## Cadastrar Novo Pedido
 
-Acesse:
-
-**Comercial → Pedido**
+**Comercial → Pedidos**
 
 1. Clique em **+ Novo** para iniciar um novo pedido.
-2. Preencha as informações do cabeçalho.
-3. Clique em **Avançar** para prosseguir entre as etapas.
-4. Adicione os produtos e preencha as demais informações necessárias.
-5. Clique em **Salvar** para concluir.
+2. Selecione o cliente.
+3. Preencha as informações do pedido.
+4. Adicione os itens e revise as demais informações.
+5. Clique em **Salvar** para concluir o cadastro.
 
 ---
 
 ## Cabeçalho
 
-Nesta etapa são informadas as informações gerais do pedido, como cliente, datas, operação, representante e demais dados comerciais.
+Nesta seção são registradas as informações principais do pedido.
 
-Preencha os campos necessários, lembrando que os campos com **(*)** são obrigatórios.
+Informe os principais campos, como:
+
+- Número;
+- Série;
+- Emissão;
+- Embarque;
+- Operação;
+- Prioridade;
+- Lote;
+- Situação;
+- Tags.
+
+Caso o sistema exiba mensagens de atenção, revise as informações do cliente antes de continuar.
+
+---
+
+## Cliente
+
+Nesta seção é realizada a identificação do cliente do pedido.
+
+Pesquise o cliente utilizando:
+
+- CPF/CNPJ;
+- Nome;
+- Código.
+
+Após a seleção, o sistema preencherá automaticamente os dados cadastrais do participante.
+
+---
+
+## Informações Comerciais
+
+Nesta seção são definidas as regras comerciais utilizadas no pedido.
+
+Informe, quando necessário:
+
+- Representante;
+- Modalidade de Frete;
+- Matriz Comercial;
+- Tabela de Preço;
+- Forma de Pagamento;
+- Operação Tributária;
+- Emitente.
+
+Essas configurações determinam como a venda será processada.
+
+---
+
+## Observações Internas
+
+Utilize este campo para registrar observações relacionadas ao pedido que serão utilizadas durante o processamento da venda.
+
+---
+
+## Endereço de Entrega / Obra
+
+Quando a entrega ocorrer em um endereço diferente do cadastro do cliente, habilite a opção **End. Entrega/Obra**.
+
+Informe, se necessário:
+
+- Data da entrega;
+- Endereço;
+- Município;
+- CEP;
+- Número;
+- Complemento;
+- Observações.
 
 ---
 
 ## Itens
 
-Nesta etapa são adicionados os produtos ou serviços que farão parte do pedido.
+Nesta seção são adicionados os produtos ou serviços do pedido.
 
-Informe os itens desejados e clique em **Confirmar** para adicioná-los à lista.
+Informe as informações necessárias, como:
+
+- Referência ou EAN;
+- Código ou Nome;
+- Quantidade;
+- Valor Unitário;
+- Desconto;
+- Comissão;
+- Pedido de Compra.
+
+Clique em **Confirmar** para adicionar o item à lista.
+
+Os itens incluídos serão exibidos na lista abaixo, permitindo editar ou remover registros quando necessário.
+
+---
+
+## Totais
+
+Após a inclusão dos itens, o sistema calcula automaticamente os valores do pedido.
+
+Serão apresentados os totais de:
+
+- Itens;
+- ICMS;
+- ICMS ST;
+- IPI;
+- Mercadorias;
+- Descontos;
+- Frete;
+- Valor Total.
 
 ---
 
 ## Cobrança
 
-Nesta seção são definidos os dados de cobrança do pedido, incluindo portador, forma de pagamento e parcelamento.
+Nesta etapa são definidas as informações de cobrança do pedido.
 
-Revise os valores antes de prosseguir.
+Informe:
+
+- Número da Fatura;
+- Portador;
+- Forma de Pagamento;
+- Valor Original.
+
+Quando houver parcelamento, as parcelas serão geradas automaticamente conforme a forma de pagamento utilizada.
 
 ---
 
 ## Transporte
 
-Nesta etapa são informadas as informações de transporte do pedido.
+Nesta seção são informadas as informações de transporte da mercadoria.
 
-Caso o pedido utilize transporte, preencha as informações necessárias.
+Quando necessário, informe:
+
+- Modalidade de Frete;
+- Responsável pelo Transporte;
+- Transportador.
+
+Caso um transportador seja selecionado, seus dados cadastrais serão preenchidos automaticamente.
 
 ---
 
 ## Volumes
 
-Nesta seção podem ser cadastrados os volumes que serão transportados.
+Nesta seção são cadastrados os volumes transportados.
 
-Caso necessário, clique em **+ Novo** para adicionar um volume.
+Informe, quando necessário:
+
+- Quantidade;
+- Espécie;
+- Marca;
+- Peso Bruto;
+- Peso Líquido;
+- Cubagem;
+- Numeração.
+
+Utilize **+ Novo** para adicionar volumes ao pedido.
 
 ---
 
 ## Informações Adicionais
 
-Nesta etapa podem ser registradas informações complementares, observações para entrega e observações internas relacionadas ao pedido.
+Nesta seção podem ser registradas informações complementares relacionadas ao pedido.
 
-Preencha apenas as informações necessárias.
+É possível informar:
+
+- Informações Complementares;
+- Observações para Entrega;
+- Observações Internas.
+
+Esses campos auxiliam no controle e acompanhamento do pedido durante seu processamento.
 
 ---
 
 ## Formas de Pagamento
 
-Nesta seção são informadas as formas de pagamento utilizadas no pedido.
+Nesta etapa são listadas as formas de pagamento vinculadas ao pedido.
 
-Adicione as formas de pagamento necessárias e confira os valores informados.
+Informe:
+
+- Número;
+- Portador;
+- Forma de Pagamento;
+- Valor.
+
+Utilize **+ Add** para incluir uma nova forma de pagamento ou remova registros quando necessário.
 
 ---
 
-## Finalizando
+**Finalizando**
 
-Após revisar todas as informações, clique em **Salvar** para concluir o pedido.
+Após revisar todas as informações, clique em **Salvar** para concluir o cadastro do pedido.
+
+## Resumo em Slides
+
+{/* Atualizar PDF */}
+
+<object
+  data="/docusaurus/pdf/Guia_Pedidos.pdf"
+  type="application/pdf"
+  width="100%"
+  height="550"
+></object>
