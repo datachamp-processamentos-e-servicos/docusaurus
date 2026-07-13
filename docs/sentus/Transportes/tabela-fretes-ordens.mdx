@@ -2,264 +2,66 @@
 sidebar_position: 4
 ---
 
-# Tabelas de Frete Ⓧ
+# Tabela de Frete Ⓧ
 
-## Visão Geral
+:::note[Antes de começar]
 
-A funcionalidade de Tabelas de Frete e Ordem de Serviço permite cadastrar regras de cobrança para transporte e controlar a execução das viagens realizadas pela empresa.
+- O preenchimento dos campos com **(*)** é obrigatório.
+- Ao posicionar o cursor do mouse sobre um campo, o sistema exibe uma breve explicação sobre o preenchimento.
 
-Por meio desta tela, é possível definir valores de frete, criar ordens de serviço, acompanhar viagens, registrar condutores e consultar informações operacionais relacionadas ao transporte.
+<div style={{ textAlign: 'center' }}>
+  <img
+    src="/docusaurus/img/cadastros/Tabela-Frete.png"
+    alt="Cadastro de Tabela de Frete"
+    width="700"
+  />
+</div>
 
----
+:::
 
-## Observações Importantes
+## Cadastrar uma Tabela de Frete
 
-- Os campos marcados com (*) são obrigatórios.
-- O CPF/CNPJ não deve ser alterado em registros já existentes.
-- As tabelas de frete influenciam diretamente o cálculo dos valores de transporte.
-- Revise os dados da viagem antes de concluir o cadastro.
-- Utilize os filtros de pesquisa para localizar registros com mais rapidez.
+Acesse:
 
----
+**Transporte → Tabelas de Frete**
 
-## Principais Funcionalidades
+As tabelas de frete permitem definir os critérios utilizados para calcular o valor do transporte.
 
-### Novo Cadastro
+## Informações da Tabela
 
-Clique em **+ Novo** para cadastrar uma nova Ordem de Serviço.
+Nesta seção informe os dados principais da tabela.
 
-Preencha os campos obrigatórios marcados com (*) e clique em **Salvar** para concluir o cadastro.
+Preencha:
 
-### Tabelas de frete
+- Nome da tabela.
+- O campo **Situação** permite selecionar o status: Ativo, restrição, bloqueado, removido e inativo..
 
-As Tabelas de frete permitem cadastrar regras de cobrança utilizadas nas operações de transporte.
+## Parâmetros de Cálculo
 
-Cada tabela pode ser configurada para um cliente ou operação específica, armazenando informações como valores, limites e critérios de cálculo.
+Adicione um ou mais parâmetros que serão utilizados no cálculo do frete.
 
-#### Informações da Tabela
+Para cada parâmetro informe:
 
-##### ID
+- Tipo de cálculo.
+- Valor.
+- Limite, quando necessário.
+- Observação.
 
-Código identificador da tabela.
+Entre os tipos disponíveis estão:
 
-##### Nome
+- Valor por KM Rodado.
+- Valor por KM Ida e Volta.
+- Valor por Entrega.
+- Valor por Entrega Adicional.
+- Valor por KG (Peso Bruto ou Líquido).
+- Valor por Volume.
+- Valor Mínimo por KM Rodado.
+- Valor Mínimo do Transporte.
+- Percentual sobre o Valor da Nota Fiscal.
+- Faixa de KM.
 
-Nome utilizado para identificar a tabela de frete.
+Após preencher os dados, clique em **Add** para incluir o parâmetro na tabela.
 
-##### Situação
+**Finalizando**
 
-Define se a tabela está ativa ou inativa.
-
-#### Parâmetros de frete
-
-É possível configurar diferentes formas de cobrança, incluindo:
-
-- Valor por KM Rodado
-- Valor por KM Ida e Volta
-- Valor por Entrega
-- Valor por Entrega Adicional
-- Valor por KG (Peso Bruto)
-- Valor por KG (Peso Líquido)
-- Valor por Volume
-- Valor Mínimo por KM Rodado
-- Valor Mínimo do Transporte
-- Percentual sobre Valor da Nota Fiscal
-- Faixas de KM por Tonelada
-
-Para cada parâmetro podem ser informados:
-
-- Valor
-- Limite
-- Observação
-
-### Resumo da Viagem
-
-Nesta seção são registradas as informações principais da Ordem de Serviço.
-
-#### ID
-
-Número identificador da Ordem de Serviço.
-
-#### Emissão
-
-Data e hora de emissão da ordem.
-
-#### Saída
-
-Data e hora de saída da viagem.
-
-#### Retorno
-
-Data e hora prevista ou registrada para retorno.
-
-#### Situação
-
-Define o status da viagem.
-
-Exemplos:
-
-- Novo
-- Em Andamento
-- Encerrado
-
-#### Veículo
-
-Veículo utilizado na operação.
-
-#### Município de Origem
-
-Cidade de início da viagem.
-
-#### Município de Destino
-
-Cidade de destino da viagem.
-
-#### Local de Embarque
-
-Local onde será realizado o embarque.
-
-#### Embarque
-
-Data e hora do embarque.
-
-#### Contratante
-
-Empresa ou cliente responsável pela contratação do serviço.
-
-#### Responsável
-
-Responsável pela viagem.
-
-#### Contato
-
-Contato do responsável.
-
-### Condutores
-
-Permite registrar os motoristas vinculados à viagem.
-
-#### CPF do Condutor
-
-Documento do motorista responsável.
-
-#### Nome do Condutor
-
-Nome do motorista.
-
-#### Observações
-
-Informações adicionais relacionadas ao condutor.
-
-### Resumo dos Serviços
-
-Permite registrar informações operacionais da viagem.
-
-#### Roteiro
-
-Descrição do percurso da viagem.
-
-#### Informações Complementares
-
-Informações adicionais relacionadas ao transporte.
-
-#### Serviço de Bordo
-
-Dados sobre serviços prestados durante a viagem.
-
-#### Informações de Fatura
-
-Dados utilizados para faturamento.
-
-#### KM Saída
-
-Quilometragem inicial do veículo.
-
-#### KM Retorno
-
-Quilometragem registrada no retorno.
-
-#### KM Total
-
-Total percorrido durante a viagem.
-
-#### Valor Total
-
-Valor cobrado pela prestação do serviço.
-
-## Menu
-
-### Exportar
-
-Clique em **Menu > Exportar** para gerar uma planilha Excel com os registros exibidos na tela.
-
-Após a geração do arquivo, o download será iniciado automaticamente.
-
-## Relatórios
-
-Permite gerar relatórios relacionados às operações de transporte.
-
-Os relatórios disponíveis podem incluir:
-
-- MDF-e por Condutor
-- Relatório de CT-e
-- Relatório de CT-e por Forma de Pagamento
-- Relatório de CT-e OS
-- Relatório de CT-e OS Serviços
-- Relatório de MDF-e
-- Relatório de Ordem de Serviço de Transporte
-## Pesquisa Avançada
-
-Utilize a Pesquisa Avançada para localizar Ordens de Serviço específicas.
-
-Informe os filtros desejados e clique em **Pesquisar**.
-
-### Filtros Disponíveis
-
-#### Veículo
-
-Permite localizar viagens através do veículo utilizado.
-
-#### Contratante
-
-Permite localizar registros através do contratante do serviço.
-
-#### Responsável
-
-Permite localizar registros através do responsável pela viagem.
-
-#### Situação
-
-Permite consultar viagens conforme sua situação.
-
-### Filtro por Data
-
-Permite pesquisar registros por período utilizando:
-
-- Emissão
-- Saída
-- Retorno
-## Dúvidas Frequentes
-
-### Como criar uma nova Ordem de Serviço?
-
-Clique em **+ Novo**, preencha os dados obrigatórios e clique em **Salvar**.
-
-### Como cadastrar uma tabela de frete?
-
-Informe o nome da tabela, configure os parâmetros desejados e salve o cadastro.
-
-### Como localizar uma viagem específica?
-
-Utilize a Pesquisa Avançada e informe filtros como veículo, contratante ou situação.
-
-### Como consultar viagens por período?
-
-Utilize o filtro de data e selecione Emissão, Saída ou Retorno.
-
-### Como exportar os registros?
-
-Acesse **Menu > Exportar** para gerar uma planilha Excel.
-
-### Como emitir relatórios?
-
-Acesse a opção **Relatórios** e selecione o modelo desejado.
+Depois de revisar todas as informações, clique em **Salvar** para concluir o cadastro da Tabela de Frete.
