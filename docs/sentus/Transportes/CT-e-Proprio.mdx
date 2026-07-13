@@ -4,213 +4,341 @@ sidebar_position: 1
 
 # CT-e Próprio Ⓧ
 
-## Visão Geral
+Para um resumo em Slides [Clique Aqui](#resumo-em-slides)
 
-A tela de CT-e Próprio é utilizada para emissão e gerenciamento dos Conhecimentos de Transporte Eletrônico realizados pela própria empresa.
+:::note[Antes de começar]
 
-Por meio desta funcionalidade é possível emitir CT-es, transmitir documentos para a SEFAZ, gerar MDF-e, controlar fretes, acompanhar transportes e consultar informações relacionadas às operações logísticas.
+<div style={{ textAlign: 'center' }}>
+  <img
+    src="/docusaurus/img/cadastros/transporte.png"
+    alt="Cadastro de CT-e"
+    width="700"
+  />
+</div>
+
+:::
+
+## Cadastrar Novo CT-e
+
+Acesse:
+
+**Transporte → Conhecimentos de Transporte (CT-e)**
+
+1. Clique em **+ Novo** para cadastrar um CT-e, ou clique em um registro da lista para editá-lo.
+
+**Dados do CT-e**
+
+Nesta seção são informadas as configurações principais do documento.
+
+Preencha os campos necessários, como:
+
+- Modelo, Série e Número;
+- Modalidade;
+- Tipo de CT-e;
+- Tipo de Emissão;
+- Tipo de Serviço;
+- Operação Tributária.
+- CFOP (Código Fiscal de Operações e Prestações).
 
 ---
 
-## Observações Importantes
+## Participantes 
 
-- Os campos marcados com (*) são obrigatórios.
-- O CPF/CNPJ não deve ser alterado em registros já existentes.
-- A transmissão para a SEFAZ depende da configuração fiscal da empresa.
-- Revise as informações antes da emissão do documento.
+Nesta etapa são definidos os participantes envolvidos na operação de transporte.
+
+Informe as informações necessárias, como:
+
+- Tomador do Serviço;
+- Remetente;
+- Destinatário;
+- Expedidor;
+- Recebedor.
 
 ---
 
-## Principais Funcionalidades
+## Complemento
 
-### Novo Cadastro
+Nesta etapa são informadas informações complementares da prestação do serviço.
 
-Clique em **+ Novo** para cadastrar um novo CT-e.
+Preencha os campos necessários, como:
 
-Preencha os campos obrigatórios e clique em **Salvar** para concluir o cadastro.
+- Município de Início da Prestação;
+- Município de Final da Prestação;
+- Previsão de Entrega;
+- Características do Transporte;
+- Observações Gerais.
 
-### Informações Cadastrais
+## Dados da Retirada
 
-#### Modelo
+Caso a operação possua retirada da carga, informe os dados correspondentes.
 
-Selecione o modelo do CT-e.
+É possível configurar informações como:
 
-#### Série
+- Local de Retirada;
+- Detalhes da Retirada.
 
-Informe a série do documento.
+**Serviço**
 
-#### Número
+Nesta seção podem ser informadas informações complementares sobre o serviço de transporte.
 
-Informe a numeração do CT-e.
+Informe o **Tipo de Serviço**, quando aplicável.
 
-#### Emissão
+---
 
-Defina a data de emissão.
+## Rodoviários
 
-#### Data/Hora E/S
+Nesta etapa são informadas as informações do transporte rodoviário.
 
-Informe a data e hora de saída da mercadoria.
+Preencha os campos necessários, como:
 
-#### Regime Tributário
+- RNTRC;
+- Registro Estadual;
+- Previsão de Entrega;
+- Lotação.
 
-Selecione o regime tributário utilizado.
+**Condutores**
 
-#### Modalidade
+Cadastre os condutores responsáveis pelo transporte.
 
-Defina o tipo de transporte.
+Informe os dados do motorista e clique em **Adicionar** para incluí-lo na lista.
 
-Exemplos:
+**Veículos**
 
-- Rodoviário
-- Aéreo
-- Ferroviário
+Nesta seção são cadastrados os veículos utilizados no transporte.
 
-#### Tipo de CT-e
+Informe apenas os dados principais, como:
 
-Selecione o tipo do documento.
+- Veículo;
+- Placa;
+- Tipo do Veículo;
+- UF;
+- RENAVAM.
 
-#### Tipo de Emissão
+Após preencher as informações, clique em **Confirmar** para adicionar o veículo.
 
-Defina o tipo de emissão utilizado.
+**Lacres**
 
-#### Tipo de Serviço
+Caso existam lacres vinculados à carga, informe-os nesta seção.
 
-Informe o tipo de serviço prestado.
+---
 
-#### Operação Tributária
+**Coleta**
 
-Selecione a operação tributária da prestação.
+Nesta etapa são informados os dados referentes à coleta da carga.
 
-#### CFOP
+Preencha apenas as informações necessárias, como:
 
-Informe o CFOP da operação.
+- Série e Número;
+- Data de Emissão;
+- CNPJ;
+- Indicador de IE;
+- Inscrição Estadual;
+- UF;
+- Telefone.
 
-#### Centro de Custo
+Após preencher os dados, clique em **Confirmar** para adicionar a coleta.
 
-Vincule o CT-e ao centro de custo correspondente.
+---
 
-#### Chave
+## Documentos
 
-Informe a chave do documento quando necessário.
+Nesta etapa são informados os documentos que compõem a prestação do serviço.
 
-## Menu
+Preencha apenas as informações necessárias, como:
 
-### Totalizar
+- Tipo de Documento;
+- Chave da NF-e;
+- Série e Número;
+- Data de Entrega;
+- Valor Total.
 
-Apresenta totais de documentos autorizados, cancelados e valores movimentados.
+Após preencher os dados, clique em **Confirmar** para adicionar o documento.
 
-### Enviar
+**Unidades de Transporte**
 
-Realiza a transmissão do CT-e para a SEFAZ.
+Informe apenas os dados necessários, como:
 
-### Imprimir
+- Documento;
+- Tipo da Unidade de Transporte;
+- Identificação da Unidade;
+- Quantidade Rateada.
 
-Gera a impressão do documento.
+Nesta aba podem ser vinculadas as unidades de transporte utilizadas na operação, quando aplicável.
 
-### Gerar CT-e
+**Unidades de Carga**
 
-Permite gerar um novo CT-e utilizando informações da operação.
+Preencha informações como:
 
-### Gerar MDF-e
+- Unidade de Transporte;
+- Tipo da Unidade de Carga;
+- Identificação da Unidade;
+- Quantidade Rateada.
 
-Permite gerar o Manifesto Eletrônico de Documentos Fiscais.
+Nesta aba informe as unidades de carga transportadas, caso existam.
 
-### Enviar E-mail
+Caso necessário, informe os lacres e clique em **Confirmar** para adicionar o registro.
 
-Envia o CT-e para um endereço de e-mail informado.
+---
 
-### Exportador
+## CT-e Normal
 
-Permite exportar arquivos do CT-e.
+Nesta etapa são informadas as características da carga transportada.
 
-### Exportar
+Preencha as principais informações, como:
 
-Exporta os registros para planilha Excel.
+- Valor da carga;
+- Valor da averbação;
+- Produto predominante;
+- Outras características da carga.
 
-### Download
+**Quantidade**
 
-Realiza o download dos arquivos gerados.
+Informe as quantidades relacionadas à carga.
 
-## Exportar
+Preencha os campos necessários, como:
 
-Acesse **Menu > Exportador**.
+- Código da unidade;
+- Tipo de medida;
+- Quantidade.
 
-Selecione:
+Clique em **+ Add** para incluir o registro na lista.
 
-- Tipo de Arquivo
-- CT-es desejados
-- Forma de separação dos arquivos
+---
 
-Clique em **Exportar** para gerar os arquivos.
+## Serviços e Impostos
 
-## Pesquisa Avançada
+Nesta etapa são informados os valores da prestação do serviço e a tributação do CT-e.
 
-Clique no ícone de pesquisa para localizar CT-es específicos.
+Cadastre os componentes que compõem o valor do frete.
 
-### Filtros Disponíveis
+Preencha informações como:
 
-- Emissor
-- Remetente
-- Destinatário
-- Tomador do Serviço
-- Chave CT-e
-- Chave NF-e
-- Número
-- Número Final
-- Modelo
-- Série
-- Situação
-- Período por Emissão
-- Período por Entrada
+- Nome do componente;
+- Valor.
 
-## Mais Ações
+Clique em **Add** para adicionar o componente à lista.
 
-### PDF
+**Total da Prestação**
 
-Gera um PDF do CT-e selecionado.
+Informe os dados financeiros do CT-e.
 
-### Download
+Preencha os principais campos, como:
 
-Realiza o download do documento.
+- Valor total;
+- Valor do desconto;
+- Valor a receber;
+- Tributos;
+- Operação tributária;
+- CFOP.
 
-### Evento(s)
+**Informações Relativas ao ICMS**
 
-Permite consultar eventos vinculados ao CT-e e acompanhar alterações de situação.
+Configure a tributação aplicada ao conhecimento de transporte.
 
-### Duplicar
+Informe os principais dados, como:
 
-Cria uma cópia do CT-e selecionado.
+- Situação Tributária (CST);
+- Base de cálculo;
+- Alíquota;
+- Valor do ICMS;
+- Código de benefício fiscal;
+- Crédito outorgado/presumido, quando aplicável.
 
-### Alterar Extra
+**Operações Interestaduais**
 
-Permite alterar informações complementares do transporte.
+Quando a operação envolver mais de um estado, informe os valores relacionados ao DIFAL e FCP.
 
-### Subcontratação
+Preencha, quando necessário:
 
-Permite gerenciar informações de subcontratação.
+- Base de cálculo do ICMS na UF de destino;
+- Alíquotas interna e interestadual;
+- Valor do ICMS para destino e remetente;
+- Percentual de partilha;
+- Informações referentes ao FCP.
 
-### Notificações
+## Cobrança
 
-Permite registrar observações e notificações relacionadas ao transporte. 
+Nesta etapa são informadas as condições de cobrança do conhecimento de transporte.
 
-## Dúvidas Frequentes
+** Informações da Cobrança**
 
-### Como emitir um novo CT-e?
+Preencha as principais informações, como:
 
-Clique em **+ Novo**, preencha os dados obrigatórios e salve o cadastro.
+- Portador;
+- Forma de pagamento;
+- Número da fatura;
+- Valor original;
+- Valor de desconto;
+- Valor líquido.
 
-### Como enviar o CT-e para a SEFAZ?
+---
 
-Acesse **Menu > Enviar**.
+## Informações
 
-### Como gerar um MDF-e?
+Nesta etapa são registradas observações e informações adicionais do CT-e.
 
-Acesse **Menu > Gerar MDF-e**.
+---
 
-### Como exportar arquivos XML?
+## Configurar a Tributação
 
-Acesse **Menu > Exportador**, selecione os documentos desejados e clique em **Exportar**.
+Acesse:
 
-### Como localizar um CT-e específico?
+Nesta etapa são configuradas as informações tributárias referentes ao IBS e CBS do CT-e.
 
-Utilize a Pesquisa Avançada e informe os filtros necessários.
+**IBS/CBS**
+
+Informe os dados principais da tributação, como:
+
+- CST;
+- Classificação;
+- Base de cálculo;
+- Valor do IBS;
+- Indicador de doação.
+
+**IBS para UF**
+
+Quando aplicável, informe:
+
+- Alíquota;
+- Valor;
+- Percentual de redução;
+- Alíquota efetiva;
+- Percentual e valor diferido;
+- Valor devolvido.
+
+**IBS para Município**
+
+Caso necessário, preencha as informações referentes ao município, incluindo:
+
+- Alíquota;
+- Valor;
+- Percentual de redução;
+- Alíquota efetiva;
+- Percentual e valor diferido;
+- Valor devolvido.
+
+**CBS**
+
+Informe os dados da CBS quando aplicável.
+
+Preencha informações como:
+
+- Alíquota;
+- Valor;
+- Percentual de redução;
+- Alíquota efetiva;
+- Percentual e valor diferido;
+- Valor devolvido.
+
+**Estorno de Crédito**
+
+Quando houver estorno de crédito, informe:
+
+- Valor CBS;
+- Valor IBS.
+
+**Finalizando**
+
+Após revisar as informações tributárias, salve o CT-e para concluir o cadastro.
+
+## Resumo em Slides
