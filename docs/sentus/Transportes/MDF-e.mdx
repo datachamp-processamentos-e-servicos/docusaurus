@@ -4,244 +4,195 @@ sidebar_position: 3
 
 # MDF-e Ⓧ
 
-## Objetivo
-O MDF-e é utilizado para registrar e acompanhar o transporte de cargas.
+Para um resumo em Slides [Clique Aqui](#resumo-em-slides)
+
+:::note[Antes de começar]
+
+- O preenchimento dos campos com **(*)** é obrigatório.
+- Ao posicionar o cursor do mouse sobre um campo, o sistema exibe uma breve explicação sobre o preenchimento.
+
+<div style={{ textAlign: 'center' }}>
+  <img
+    src="/docusaurus/img/cadastros/transporte.png"
+    alt="Cadastro de MDF-e"
+    width="700"
+  />
+</div>
+
+:::
+
+**Emitir um MDF-e**
+
+Acesse:
+
+**Transporte → MDF-e**
+
+O Manifesto Eletrônico de Documentos Fiscais (MDF-e) reúne os documentos transportados em uma única viagem, permitindo o controle fiscal do transporte.
 
 ---
 
-# Cadastro MDF-e
+## Dados do MDF-e
 
-## Dados MDF-e
+Nesta etapa são informadas as informações gerais do manifesto.
 
-### Emitente
-- Nome
-- CNPJ/CPF
-- Inscrição Estadual
+Preencha os principais dados:
 
-### Documento
-- Modelo
-- Série
-- Número
-- Emissão
-- Previsão de Viagem
+- Emitente.
+- Série e Número.
+- Data de emissão e previsão da viagem.
+- Modalidade do transporte.
+- Tipo de emitente.
+- Municípios de carregamento.
+- Percurso (quando necessário).
+- Estado de início e término da prestação.
 
-### Configurações
-- Tipo Emissão
-- Modalidade
-- Tipo Transporte
-- Tipo Emitente MDF-e
-- Indicador Canal Verde
-- Carregamento Posterior
+## Modal Transporte
 
----
+Na aba **Mod. Transp.** informe os dados necessários para o transporte.
 
-## Carregamento
+**Dados**
 
-Permite informar:
-- Municípios de carregamento
-- Inclusão e exclusão de municípios
+Cadastre, quando necessário:
 
----
+- RNTRC.
+- Condutores.
+- Pedágios.
+- CIOT.
+- Lacres.
+- Contratantes.
 
-## Percurso
+**Veículos**
 
-Permite definir:
-- Estados percorridos
-- Estado de início da prestação
-- Estado final da prestação
+Informe os veículos utilizados no transporte.
 
----
+Preencha os principais dados:
 
-# Modal de Transporte
+- Veículo.
+- Placa.
+- UF.
+- RENAVAM.
+- Tipo do veículo.
+- Tipo de rodado.
+- Carroceria.
 
-## Dados Rodoviários
+Clique em **Confirmar** para adicionar o veículo.
 
-### RNTRC
-Registro Nacional de Transporte Rodoviário de Carga.
+**Seguro**
 
-### Condutores
-- CPF
-- Nome
-- Observação
+Informe os dados do seguro da carga.
 
-### Pedágio
-- CNPJ Fornecedor
-- CNPJ Pagador
-- Número Comprovante
-- Valor
-- Tipo
-- Categoria
+Os principais campos são:
 
-### CIOT
-- Código Identificador da Operação de Transporte
-- Documento Responsável
+- Responsável pelo seguro.
+- Documento do responsável.
+- Seguradora.
+- Documento da seguradora.
+- Apólice.
+- Averbações.
 
-### Lacres
-- Número do lacre
+**Produto Predominante**
 
-### Contratantes
-- Documento
-- Nome
+Quando aplicável, informe:
 
----
+- Tipo da carga.
+- Produto predominante.
+- EAN.
+- NCM.
+- Local de carregamento.
+- Local de descarregamento.
 
-## Veículos
+## Documentos
 
-### Informações
-- Veículo
-- Placa
-- Tipo Veículo
-- UF
-- RENAVAM
-- Próprio/Terceiros
-- Código
-- Tara
-- Capacidade KG
-- Capacidade M³
-- Tipo Rodado
-- Carroceria
+Nesta etapa são vinculados os documentos fiscais ao MDF-e.
 
----
+### Detalhes
 
-## Seguro
+Adicione os documentos informando:
 
-### Dados
-- Responsável Seguro
-- Documento Responsável
-- Seguradora
-- Documento Seguradora
-- Apólice
-- Averbação
+- Município.
+- Tipo do documento.
+- Chave de acesso.
+- Número sequencial.
 
----
+Após informar os dados, utilize **Validar** e confirme a inclusão.
 
-## Produto Predominante
+**Unidades de Transporte**
 
-### Informações
-- Tipo da Carga
-- Produto Predominante
-- EAN
-- NCM
+Cadastre as unidades de transporte utilizadas.
 
-### Carregamento
-- CEP
-- Latitude
-- Longitude
+Informe:
 
-### Descarregamento
-- CEP
-- Latitude
-- Longitude
+- Documento.
+- Tipo da unidade.
+- Identificação da unidade.
+- Quantidade rateada.
+- Lacres, quando houver.
 
----
+**Unidades de Carga**
 
-# Documentos
+Caso existam unidades de carga, informe:
 
-## Detalhes
+- Unidade de transporte.
+- Tipo da unidade de carga.
+- Identificação.
+- Quantidade rateada.
+- Lacres.
 
-- Município
-- Tipo Documento
-- Chave
-- Segundo Código de Barras
-- Número Sequencial
+**Produtos Perigosos**
 
-## Unidades de Transporte
+Quando a carga for perigosa, informe:
 
-- Documento
-- Tipo Unidade Transporte
-- Identificação
-- Quantidade Rateada
-- Lacre
+- Documento.
+- Número ONU.
+- Nome do produto.
+- Classe de risco.
+- Embalagem.
+- Quantidade.
+- Quantidade de volumes.
+- Ponto de fulgor.
 
-## Unidades de Carga
+## Totais
 
-- Unidade Transporte
-- Tipo Unidade Carga
-- Identificação
-- Quantidade Rateada
-- Lacre
+Confira os totais do manifesto.
 
-## Produtos Perigosos
+São apresentados:
 
-- Documento
-- Número ONU/UN
-- Nome Produto
-- Classe de Risco
-- Embalagem
-- Quantidade Produto
-- Quantidade Volumes
-- Ponto de Fulgor
+- Valor da carga.
+- Peso bruto.
+- Quantidade de CT-es.
+- Quantidade de NF-es.
+- Quantidade de MDF-es.
+
+Também é possível informar:
+
+- Lacres.
+- Autorizações para obtenção de XML.
+
+## Informações Adicionais
+
+Utilize esta tela para registrar:
+
+- Informações complementares de interesse do contribuinte.
+- Informações adicionais de interesse do fisco.
+- Origem e destino (quando utilizado para CIOT).
+
+## Cobrança
+
+Quando houver cobrança do frete, informe:
+
+- Responsável pelo pagamento.
+- CPF/CNPJ.
+- Forma de pagamento.
+- Valor do contrato.
+- Valor do adiantamento.
+- Dados bancários.
+- Componentes do pagamento.
+- Parcelas e vencimentos, quando houver pagamento a prazo.
 
 ---
 
-# Totais
+**Finalizando**
 
-- Valor da Carga
-- Peso Bruto
-- Quantidade CT-e
-- Quantidade NF-e
-- Quantidade MDF-e
-- Lacres
-- Autorização XML
+Após revisar todas as informações, clique em **Salvar** para emitir o MDF-e.
 
----
-
-# Cobrança
-
-## Responsável pelo Pagamento
-
-- Tipo Pessoa
-- CPF/CNPJ/Estrangeiro
-- Nome
-
-## Contrato
-
-- Valor Contrato
-- Valor Adiantamento
-
-## Pagamento
-
-- Forma Pagamento
-- Indicador Desempenho
-- Banco
-- Agência
-- CNPJ IPEF
-- PIX
-
-### Componentes do Frete
-
-- Tipo
-- Descrição
-- Valor
-
-### Pagamento a Prazo
-
-- Parcela
-- Vencimento
-- Valor
-
----
-
-# Menu MDF-e
-
-## Upload
-Anexação de:
-- NF-e
-- CT-e
-
-## Não Encerrados
-Consulta de MDF-es abertos.
-
-## Exportador
-Exportação:
-- XML
-- PDF
-
-## Enviar E-mail
-Envio do MDF-e por e-mail.
-
-## Gerar CT-e
-Geração de CT-e.
-
-## Download
-Download dos documentos emitidos.
+## Resumo em Slides
