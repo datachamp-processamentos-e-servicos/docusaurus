@@ -4,240 +4,178 @@ sidebar_position: 2
 
 # Notas de Entrada Ⓧ
 
-## Visão Geral
+:::note[Antes de começar]
 
-A tela de Notas de Entrada é utilizada para registrar e controlar mercadorias, produtos e documentos fiscais recebidos de fornecedores.
+- O preenchimento dos campos com **(*)** é obrigatório.
+- Ao posicionar o cursor do mouse sobre um campo, o sistema exibe uma breve explicação sobre o preenchimento.
 
-Por meio desta funcionalidade, é possível gerenciar recebimentos, conferir produtos, controlar tributos, acompanhar cobranças e integrar informações com os módulos de estoque e financeiro.
+<div style={{ textAlign: "center" }}>
+  <img
+    src="/docusaurus/img/cadastros/Entrada-NFe.png"
+    alt="Tela de Entrada de NF-e"
+    width="700"
+  />
+</div>
 
----
+:::
 
-## Observações Importantes
+Acesse:
 
-- Todos os campos obrigatórios devem ser preenchidos.
-- O CPF/CNPJ não deve ser alterado em registros já cadastrados.
-- Revise os produtos e tributações antes de concluir o lançamento.
-- Utilize corretamente os centros de custo e grupos financeiros.
-- Os valores fiscais devem seguir as informações presentes no documento recebido.
+**Comercial → Compras → Entrada de NF-e**
 
----
+1. Clique em **+ Novo** para cadastrar uma nova entrada de nota fiscal.
+2. Informe os dados da nota e do fornecedor.
+3. Cadastre os itens da NF-e.
+4. Revise as informações e clique em **Salvar**.
 
-## Principais Funcionalidades
+## Dados da NF-e
 
-### Novo Cadastro
+Nesta etapa são informadas as informações gerais da nota fiscal de entrada.
 
-Clique em **+ Novo** para cadastrar uma nova nota de entrada.
+Preencha os campos necessários, lembrando que os campos com **(*)** são obrigatórios.
 
-Preencha os campos obrigatórios e clique em **Salvar** para concluir o cadastro.
+**Documento**
 
-### Informações da Nota
+Informe:
 
-Nesta seção são informados os dados principais do documento fiscal.
+- Chave da NF-e.
+- Modelo.
+- Série.
+- Número.
+- Data de Emissão.
+- Data/Hora da Entrada.
+- Regime.
+- Centro de Custo.
+- Grupo Financeiro.
 
-Os principais campos incluem:
+**Fornecedor**
 
-- Chave da NF-e
-- Regime Tributário
-- Modelo
-- Série
-- Número
-- Data de Emissão
-- Data/Hora de Entrada
-- Centro de Custo
-- Grupo Financeiro
+Selecione o fornecedor através da pesquisa por:
 
-### Produtos
+- Nome.
+- CNPJ/CPF.
+- Código.
 
-Permite visualizar e controlar os produtos ou serviços vinculados à nota fiscal.
+Após a seleção, os dados cadastrais do fornecedor serão carregados automaticamente.
 
-As principais informações apresentadas são:
+Também é possível informar o XML da nota para facilitar a importação dos dados.
 
-- Referência
-- Descrição
-- Unidade
-- CFOP
-- Quantidade
-- Valor Unitário
-- Valor Total
+## Itens da NF-e
 
-Também é possível realizar a transferência de produtos para outro depósito quando necessário.
+Cadastre os produtos ou serviços pertencentes à nota fiscal.
 
-### Valores e Tributos
+Para cada item são apresentados:
 
-Apresenta os valores fiscais e financeiros da nota.
+- Referência.
+- Descrição.
+- Unidade.
+- CFOP.
+- Quantidade.
+- Valor Unitário.
+- Valor Total.
 
-Entre as informações disponíveis estão:
+Ao final da tela, o sistema apresenta um resumo contendo:
 
-- Total dos Produtos
-- Frete
-- Seguro
-- Descontos
-- ICMS
-- ICMS ST
-- IPI
-- PIS
-- COFINS
-- Retenções Tributárias
-- Valor Total da Nota
+- Quantidade de itens.
+- Total dos produtos.
+- ICMS.
+- ICMS ST.
+- IPI.
+- Total da Nota.
 
-Esses valores normalmente são preenchidos com base no documento fiscal recebido.
+## Totais
 
-### Transporte
+Confira os valores calculados automaticamente da nota fiscal.
 
-Utilizado para informar os dados de transporte da mercadoria.
+**Totais**
 
-Permite configurar:
+São apresentados:
 
-- Modalidade de Frete
-- Responsável pelo Transporte
-- Transportadora
-- Volumes Transportados
-- Peso Bruto
-- Peso Líquido
-- Lacres
+- Total dos Produtos/Serviços.
+- Frete.
+- Seguro.
+- Desconto.
+- IPI.
+- PIS.
+- COFINS.
+- Valor Adicional.
+- Outras Despesas Acessórias.
+- DIFAL/ST/FCP.
+- Total da Nota.
 
-### Cobrança
+**ICMS**
 
-Permite registrar informações financeiras relacionadas à nota.
+Verifique, quando aplicável:
 
-Os principais dados são:
+- Base de Cálculo.
+- Valor do ICMS.
+- Base ICMS ST.
+- Valor ICMS ST.
+- Valor de Desoneração do ICMS.
 
-- Número da Fatura
-- Portador
-- Forma de Pagamento
-- Valor da Cobrança
+**Retenção de Tributos**
 
-### Informações Complementares
+Quando houver retenções, informe ou confira:
 
-Permite registrar observações adicionais relacionadas ao documento.
+- PIS.
+- COFINS.
+- CSLL.
+- IRRF.
+- Previdência Social.
+- Natureza dos Rendimentos.
 
-Podem ser informadas:
+## Transporte
 
-- Informações de Interesse do Contribuinte
-- Informações de Interesse do Fisco
-- Informações Internas
-- Campos Personalizados
+Informe os dados de transporte da nota.
 
-### Documentos Referenciados
+Configure:
 
-Utilizado para vincular outros documentos fiscais relacionados à nota.
+- Modalidade de Frete.
+- Responsável pelo Transporte.
 
-É possível informar:
+Quando necessário, informe também os dados do conhecimento de transporte (CT-e).
 
-- Tipo do Documento
-- Chave de Acesso
-- Dados de Referência
+## Cobrança
 
-## Menu
+Configure as informações financeiras da nota.
 
-### Totalizar
+Informe:
 
-Exibe informações consolidadas das notas selecionadas, incluindo quantidade de documentos, valores pagos e valores em aberto.
+- Número da Fatura.
+- Portador.
+- Forma de Pagamento.
+- Valor.
 
-### Contabilização
+Se necessário, gere as duplicatas correspondentes.
 
-Realiza os lançamentos contábeis relacionados à nota fiscal.
+## Informações Adicionais
 
-### Demais NF-e(s)
+Utilize esta etapa para registrar informações complementares.
 
-Permite localizar documentos relacionados através das configurações fiscais utilizadas.
+Podem ser informados:
 
-### Adicionar CT-e
+- Informações Complementares de Interesse do Contribuinte.
+- Informações de Interesse do Fisco.
+- Campos de Uso Livre.
 
-Permite importar informações utilizando:
+## Documentos Referenciados
 
-- Chave CT-e
-- Pesquisa no Repositório
-- Upload XML
+Quando a nota possuir documentos relacionados, informe:
 
-### Exportador
+- Tipo do Documento.
+- Chave.
+- Modelo.
+- Série.
+- Número.
+- Data de Emissão.
+- UF.
+- CNPJ/CPF.
+- Inscrição Estadual.
+- Número ECF.
+- Número COO.
 
-Permite exportar documentos em formatos disponíveis pelo sistema.
+Após preencher os dados, clique em **Confirmar** para adicionar o documento referenciado.
 
-### Atualizar Custo
+**Finalizando**
 
-Atualiza os custos dos produtos conforme as informações registradas na nota.
-
-### Exportar
-
-Exporta os documentos selecionados.
-
-## Pesquisa Avançada
-
-Utilize a Pesquisa Avançada para localizar notas específicas.
-
-### Filtros Disponíveis
-
-- Número
-- Fornecedor
-- Operação
-- Ordem de Compra
-- Situação
-- Emitente
-
-### Filtro por Data
-
-Permite consultar registros por:
-
-- Emissão
-- Entrada
-
-## Mais Ações
-
-### DANFE
-
-Gera a visualização do DANFE da nota fiscal.
-
-### Auditoria
-
-Permite analisar e validar as informações da nota.
-
-### Contabilização
-
-Realiza os lançamentos contábeis do documento.
-
-### Geral
-
-Exibe informações gerais da nota.
-
-### Conferência
-
-Permite conferir produtos e tributações.
-
-### Referenciamento
-
-Exibe os documentos vinculados à nota.
-
-### Markup
-
-Permite visualizar cálculos de margem e rentabilidade.
-
-### Download
-
-Realiza o download do documento fiscal.
-
-### Visão Geral
-
-Apresenta informações resumidas relacionadas à nota de entrada.
-
-## Dúvidas Frequentes
-
-### Como cadastrar uma nota de entrada?
-
-Clique em **+ Novo**, preencha os campos obrigatórios e clique em **Salvar**.
-
-### Como importar um XML?
-
-Acesse **Menu > Adicionar CT-e > Upload XML** e selecione o arquivo desejado.
-
-### Como localizar uma nota específica?
-
-Utilize a Pesquisa Avançada e informe filtros como número, fornecedor ou período.
-
-### Como transferir produtos para outro depósito?
-
-Acesse a seção de produtos da nota e utilize a opção de transferência disponível.
-
-### Como visualizar o DANFE?
-
-Selecione o registro desejado e utilize **Mais Ações > DANFE**.
+Após revisar todos os dados da nota, itens, totais e documentos relacionados, clique em **Salvar** para concluir a entrada da NF-e.
