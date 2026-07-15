@@ -4,167 +4,61 @@ sidebar_position: 1
 
 # Ficha Técnica Ⓧ
 
-## Visão Geral
+:::note[Antes de começar]
 
-A tela de Ficha Técnica é utilizada para definir a composição de um produto, informando os insumos necessários para sua produção.
+- O preenchimento dos campos com **(*)** é obrigatório.
+- Ao posicionar o cursor do mouse sobre um campo, o sistema exibe uma breve explicação sobre o preenchimento.
 
-Por meio desta funcionalidade, é possível cadastrar matérias-primas, quantidades consumidas, perdas de produção e demais informações utilizadas no processo produtivo.
+<div style={{ textAlign: 'center' }}>
+  <img
+    src="/docusaurus/img/cadastros/ficha-tecnica.png"
+    alt="Tela de cadastro de ficha técnica"
+    width="700"
+  />
+</div>
 
----
+:::
 
-## Observações Importantes
+## Cadastrar uma Ficha Técnica
 
-- Todos os campos marcados com (*) são obrigatórios.
-- Revise as quantidades dos insumos antes de salvar a ficha.
-- Configure corretamente os percentuais de perda para manter o custo de produção atualizado.
-- Utilize as categorias para organizar os insumos da composição.
-- O recálculo de custos pode impactar os valores de produção utilizados pelo sistema.
+Acesse:
 
----
+**P.C.P. → Ficha Técnica**
 
-## Principais Funcionalidades
+1. Clique em **+ Novo** para criar uma ficha técnica;
+2. Selecione o **Item Produzido**;
+3. Informe a **Quantidade** produzida pela ficha;
+4. Adicione os insumos utilizados na fabricação;
+5. Clique em **Salvar** para concluir o cadastro.
 
-### Novo Cadastro
+## Informações da Ficha Técnica
 
-Clique em **+ Novo** para criar uma nova ficha técnica.
+A ficha técnica define quais matérias-primas ou componentes serão consumidos durante a produção de um item.
 
-Preencha os campos obrigatórios e clique em **Salvar** para concluir o cadastro.
+Essas informações são utilizadas pelo sistema para controlar o consumo de materiais, calcular custos de produção e auxiliar no planejamento da fabricação.
 
-### Editar
+Ao cadastrar uma ficha técnica, informe corretamente:
 
-Permite alterar uma ficha técnica já cadastrada.
+- Item produzido;
+- Quantidade produzida pela ficha;
+- Insumos utilizados;
+- Quantidade consumida de cada insumo;
+- Tipo de consumo aplicado ao item.
 
-Caso exista campo de CPF/CNPJ no cadastro, não altere esta informação após a criação do registro, pois o sistema poderá considerar como um novo cadastro.
+## Cadastro de Insumos
 
-### Item Produzido
+Nesta seção são adicionados todos os materiais necessários para produzir o item.
 
-Selecione o produto final que será fabricado.
+Para incluir um insumo:
 
-Este é o item resultante da composição cadastrada na ficha técnica.
+1. Informe a **Referência** ou pesquise o item consumido;
+2. Defina a **Quantidade** utilizada;
+3. Caso necessário, informe o percentual de **Perda**;
+4. Selecione o **Tipo** de consumo;
+5. Clique em **Add** para incluir o insumo na lista.
 
-### Quantidade Produzida
+É possível adicionar quantos insumos forem necessários para compor a ficha técnica.
 
-Informe a quantidade do produto final gerada pela composição cadastrada.
+**Finalizando**
 
-Este campo determina a proporção dos insumos utilizados na produção.
-
-### Insumos
-
-Permite informar os materiais utilizados na fabricação do produto.
-
-Para cada insumo podem ser definidos os seguintes dados:
-
-#### Referência
-
-Código do item utilizado na produção.
-
-#### Item Consumido
-
-Produto ou matéria-prima que será consumida.
-
-#### Quantidade
-
-Quantidade necessária para produzir o item final.
-
-#### (%) Perda
-
-Percentual de perda ou quebra esperado durante a produção.
-
-#### Tipo
-
-Define como o insumo será tratado no processo produtivo.
-
-#### Categoria
-
-Classifica o insumo dentro da composição do produto.
-
-## Menu
-
-### Descrever Variações
-
-Permite informar descrições e agrupamentos para os itens utilizados na ficha técnica.
-
-### Excluir Todos os Insumos
-
-Remove todos os insumos cadastrados na ficha técnica atual.
-
-### Recalcular Custo
-
-Atualiza os custos dos itens cadastrados na ficha técnica com base nos parâmetros selecionados.
-
-### Exportar
-
-Exporta a listagem de fichas técnicas para um arquivo Excel.
-
-## Pesquisa Avançada
-
-Utilize a Pesquisa Avançada para localizar fichas técnicas específicas.
-
-### Filtros Disponíveis
-
-#### Item
-
-Pesquisa pelo item produzido.
-
-#### Tipo
-
-Pesquisa pelo tipo do item.
-
-#### Categoria
-
-Pesquisa pela categoria dos insumos.
-
-#### Insumos
-
-Permite localizar fichas técnicas através dos insumos utilizados.
-
-#### Ordenação
-
-Define a forma de organização dos resultados exibidos. 
-
-## Mais Ações
-
-### Adicionar
-
-Após preencher os dados do insumo, clique em **Add** para incluí-lo na composição da ficha técnica.
-
-
-### Excluir
-
-Remove o insumo selecionado da composição.
-
-### Configurações Avançadas
-
-Permite configurar informações adicionais do insumo, como:
-
-- Código da Variação
-- Nome da Variação
-- Nome do Item
-
-Utilize esta opção quando houver necessidade de controlar variações específicas dentro da composição do produto.
-
-## Dúvidas Frequentes
-
-### Como criar uma ficha técnica?
-
-Clique em **+ Novo**, selecione o produto final, informe os insumos necessários e clique em **Salvar**.
-
-### Como adicionar um insumo?
-
-Preencha os dados do item na seção de insumos e clique em **Add**.
-
-### Como informar perdas de produção?
-
-Utilize o campo **(% Perda)** para registrar o percentual esperado de quebra ou desperdício.
-
-### Como atualizar os custos da ficha técnica?
-
-Acesse **Menu > Recalcular Custo** e confirme a operação.
-
-### Como exportar as fichas técnicas?
-
-Acesse **Menu > Exportar** para gerar uma planilha Excel.
-
-### Como remover todos os insumos da ficha?
-
-Utilize **Menu > Excluir Todos os Insumos**.
+Após revisar os materiais e quantidades informadas, clique em **Salvar** para concluir o cadastro da ficha técnica.
