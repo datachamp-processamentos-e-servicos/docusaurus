@@ -4,184 +4,89 @@ sidebar_position: 3
 
 # Produção Ⓧ
 
-## Visão Geral
+:::note[Antes de começar]
 
-A tela de Produção 2.0 é utilizada para controlar o planejamento e execução dos processos produtivos da empresa.
+- O preenchimento dos campos com **(*)** é obrigatório.
+- Ao posicionar o cursor do mouse sobre um campo, o sistema exibe uma breve explicação sobre o preenchimento.
 
-Por meio desta funcionalidade, é possível criar produções, realizar programações, registrar apontamentos de produção e acompanhar a situação de cada processo produtivo.
+<div style={{ textAlign: 'center' }}>
+  <img
+    src="/docusaurus/img/cadastros/pcp.png"
+    alt="Tela de produção"
+    width="700"
+  />
+</div>
+
+:::
+
+## Cadastrar uma Produção
+
+Acesse:
+
+**P.C.P. → Produção**
+
+1. Clique em **+ Novo** para iniciar uma nova produção;
+2. Na aba **Dados Gerais**, informe a data de emissão, selecione o participante, defina a operação e, se necessário, preencha uma observação;
+3. Clique em **Avançar** para continuar;
+4. Na aba **Programação**, realize a programação da produção, caso seja utilizada pela empresa;
+5. Acesse a aba **Apontamentos** para registrar os itens produzidos;
+6. Informe a referência ou pesquise o item, selecione a linha, depósito e quantidade produzida;
+7. Clique em **Confirmar** para adicionar o apontamento;
+8. Após concluir os lançamentos, clique em **Salvar**.
+
+## Dados Gerais
+
+Nesta etapa são informadas as informações principais da produção.
+
+Entre as informações disponíveis estão:
+
+- Data de emissão;
+- Participante responsável;
+- Operação da produção;
+- Observações;
+- Origem da produção.
+
+Esses dados identificam o processo produtivo e serão utilizados durante toda a execução da produção.
+
+## Programação
+
+Nesta etapa são cadastrados os itens que farão parte da programação da produção.
+
+Informe os seguintes dados:
+
+- Data da programação;
+- Linha de produção;
+- Referência ou item;
+- Quantidade programada;
+- Observação, quando necessário.
+
+Após preencher as informações, clique em **Confirmar** para adicionar o item à programação.
+
+Os itens incluídos ficarão registrados na lista da programação e poderão ser alterados ou removidos antes da conclusão da produção.
+
+> **Importante:** Os itens cadastrados nesta etapa servem apenas para programar a produção e **não geram movimentação de estoque**. A efetivação da produção ocorre somente na aba **Apontamentos**.
+
+## Apontamentos
+
+Nesta etapa são registrados os itens efetivamente produzidos.
+
+Informe:
+
+- Data do apontamento;
+- Linha de produção;
+- Item produzido;
+- Quantidade;
+- Depósito de entrada;
+- Depósito de saída, quando aplicável;
+- Observações.
+
+Após preencher as informações, clique em **Confirmar** para adicionar o apontamento à produção.
+
+Também é possível utilizar a opção **Importar Apontamentos** para importar registros previamente cadastrados.
 
 ---
 
-## Observações Importantes
+**Finalizando**
 
-- Todos os campos marcados com (*) são obrigatórios.
-- A programação deve ser realizada antes dos apontamentos.
-- Os apontamentos registram a execução real da produção.
-- Revise as quantidades informadas antes de confirmar os registros.
-- Mantenha a situação da produção atualizada para facilitar o acompanhamento do processo produtivo.
-
----
-
-## Principais Funcionalidades
-
-### Novo Cadastro
-
-Clique em **+ Novo** para criar uma nova produção.
-
-Preencha os campos obrigatórios marcados com (*) e clique em **Avançar** para continuar o processo.
-
-### Editar
-
-Permite alterar as informações de uma produção já cadastrada.
-
-Caso exista um campo de CPF/CNPJ no cadastro, não altere essa informação após a criação do registro, pois o sistema poderá considerar a alteração como um novo cadastro.
-
-### Dados Gerais
-
-Nesta etapa são informadas as informações iniciais da produção.
-
-#### Emissão
-
-Data de criação da produção.
-
-#### Participante
-
-Empresa ou participante responsável pela produção.
-
-#### Origem
-
-Define a origem do processo produtivo.
-
-#### Observação
-
-Campo destinado a informações complementares relacionadas à produção.
-
-### Programação
-
-A programação é utilizada para planejar os itens que serão produzidos.
-
-Clique em ** Iniciar Programação** para adicionar uma nova programação.
-
-Os principais campos disponíveis são:
-
-- Data
-- Referência
-- Item
-- Quantidade
-- Linha
-- Observação
-
-Após informar os dados, clique em **Confirmar** para adicionar a programação.
-
-Clique em **Avançar** para seguir para a etapa de apontamentos.
-
-### Apontamentos
-
-Os apontamentos são utilizados para registrar a execução da produção.
-
-Clique em **Iniciar Apontamentos** para incluir um novo apontamento.
-
-Os principais campos disponíveis são:
-
-- Data
-- Depósito
-- Linha
-- Referência
-- Item
-- Quantidade
-- Observação
-
-Após informar os dados, clique em **Confirmar** para registrar o apontamento.
-
-## Menu
-
-### Finalizar Produção
-
-Permite concluir a produção selecionada.
-
-Após a finalização, a produção passa a ser considerada concluída no sistema.
-
-### Exportador
-
-Gera um arquivo PDF contendo os dados da produção.
-
-O relatório será gerado de acordo com os filtros e registros selecionados.
-
-## Exportar
-
-Acesse **Menu > Exportador** para gerar um PDF com as informações da produção.
-
-O arquivo será gerado conforme os registros selecionados na tela.
-
-## Pesquisa Avançada
-
-Utilize a Pesquisa Avançada para localizar produções específicar.
-
-### Filtros Disponíveis
-
-#### Participante
-
-Pesquisa produções através do participante informado.
-
-#### Observação
-
-Pesquisa produções utilizando informações registradas no campo de observação.
-
-#### Situação
-
-Pesquisa produções conforme o status do processo.
-
-#### Filtro por Data
-
-Permite consultar produções por período utilizando a data de emissão.
-
-## Mais Ações
-
-### Imprimir Programação
-
-Gera uma impressão contendo as informações da programação cadastrada.
-
-### Imprimir Apontamento
-
-Gera uma impressão contendo os dados dos apontamentos realizados.
-
-### Situação
-
-Permite consultar e alterar a situação da produção.
-
-Situação Disponíveis:
-
-- Programando
-- Programado
-- Produzindo
-- Finalizado
-
-Após selecionar a situação desejada, clique em **Alterar** para confirmar a atualização.
-
-## Dúvidas Frequentes
-
-### Como criar uma nova produção?
-
-Clique em **+ Novo**, preencha os dados obrigatórios e avance para as etapas de programação e apontamentos.
-
-### Qual a diferença entre Programação e Apontamento?
-
-A Programação é utilizada para planejar a produção.
-
-O apontamento é utilizado para registrar a execução efetiva da produção.
-
-### Como finalizar uma produção?
-
-Acesse **Menu > Finalizar Produção** ou utilize **Mais Ações > Situação** e altere o status para **Finalizado**.
-
-### Como imprimir uma programação?
-
-Selecione o registro desejado e utilize **Mais Ações > Imprimir Programação**.
-
-### Como imprimir um Apontamento?
-
-Selecione o registro desejado e utilize **Mais ações > Imprimir Apontamento**.
-
-### Como localizar uma produção específica?
-
+Após revisar todas as informações e os apontamentos realizados, clique em **Salvar** para concluir o cadastro da produção.
 Utilize a Pesquisa Avançada e filtre por participantes, situação, observação ou período.
