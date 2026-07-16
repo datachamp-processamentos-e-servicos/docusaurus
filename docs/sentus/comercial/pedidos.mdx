@@ -111,6 +111,30 @@ Informe, se necessário:
 
 Nesta seção são adicionados os produtos ou serviços do pedido.
 
+:::tip[Itens não encontrados]
+
+Se um item **não aparecer** na pesquisa, normalmente é porque ele NÃO está cadastrado como **Mercadoria para Revenda [00]**, **Produto Acabado [04]** ou **Serviço [09]**. Essa informação está dentro do cadastro do item, no campo "tipo Item". Mas é possível liberar a inclusão de qualquer tipo de item na cotação.
+
+Para liberar todos os itens:
+
+1. Na tela de inclusão de itens na cotação, clique em **Opções**.
+<div style={{ textAlign: 'center' }}>
+  <img
+    src="/docusaurus/img/cotaçõesEpedidos.png"
+    alt="Tela de cotação"
+    width="700"
+  />
+</div>
+2. Selecione **Definição de Pesquisa**.
+3. Escolha **Sem Restrição**.
+4. Clique em **Aplicar**.
+
+Após essa alteração, todos os itens ficarão disponíveis para pesquisa.
+
+Existem outras restrições baseadas em tabelas de preços, se o item não estiver na tabela de preços selecionada ou em uma tabela complementar à tabela selecionada, ele também nao ficará disponível para ser incluido na cotação.
+
+:::
+
 Informe as informações necessárias, como:
 
 - Referência ou EAN;
