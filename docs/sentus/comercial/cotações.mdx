@@ -100,7 +100,25 @@ Após preencher as informações do cabeçalho, clique em **Avançar** para pros
 
 Nesta etapa são adicionados os produtos e serviços que farão parte da cotação.
 
-Informe as informações necessárias, como:
+:::tip[Itens não encontrados]
+
+Se um item **não aparecer** na pesquisa, normalmente é porque ele NÃO está cadastrado como **Mercadoria para Revenda [00]**, **Produto Acabado [04]** ou **Serviço [09]**. Essa informação está dentro do cadastro do item, no campo "tipo Item". Mas é possível liberar a inclusão de qualquer tipo de item na cotação.
+
+Para liberar todos os itens:
+
+1. Na tela de inclusão de itens na cotação, clique em **Opções**.
+print
+2. Selecione **Definição de Pesquisa**.
+3. Escolha **Sem Restrição**.
+4. Clique em **Aplicar**.
+
+Após essa alteração, todos os itens ficarão disponíveis para pesquisa.
+
+Existem outras restrições baseadas em tabelas de preços, se o item não estiver na tabela de preços selecionada ou em uma tabela complementar à tabela selecionada, ele também nao ficará disponível para ser incluido na cotação.
+
+:::
+
+Informe os campos necessários, como:
 
 - Referência/EAN;
 - Código/Nome;
@@ -122,22 +140,6 @@ Caso necessário, utilize a opção **+ Novo** para incluir novos itens na cota�
 
 Na lista de itens é possível visualizar os produtos já adicionados, além de editar, excluir ou acessar outras ações disponíveis.
 
-## Itens Não Encontrados
-
-:::tip[Itens não encontrados]
-
-Se um item **não aparecer** na pesquisa, normalmente é porque ele está cadastrado como **Matéria-Prima**, **Produto em Processo**, **Produto Intermediário** ou outro tipo utilizado na produção.
-
-Para exibir todos os itens:
-
-1. Clique em **Opções**.
-2. Selecione **Definição de Pesquisa**.
-3. Em **Pesquisa**, escolha **Sem Restrição**.
-4. Clique em **Aplicar**.
-
-Após essa alteração, todos os itens ficarão disponíveis para pesquisa.
-
-:::
 
 **Lista de Itens**
 
