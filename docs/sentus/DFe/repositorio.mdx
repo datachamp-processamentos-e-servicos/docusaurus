@@ -4,190 +4,54 @@ sidebar_position: 2
 
 # Repositório DFeⓍ
 
-## Visão Geral
 
-A tela de Repositório DFe é utilizada para consultar, importar e gerenciar documentos fiscais eletrônicos vinculados ao CNPJ da empresa.
+:::note[Antes de começar]
 
-Por meio desta funcionalidade, é possível acompanhar notas fiscais emitidas contra a empresa, realizar manifestações do destinatário, consultar eventos fiscais e obter arquivos XML diretamente da SEFAZ.
+- O preenchimento dos campos com **(*)** é obrigatório.
+- Ao posicionar o cursor do mouse sobre um campo, o sistema exibe uma breve explicação sobre o preenchimento.
+
+<div style={{ textAlign: 'center' }}>
+  <img
+    src="/docusaurus/img/cadastros/pcp.png"
+    alt="Consulta de DFe(s)"
+    width="700"
+  />
+</div>
+
+:::
+
+## Consultar DFe(s)
+
+Acesse:
+
+**DFe(s) → Repositorório DFe(s)**
+
+1. Acesse a lista de documentos fiscais eletrônicos;
+2. Utilize a pesquisa para localizar um documento, se necessário;
+3. Clique nas ações disponíveis para visualizar ou realizar operações sobre o DFe.
+
+## Informações da Consulta
+
+Nesta tela são exibidos os documentos fiscais eletrônicos processados pelo sistema.
+
+As principais informações apresentadas são:
+
+- Número / Modelo / Série;
+- Data de Emissão;
+- Nome do Emitente;
+- Destinatário/Remetente;
+- Chave de Acesso;
+- NSU;
+- Manifestação.
+
+Na coluna **Ações** é possível:
+
+- Visualizar as informações do documento;
+- Imprimir o DANFE, quando disponível;
+- Realizar o download do arquivo XML.
 
 ---
 
-## Observações Importantes
+**Finalizando**
 
-- A consulta dos documentos depende da disponibilidade dos serviços da SEFAZ.
-- Alguns documentos podem exigir manifestação do destinatário.
-- O download do XML depende da disponibilidade do documento para consulta.
-- Os eventos registrados ficam disponíveis para auditoria e rastreabilidade.
-- Utilize corretamente o modelo do documento ao realizar consultas via WebService.
-
----
-
-## Principais Funcionalidades
-
-### Consulta de DFe
-
-A tela apresenta todos os documentos fiscais eletrônicos vinculados ao CNPJ da empresa.
-
-Através desta consulta é possível acompanhar notas emitidas por fornecedores e demais documentos fiscais destinados ao contribuinte.
-
-### Manifestação do Destinatário
-
-Permite registrar manifestações relacionadas ao documento fiscal.
-
-As principais opções disponível são:
-
-#### Ciência da Emissão
-
-Utilizada quando a empresa toma conhecimento da existência do documento fiscal.
-
-#### Confirmação da Operação
-
-Utilizada quando a operação foi realizada corretamente e o documento fiscal é reconhecido pela empresa.
-
-## Menu
-
-### Manifestar
-
-Permite registrar a manifestação do destinatário junto à SEFAZ.
-
-### Evento(s)
-
-Exibe todos os eventos registrados para a nota fiscal.
-
-Nesta consulta é possível visualizar informações como:
-
-- Tipo do Evento
-- Data
-- Status
-- Protocolo
-- Sequência
-
-### Marcar c/ Lançado
-
-Permite identificar o documento como já lançado no sistema.
-
-### Remover
-
-Remove o documento da Listagem.
-
-### Status
-
-Exibe informações relacionadas à situação atual do documento fiscal.
-
-### Marcar c/ Lançado CT-es na Destinados
-
-Utilizado para CT-es onde a empresa atua como tomadora do serviço.
-
-### Exportar
-
-Exporta os documentos exibidos na tela.
-
-### Download 
-
-Realiza o download do XML do documento fiscal.
-
-## Importar
-
-A funcionalidade de importação permite buscar documentos fiscais através de diferentes origens.
-
-### Via WebService
-
-Realiza consulta diretamente junto aos serviços disponibilizados pela SEFAZ.
-
-### Upload
-
-Permite importar arquivos XML armazenados localemente.
-
-### Via Chave
-
-Permite localizar documentos através da chave de acesso.
-
-### Ler E-mail
-
-Realiza a leitura de documentos fiscais recebidos por e-mail.
-
-## Configurações da Importação
-
-### Finalidades
-
-Define o objetivo da consulta.
-
-Opções disponíveis:
-
-- Distribuição de DFe
-- Integração ( Contabilista)
-
-### Pesquisar
-
-Permite definir o período ou critério da consulta.
-
-Opções disponíveis:
-
-- A partir do Último NSU Consultado
-- Últimos Três Meses
-- Apenas NSU Selecionado
-
-### Modelo
-
-Define o tipo de documento que sera consultado.
-
-Modelos disponíveis:
-
-- 55 - NF-e
-- 57 - CT-e
-- 65 - NFC-e
-- 67 - CT-e OS
-
-## Pesquisa Avançada
-
-Utilize a Pesquisa Avançada para localizar documentos específicos.
-
-A disponibilidade dos filtros podem variar conforme o modelo selecionado e as configurações da empresa.
-
-## Mais Ações 
-
-### Consultar Status
-
-Permite verificar a situação atual do documento junto à SEFAZ.
-
-### Visualizar Eventos
-
-Exibe o histórico completo de manifestações e eventos registrados.
-
-### Download XML
-
-Permite baixar o arquivo XML do documento selecionado
-
-### Marcar como Lançado
-
-Indica que o documento já foi processado ou lançado no sistema.
-
-## Dúvidas Frequentes
-
-### Para que serve o Repositório DFe ?
-
-O repositório centraliza os documentos fiscais eletrônicos destinados à empresa, permitindo consulta, download e controle das informações fiscais.
-
-### Como baixar o XML de uma nota?
-
-Selecione o documento desejado e utilize a opção **Menu > Download**.
-
-### Como consultar documentos emitidos contra meu CNPJ?
-
-Utilize a consulta de DFe disponível na tela principal.
-
-### Como visualizar os eventos de uma nota fiscal?
-
-Selecione o documento e utilize **Menu > Evento(s)**.
-
-### Quando utilizar a Ciência da Emissão?
-
-Quando desejar apenas registrar o conhecimento da existência da nota fiscal.
-
-### Quando utilizar a Confirmação da Operação?
-
-Quando a operação tiver sido realizada corretamente e o documento puder ser confirmado.
-
-### Como importar documentos da SEFAZ?
-
-Acesse **Importar > Via WebService**, configure os parâmetros da consulta e clique em **Consultar**.
+Utilize os filtros de pesquisa e as ações disponíveis para consultar e gerenciar os documentos fiscais eletrônicos.
