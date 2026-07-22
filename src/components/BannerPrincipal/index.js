@@ -31,7 +31,7 @@ export default function Hero() {
         {/* Botao */}
         <div className={styles.heroActions}>
           <Link
-            to="/docs/intro/"
+            to="/docs/category/primeiros-passos/"
             className={styles.btnPrimary}
           >
             Explorar Documentos
