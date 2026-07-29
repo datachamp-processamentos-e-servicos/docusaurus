@@ -414,6 +414,153 @@ Na aba **Inf. Adic.**, informe a mensagem:
 
 ---
 
+## Gerar Carta de Correção
+
+Acesse:
+
+**Transporte → CT-e Próprios**
+
+1. Localize o CT-e utilizando a pesquisa rápida ou clique no ícone da lupa, localizado no canto superior direito;
+2. Na linha correspondente ao CT-e, clique em **Ações (+)**;
+3. Clique em **Eventos**;
+4. Selecione a opção **Carta de Correção**.
+
+**Informações da Carta de Correção**
+
+Consulte o XML do CT-e para identificar corretamente o grupo e o campo que precisam ser corrigidos.
+
+Preencha:
+
+- **Grupo:** informe o grupo correspondente no XML;
+- **Campo:** informe o campo correspondente no XML;
+- **Item:** mantenha o valor **1**;
+- **Valor:** informe a mensagem ou informação que precisa ser complementada.
+
+Após preencher os dados:
+
+1. Clique em **+ Add** para adicionar a correção;
+2. Revise as informações;
+3. Clique em **Enviar**.
+
+:::warning Atenção
+
+A Carta de Correção não pode ser utilizada para corrigir informações que alterem os valores, os participantes ou as características principais da prestação do serviço.
+
+:::
+
+**Informações que não podem ser corrigidas**
+
+Não é permitido alterar:
+
+### Valores da prestação do serviço
+
+- Valor total do frete;
+- Base de cálculo do ICMS;
+- Valor do ICMS;
+- Alíquota do ICMS.
+
+**Dados do tomador do serviço**
+
+- CNPJ ou CPF;
+- Inscrição Estadual;
+- Razão Social.
+
+**Identidade dos participantes**
+
+- Remetente;
+- Destinatário;
+- Expedidor;
+- Recebedor.
+
+### Data de emissão
+
+A data de emissão do CT-e não pode ser alterada por Carta de Correção.
+
+### Características da prestação do serviço
+
+- Origem ou destino da prestação;
+- Tipo ou modalidade da operação que descaracterize o documento fiscal.
+
+**Identificação do CT-e**
+
+- Chave de acesso;
+- Número do CT-e.
+
+---
+
+## Emitir CT-e de Substituição
+
+Acesse:
+
+**Transporte → CT-e Próprios**
+
+1. Localize o CT-e que será substituído;
+2. Na linha correspondente ao documento, clique no botão **+**;
+3. Acesse **Eventos → Opções → CT-e de Substituição**;
+4. Preencha as informações necessárias;
+5. Prossiga com a emissão do novo CT-e.
+
+---
+
+# Rejeições de CT-e
+
+**Mensagem**
+
+```text
+Enviando Nota. Aguarde...
+
+Validando CTe: 1863
+
+campo[EX 0] mensagem[cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.portalfiscal.inf.br/cte":vBC}'. One of '{"http://www.portalfiscal.inf.br/cte":pRedBC}' is expected.] status[ERROR]
+```
+
+**Como corrigir**
+
+Esse erro ocorre quando a **Situação Tributária (CST)** está configurada como **20 – Tributação com redução da base de cálculo**, porém o percentual de redução da base não foi informado.
+
+1. Abra o CT-e;
+2. Acesse **Serviços e Impostos** no menu lateral;
+3. Verifique o campo **Situação Tributária (CST)**;
+4. Se o CST for **20**, informe os dados da **Redução da Base de Cálculo**;
+5. Caso a operação não seja tributada, altere o CST para **41 – Não Tributado**;
+6. Clique em **Salvar** e envie o CT-e novamente.
+
+## Rejeição: Duplicidade de MDF-e
+
+**Mensagem**
+
+```text
+204 - Rejeição: Duplicidade de MDFe
+```
+
+**Como verificar**
+
+1. Localize o CT-e;
+2. Clique em **Ações (+)**;
+3. Acesse **Eventos → Status**;
+4. Verifique o status do MDF-e vinculado antes de realizar um novo envio.
+
+## Rejeição: Informado NCM inexistente [item X]
+
+**Mensagem**
+
+```text
+Rejeição: informado NCM inexistente [item 5]
+```
+
+**Como corrigir**
+
+1. Localize a NF-e;
+2. Abra o documento;
+3. No menu lateral, acesse **Itens da NF-e**;
+4. Localize o item informado na rejeição;
+5. Clique em **Ações → Detalhes do Item**;
+6. Pesquise e selecione o **NCM** correto;
+7. Clique em **Confirmar**;
+8. Salve a nota e realize o envio novamente.
+
+---
+
 **Finalizando**
 
 Após revisar as informações:
