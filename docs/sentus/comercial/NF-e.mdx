@@ -171,7 +171,43 @@ As principais opções são:
 
 ---
 
-## Finalizando
+## Rejeição 225 - Falha no Schema XML da NF-e
+
+**Mensagem**
+
+```text
+225 - Rejeição: Falha no Schema XML da NFe
+(Elemento: enviNFe/NFe[1]/infNFe/dest/ISUF/)
+```
+
+**Motivo**
+
+Essa rejeição ocorre porque o campo **ISUF (Inscrição SUFRAMA)** do destinatário foi enviado em um formato inválido.
+
+A inscrição SUFRAMA é opcional no XML da NF-e. Porém, quando informada, deve conter **apenas números** e possuir **8 ou 9 dígitos**.
+
+**Como corrigir**
+
+1. Acesse o cadastro do cliente;
+2. Localize o campo **SUFRAMA**;
+3. Verifique o conteúdo informado.
+
+- Caso o cliente **não possua inscrição SUFRAMA**, deixe o campo **em branco**.
+- Caso possua inscrição, informe um número **válido**, contendo apenas números e com 8 ou 9 dígitos.
+
+Após realizar a correção, salve o cadastro e envie a NF-e novamente.
+
+:::tip[Importante]
+
+O preenchimento da inscrição **SUFRAMA** é exigido principalmente em operações com incentivos fiscais nas áreas administradas pela SUFRAMA.
+
+Mesmo que o XML seja validado, a SEFAZ ainda poderá verificar o dígito da inscrição e retornar a **Rejeição 235 – Inscrição SUFRAMA inválida**, caso o número informado não seja válido.
+
+:::
+
+---
+
+**Finalizando**
 
 Após revisar todas as informações, clique em **Salvar** para gravar a nota e realize a transmissão da NF-e quando necessário.
 
