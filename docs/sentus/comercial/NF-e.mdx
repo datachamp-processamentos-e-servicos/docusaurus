@@ -173,7 +173,7 @@ As principais opções são:
 
 ## Rejeição de Notas
 
-**Rejeição 225 - Falha no Schema XML da NF-e**
+### Rejeição 225 - Falha no Schema XML da NF-e**
 
 **Mensagem**
 
@@ -206,6 +206,32 @@ O preenchimento da inscrição **SUFRAMA** é exigido principalmente em operaç�
 Mesmo que o XML seja validado, a SEFAZ ainda poderá verificar o dígito da inscrição e retornar a **Rejeição 235 – Inscrição SUFRAMA inválida**, caso o número informado não seja válido.
 
 :::
+
+---
+
+### Rejeição 328 - CFOP de devolução para NF-e sem finalidade de devolução
+
+**Mensagem**
+
+```text
+328 - Rejeição: CFOP de devolução de mercadoria para NF-e que não tem finalidade de devolução de mercadoria.
+```
+
+**Motivo**
+
+Essa rejeição ocorre quando a NF-e possui um **CFOP de devolução**, porém a **Finalidade da NF-e** não está configurada como **Devolução/Retorno**.
+
+**Como corrigir**
+
+1. Localize e abra a NF-e;
+2. No menu lateral esquerdo, acesse **Dados da NF-e**;
+3. No campo **Finalidade da NF-e**, selecione a opção **4 – Devolução/Retorno**;
+4. Clique em **Salvar**;
+5. Envie a NF-e novamente.
+
+:::tip[Importante]
+
+Após a autorização da NF-e, entre em contato com o **Suporte** para solicitar o ajuste da **matriz tributária**. Dessa forma, as próximas emissões serão geradas com a configuração correta, evitando que essa rejeição volte a ocorrer.
 
 ---
 
