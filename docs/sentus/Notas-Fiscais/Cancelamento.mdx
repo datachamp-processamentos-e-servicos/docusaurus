@@ -13,8 +13,15 @@ import Youtube from '@site/src/components/Youtube';
 :::note[Observações Importantes]
 
 - O prazo para cancelamento de uma NFe é de 7 dias a partir da data de autorização da mesma. Para NFCe o pra é de **30 minutos**;
+- Caso o destinatário da nota já tenha emitido a "ciência da emissão" ou a "confirmação da operação", ele precisará fazer o "desconhecimento da operação" para liberar o cancelamento dessa NFe/NFCe;
 -	Notas que já foram referenciadas em documentos de carga (CTes ou MDFes) precisam que esses documentos sejam cancelados para poderem ser canceladas posteriormente;
 -	O campo de justificativa exige no mínimo 15 caracteres e deve ser descrito o real motivo do cancelamento;
 - NFes que geraram boletos bancários apresentarão uma notificação sobre a vinculação de boletos a essa nota;
   -	Boletos já enviados ao banco NÃO cancelam automaticamente ao cancelar a nota, para cancelar o boleto nesse caso, comandar baixa diretamente no banco;
   -	Sistema exige a confirmação de leitura para garantir que o usuário tenha ciência da existência de boletos;
+
+:::warning[Importante]
+
+Em caso de impossibilidade de cancelar uma NFe/NFCe, deve-se emitir uma nota de "Estorno de nota não cancelada no prazo legal" ou fazer a emissão de uma nota de devolução, que pode ser emitida pelo destinatário ou pelo próprio emitente da nota que não pôde ser cancelada.
+
+:::
