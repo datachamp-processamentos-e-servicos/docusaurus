@@ -282,6 +282,32 @@ Um novo pedido será criado com os itens não faturados. Após a geração, loca
 
 ---
 
+## Situações do pedido
+
+**Informações**
+
+Os pedidos podem apresentar diferentes situações durante o processo comercial. Entre elas, estão **Autorizado** e **Aprovado**.
+
+**Pedido autorizado**
+
+O pedido **Autorizado** não passa por uma nova validação das regras comerciais da empresa.
+
+Isso significa que, mesmo que existam regras aplicáveis aos pedidos — como o limite de crédito do cliente —, o pedido não retornará para a situação **Em análise**. Dessa forma, ele permanecerá liberado para faturamento.
+
+**Pedido aprovado**
+
+O pedido **Aprovado** pode ser revalidado pelas regras comerciais da empresa.
+
+Caso alguma condição deixe de ser atendida durante a revalidação, o pedido poderá retornar para **Em análise** e deixar de estar liberado para faturamento.
+
+**Pedidos gerados por cotações**
+
+Por padrão, quando uma cotação autorizada gera um pedido, o novo pedido também é criado como **Autorizado**.
+
+Esse comportamento pode ser alterado por meio do **parâmetro ID 44**. Quando configurado, o pedido gerado pela cotação será criado como **Aprovado**, permitindo que passe por novas validações das regras comerciais.
+
+---
+
 **Finalizando**
 
 Após revisar todas as informações, clique em **Salvar** para concluir o cadastro do pedido.
