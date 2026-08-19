@@ -632,3 +632,279 @@ Após revisar as informações:
     allowFullScreen
   />
 </div>
+
+## Correções de CT-e
+
+Este manual se aplica principalmente ao **CT-e modelo 57**. Regras estaduais complementares podem estabelecer exigências adicionais, especialmente para documentos emitidos fora dos prazos normais.
+
+1. Como escolher o procedimento
+
+| Situação encontrada                                                  | Procedimento indicado                          |
+| -------------------------------------------------------------------- | ---------------------------------------------- |
+| Erro simples que não altera partes, datas, valores ou tributação     | Carta de Correção Eletrônica — CC-e            |
+| Valor da prestação ou do imposto ficou menor que o correto           | CT-e complementar                              |
+| Valor da prestação ou do imposto ficou maior que o correto           | CT-e substituto                                |
+| Tomador do serviço foi informado incorretamente                      | CT-e substituto, observadas as restrições      |
+| Erro percebido antes do início do transporte e ainda dentro do prazo | Preferencialmente cancelar e emitir outro CT-e |
+| CT-e Simplificado com valor menor que o correto                      | CT-e substituto, e não complementar            |
+
+---
+
+2. Carta de Correção Eletrônica — CC-e
+
+### Quando utilizar
+
+A CC-e serve para corrigir informações que **não alterem a essência fiscal da prestação**.
+
+Exemplos que normalmente podem ser corrigidos:
+
+* erros de digitação em informações complementares;
+* dados adicionais ou observações;
+* referência interna, número de pedido ou informação comercial;
+* endereço, desde que a correção não altere a identidade da pessoa ou o município relevante para a tributação;
+* dados operacionais que não alterem o valor, as partes, a data ou a tributação;
+* outros campos permitidos pela legislação e pelas validações da SEFAZ.
+
+A possibilidade deve ser analisada pelo efeito da alteração, e não apenas pelo nome do campo. Por exemplo, uma correção de endereço que mude o município da prestação pode afetar a tributação e, portanto, não deve ser feita por CC-e.
+
+### O que não pode ser corrigido
+
+A CC-e não pode corrigir:
+
+* valor total da prestação;
+* valor a receber;
+* quantidade que influencie o preço;
+* base de cálculo;
+* alíquota;
+* valor do ICMS;
+* diferença de preço;
+* data de emissão;
+* data de saída ou início da prestação;
+* CNPJ ou CPF do emitente;
+* CNPJ ou CPF do tomador;
+* mudança do remetente;
+* mudança do destinatário;
+* alteração que represente outra prestação;
+* qualquer informação que altere o valor ou a incidência do imposto.
+
+A legislação veda expressamente a correção das variáveis que determinam o imposto, dos dados que impliquem mudança do emitente, tomador, remetente ou destinatário e da data de emissão ou saída. [Portal Nacional do CT-e — perguntas frequentes](https://www.cte.fazenda.gov.br/portal/perguntasFrequentes.aspx?tipoConteudo=HC%2Fiuy94%2FRk%3D).
+
+### Pré-requisitos
+
+Para emitir a CC-e:
+
+* o CT-e deve estar autorizado;
+* o CT-e não pode estar cancelado;
+* o emitente deve possuir certificado digital válido;
+* a correção deve ser transmitida eletronicamente à SEFAZ;
+* o texto deve descrever objetivamente o dado incorreto e a informação correta;
+* a alteração não pode estar entre as vedações legais.
+
+### Prazo
+
+A legislação nacional do CT-e **não estabelece um prazo único específico em dias para emissão da CC-e**.
+
+Por segurança, ela deve ser emitida assim que o erro for identificado, antes da escrituração definitiva e de outros eventos relacionados ao documento.
+
+Atenção: de acordo com a orientação do Portal Nacional, depois de registrada uma CC-e, o CT-e não poderá ser cancelado pelo procedimento normal.
+
+### Mais de uma CC-e
+
+É possível transmitir outra CC-e para o mesmo CT-e. Entretanto, a última carta deve apresentar de forma consolidada:
+
+* todas as correções anteriores que continuam válidas; e
+* a nova correção.
+
+A última CC-e substitui o conteúdo das anteriores como declaração consolidada.
+
+### Exemplo de texto
+
+> No campo Informações Complementares, onde consta “Pedido 1254”, considerar “Pedido 1257”. Permanecem inalteradas as demais informações do CT-e.
+
+Evite textos genéricos como “corrigir dados do CT-e” ou “CT-e emitido errado”.
+
+---
+
+3. CT-e complementar
+
+### Quando utilizar
+
+O CT-e complementar deve ser utilizado quando o documento original foi emitido com **valor menor que o correto**.
+
+Exemplos:
+
+* frete correto de R$ 1.500,00, mas o CT-e original foi emitido por R$ 1.200,00;
+* ICMS informado em valor inferior ao devido;
+* componente do valor da prestação não incluído no documento original;
+* diferença adicional de preço apurada depois da emissão.
+
+O CT-e complementar deve apresentar somente a **diferença que faltou**, e não repetir o valor total da prestação.
+
+### Exemplo
+
+* Valor correto: R$ 1.500,00
+* CT-e original: R$ 1.200,00
+* CT-e complementar: **R$ 300,00**, com os respectivos tributos sobre a diferença.
+
+### Quando não utilizar
+
+Não se deve emitir CT-e complementar:
+
+* quando o valor original ficou maior que o correto;
+* para trocar o tomador;
+* para corrigir remetente ou destinatário;
+* para corrigir data de emissão;
+* para substituir integralmente o documento original;
+* para complementar outro CT-e que já seja complementar;
+* quando o CT-e original estiver cancelado;
+* quando o CT-e original já tiver sido substituído;
+* para corrigir valor de um **CT-e Simplificado**.
+
+### Pré-requisitos
+
+Antes da emissão:
+
+* o CT-e original deve estar autorizado;
+* o documento original não pode estar cancelado;
+* o CT-e original não pode ter sido substituído;
+* deve existir uma diferença positiva a complementar;
+* o complementar deve referenciar a chave de acesso do CT-e original;
+* emitente, tomador e demais participantes devem ser compatíveis com o documento original;
+* UF de início e UF de término da prestação devem corresponder às do original;
+* os valores e tributos complementares devem ser calculados somente sobre a diferença.
+
+Não é necessário que o tomador registre o evento de “Prestação de Serviço em Desacordo”.
+
+### Prazo
+
+Não existe no Ajuste SINIEF 9/07 um prazo nacional único, em dias, para autorização do CT-e complementar.
+
+Mesmo assim, ele deve ser emitido imediatamente após a identificação da diferença, observando:
+
+* o período de apuração do ICMS;
+* os prazos de escrituração fiscal;
+* o prazo de recolhimento do imposto;
+* as regras específicas da UF do emitente.
+
+Se a diferença for descoberta depois do fechamento do período fiscal, o responsável contábil deve verificar a necessidade de retificação da escrituração, recolhimento complementar, juros ou outros ajustes.
+
+### Atenção ao CT-e Simplificado
+
+Desde **1º de junho de 2026**, valores informados a menor em **CT-e Simplificado** não podem ser corrigidos por CT-e complementar.
+
+Nesse caso, deve ser emitido um **CT-e Simplificado de substituição**. Para essa hipótese específica, a legislação dispensa o evento de “Prestação de Serviço em Desacordo”. [Ajuste SINIEF 9/07, cláusula terceira-B, §§ 3º e 4º](https://www.confaz.fazenda.gov.br/legislacao/ajustes/2007/AJ_009_07).
+
+---
+
+4. CT-e substituto
+
+### Quando utilizar
+
+O CT-e substituto é utilizado principalmente para:
+
+* corrigir valor da prestação informado acima do correto;
+* corrigir valor de ICMS informado acima do correto;
+* corrigir o tomador do serviço, quando atendidas as condições legais;
+* corrigir valores a menor em um CT-e Simplificado.
+
+### Exemplo de valor maior
+
+* CT-e original: R$ 1.500,00
+* Valor correto: R$ 1.200,00
+* CT-e substituto: **R$ 1.200,00**
+
+O substituto apresenta os valores corretos da prestação. Ele não deve apresentar apenas a diferença de R$ 300,00.
+
+### Fluxo normal para correção de valores
+
+### Etapa 1 — Evento pelo tomador
+
+O tomador registra o evento:
+
+> Prestação de Serviço em Desacordo com o informado no CT-e.
+
+O evento declara que a prestação documentada não corresponde ao que foi acordado.
+
+**Prazo do evento: até 45 dias**, contados da data da autorização de uso do CT-e original.
+
+O evento pode ser registrado pelo sistema do tomador ou pelo serviço disponibilizado no [Portal da SVRS](https://dfe-portal.svrs.rs.gov.br/CTE/PrestacaoServicoDesacordo).
+
+O tomador não contribuinte do ICMS também pode registrar o evento. Se o tomador original estiver estabelecido no exterior, a legislação dispensa esse registro.
+
+### Etapa 2 — Emissão do CT-e substituto
+
+Depois da autorização do evento, o transportador emite o CT-e com:
+
+* tipo do CT-e: **Substituição**;
+* referência à chave do CT-e original;
+* valores corretos da prestação e dos tributos;
+* motivo detalhado da substituição;
+* demais informações corretas da prestação.
+
+**Prazo do CT-e substituto: até 60 dias**, contados da data da autorização de uso do CT-e original — e não da data do evento de desacordo.
+
+Portanto, registrar o evento no 45º dia não concede mais 60 dias. Restarão somente 15 dias para autorizar o substituto.
+
+### Pré-requisitos
+
+Para emitir o substituto:
+
+* o CT-e original deve estar autorizado;
+* o original não pode estar cancelado;
+* o original não pode ter sido substituído anteriormente;
+* o original não pode possuir CT-e complementar autorizado associado;
+* o erro deve estar devidamente comprovado;
+* a substituição não pode descaracterizar a prestação realizada;
+* normalmente deve existir evento de Prestação de Serviço em Desacordo autorizado;
+* o substituto deve referenciar o CT-e original;
+* o emitente deve ser o mesmo do CT-e original;
+* os dados corrigidos devem ser conferidos antes da transmissão.
+
+Para cada CT-e emitido com erro, somente pode ser autorizado **um CT-e substituto**, e o substituto **não pode ser cancelado**. Os prazos de 45 e 60 dias estão previstos na cláusula décima sétima do [Ajuste SINIEF 9/07](https://www.confaz.fazenda.gov.br/legislacao/ajustes/2007/AJ_009_07).
+
+### Correção do tomador
+
+O CT-e substituto também pode ser utilizado para corrigir o tomador, mas não permite indicar qualquer empresa livremente.
+
+Em termos gerais, o novo tomador deve:
+
+* já constar no CT-e original como remetente, destinatário, expedidor ou recebedor; ou
+* ser outro estabelecimento de uma das empresas originalmente relacionadas no CT-e, localizado na mesma UF do tomador original.
+
+A alteração deve seguir o procedimento específico da cláusula décima sétima-A do Ajuste SINIEF 9/07.
+
+### Exceção do CT-e Simplificado
+
+Quando um CT-e Simplificado apresentar valor menor que o correto:
+
+* não deve ser emitido CT-e complementar;
+* deve ser emitido CT-e Simplificado de substituição;
+* fica dispensado o evento de Prestação de Serviço em Desacordo;
+* o erro deve estar comprovado;
+* a correção não pode descaracterizar a prestação.
+
+---
+
+5. Quadro de prazos
+
+| Procedimento                                      |                                                             Prazo nacional |
+| ------------------------------------------------- | -------------------------------------------------------------------------: |
+| Carta de Correção Eletrônica                      |                    Sem prazo nacional único expresso; emitir imediatamente |
+| Evento de Prestação de Serviço em Desacordo       |                                Até 45 dias da autorização do CT-e original |
+| CT-e substituto                                   |                                Até 60 dias da autorização do CT-e original |
+| CT-e complementar                                 | Sem prazo nacional único expresso; observar apuração e legislação estadual |
+| Substituição de CT-e Simplificado com valor menor |               Verificar regras técnicas e estaduais; não usar complementar |
+
+---
+
+6. Resumo rápido para atendimento
+
+* **Erro simples, sem impacto fiscal:** CC-e.
+* **Valor ficou menor:** CT-e complementar.
+* **Valor ficou maior:** evento de desacordo + CT-e substituto.
+* **Tomador incorreto:** evento de desacordo + CT-e substituto, se o novo tomador atender às condições legais.
+* **CT-e Simplificado com valor menor:** CT-e substituto, sem evento de desacordo.
+* **CC-e não altera valores, impostos, datas ou participantes.**
+* **CT-e substituto: evento em até 45 dias e autorização em até 60 dias, ambos contados da autorização do original.**
+* **Fora dos prazos:** consultar o responsável fiscal e a SEFAZ da UF do emitente; não emitir documentos sem orientação fiscal.
+
