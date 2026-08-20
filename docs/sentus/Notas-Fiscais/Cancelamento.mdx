@@ -25,3 +25,17 @@ import Youtube from '@site/src/components/Youtube';
 Em caso de impossibilidade de cancelar uma NFe/NFCe, deve-se emitir uma nota de "Estorno de nota não cancelada no prazo legal" ou fazer a emissão de uma nota de devolução, que pode ser emitida pelo destinatário ou pelo próprio emitente da nota que não pôde ser cancelada.
 
 :::
+
+## NFe referenciada em MDFe Encerrado 
+
+Se a NF-e está vinculada a um MDF-e que foi encerrado ela não poderá ser cancelada pela via normal de cancelamento, o encerramento do MDFe não elimina o vínculo com a NFe e não equivale ao cancelamento do MDF-e. Essa regra se aplica mesmo que a NFe esteja vinculado a um CTe que por sua vez esteja vinculado a um MDFe que foi encerrado.
+
+A regra de validação do cancelamento da NF-e determina que, havendo evento “MDF-e Autorizado” ou de "CTe Autorizado", o cancelamento da NF-e somente é permitido quando o MDF-e ou o CTe forem cancelados. Caso contrário, ocorre a Rejeição 690 — “Pedido de Cancelamento para NF-e com CT-e ou MDF-e”.
+
+Um MDF-e já encerrado **não pode ser cancelado**, visto que encerrar o MDF-e significa informar que o transporte terminou, sendo assim uma NFe ou um CTe vinculados a um MDFe encerrado, não podem ser cancelados.
+
+Portanto, a situação fica assim:
+
+O que fazer nesse caso:
+
+A solução passa a depender do motivo pelo qual você precisa anular a NF-e. Pode envolver emissão de NF-e de devolução/entrada, documento de ajuste ou algum procedimento administrativo específico perante a SEFAZ da UF. Não é correto simplesmente emitir outro documento sem analisar se a mercadoria efetivamente circulou e qual operação precisa ser desfeita.
