@@ -135,3 +135,225 @@ Clique em **Add** para adicionar cada documento.
 **Finalizando**
 
 Após revisar todas as informações, clique em **Salvar** para concluir o cadastro do Contrato de Transporte.
+
+# Emissão de CIOT
+
+:::note[Antes de começar]
+
+- O preenchimento dos campos com **(*)** é obrigatório.
+- Ao posicionar o cursor do mouse sobre um campo, o sistema exibe uma breve explicação sobre o preenchimento.
+
+<div style={{ textAlign: 'center' }}>
+  <img
+    src="/docusaurus/img/cadastros/transporte.png"
+    alt="Relatórios de Transporte"
+    width="700"
+  />
+</div>
+
+:::
+
+
+# CIOT- Passo a passo para emitir
+
+:::warning[Importante]
+
+Antes de gerar o primeiro CIOT, entrar em contato com o suporte para configuração.
+
+- Liberar acesso aos contatos; 
+- Criar a série **"08 – Conhecimento rodoviário de transportes de cargas"**
+
+:::
+---
+:::tip[Observações Importantes]
+
+- O MDF-e só deve ser autorizado **após a geração do CIOT**;  
+- Informações inconsistentes podem causar rejeição pela ANTT;  
+- Sempre valide cadastros antes da emissão.  
+:::
+---
+
+## 1. Preparação do MDF-e
+
+- Gere o MDF-e normalmente  
+- **Não autorize o MDF-e neste momento**
+
+---
+
+## 2. Gerar CIOT
+
+Com o MDF-e ainda em digitação:
+
+- Clique em **“Ações” (+)** - a direita do MDFe gerado no botão +;  
+- Selecione **“Gerar CIOT”**  
+- O sistema abrirá a tela de **Contrato**
+
+---
+
+## 3. Preenchimento da Tela de Contrato
+
+3.1 Dados Contrato
+
+Preencha os seguintes campos:
+
+- Data de Emissão (do CIOT)
+- Data de Saída  (da viagem)
+- Data de Chegada  (da viagem 
+- Operação - **01 – Carga Lotação** - **02 – Carga Fracionada** - **03 – Operação TAC Agregado**
+
+> ⚠️ **IMPORTANTE**  
+> **NÃO PREENCHER O NÚMERO DO CIOT**  
+> (Este campo será gerado automaticamente pelo sistema/ANTT)
+
+---
+
+3.2 Participantes
+
+- **Contratante:** - Pessoa física ou jurídica que paga pelo frete e contrata o serviço.
+- **Contratado:** - Empresa de transporte (ETC) responsável pela execução do transporte.
+- **Destinatário:** - Quem recebe a carga (não emite CIOT, mas é obrigatório no MDF-e).
+- **Condutor:** - Motorista responsável pela viagem.
+
+> ⚠️ **Carga Fracionada**  
+> Para operações do tipo **02 – Carga Fracionada**, é obrigatório preencher:  
+> **Contratantes da Carga Fracionada**
+
+---
+
+3.3 Valores
+
+- **Peso Bruto:** - Preenchido automaticamente pelo MDF-e  
+- **Valor do Frete:** - Deve ser preenchido corretamente - O sistema pode trazer o valor da carga automaticamente - O valor informado deve respeitar o piso mínimo da ANTT  
+
+### Regra do Piso Mínimo
+
+> O piso mínimo deve ser respeitado quando houver transporte rodoviário remunerado de cargas, contratado por viagem, em âmbito nacional, com veículo movido a diesel, e a operação for de carga lotação, salvo exceções previstas na regulamentação.
+
+### Carga Fracionada
+
+> A carga fracionada pode exigir CIOT, porém, em regra, não se sujeita ao piso mínimo de frete.
+
+### Calculadora disponibilizada pela ANTT
+> https://calculadorafrete.antt.gov.br/
+
+---
+
+3.4 Dados do Veículo
+
+- Placa e RNTRC são preenchidos automaticamente pelo MDF-e  
+
+- **Número de eixos é obrigatório**
+
+> ⚠️ Verifique o cadastro do veículo:
+> - O número de eixos deve estar correto  
+> - A ANTT cruza essas informações  
+> - O cálculo do piso depende de **eixos + valor do frete**
+
+---
+
+## 3.5 Origem e Destino
+
+- Em caso de necessidade de alterar os dados, clique no botão de edição  
+
+Informe:
+
+- Município OU CEP de origem OU Coordenadas Geográficas 
+- Município OU CEP de destino OU Coordenadas Geográficas 
+- Distância da viagem  
+
+### Carga Fracionada
+
+Devem ser informadas todas as origens e destinos.
+
+**Exemplo:**
+
+- Origem: Garibaldi/RS OU INFORMAR CEP 95720-000  
+- Destino: Santos/SP OU INFORMAR CEP conforme documento  
+- Distância: 1204 km  
+
+Para múltiplos destinos:
+
+- Clique em **+ Novo**  
+- Repita o processo
+
+-- Depois de preenchidos os dados Clicar em CONFIRMAR
+
+---
+
+## 3.6 Pagamentos
+
+Selecione o tipo de pagamento:
+
+### Conta Bancária
+
+Informar:
+
+- Código da Instituição Financeira  
+- Agência  
+- Conta  
+- Indicador de pagamento  
+- CNPJ/CPF do favorecido  
+> Após clicar em CONFIRMAR
+
+### PIX
+
+Informar:
+
+- CNPJ/CPF do favorecido  
+- Chave PIX  
+> Após clicar em CONFIRMAR
+
+---
+
+## 3.7 Dados da Carga
+
+Informar o tipo de carga:
+- **NCM - Os 4 primeiros dígitos do NCM**
+- **0001 – Carga Geral**  
+- **2 – Carga Fracionada**
+
+---
+
+## 4. Salvamento do Contrato
+
+Após preencher todas as informações:
+
+- Clique em **Salvar**  
+- O contrato será registrado, porém ainda não enviado à ANTT  
+
+---
+
+## 5. Envio do CIOT
+
+Após salvar:
+
+- Acesse a tela de **Contratos**  
+- Localize o contrato criado  
+- Marque a **checkbox**  
+- Clique em **“Opções”**  
+- Clique em **“Enviar”**
+
+---
+
+## 6. Retorno da ANTT e Vinculação ao MDF-e
+
+Após o envio:
+
+- Se autorizado, o sistema exibirá o CIOT no campo **Número**  
+- Copie o CIOT gerado  
+
+### Importante
+
+- Retorne ao MDF-e  
+- Informe o CIOT  
+- Preencha o **CNPJ/CPF do responsável pela emissão**
+
+---
+
+## 7. Finalização
+
+- Após vincular o CIOT ao MDF-e  
+- Autorize o MDF-e normalmente  
+
+---
+
