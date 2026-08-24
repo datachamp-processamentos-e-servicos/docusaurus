@@ -1,0 +1,138 @@
+---
+title: "Ponto de Corte nas Matrizes Comerciais"
+description: "Entenda como funciona o Ponto de Corte nas Matrizes Comerciais do Sentus e como ele limita a seleção de tabelas de preço pelos representantes."
+sidebar_position: 12
+---
+
+# Ponto de Corte nas Matrizes Comerciais
+
+## O que é o Ponto de Corte?
+
+O **Ponto de Corte** é uma configuração utilizada nas **Matrizes Comerciais do Sentus** para **limitar quais tabelas de preço um representante pode utilizar na emissão de pedidos pela Web**.
+
+Essa configuração é especialmente importante para empresas que possuem várias tabelas de preço e não querem permitir que o representante escolha livremente uma tabela com valores menores do que aqueles autorizados para ele.
+
+## Primeiro: como funciona a Matriz Comercial?
+
+A **Matriz Comercial** é utilizada para vincular um representante a uma determinada **Tabela de Preços**.
+
+As tabelas possuem uma **posição**, definida pela própria empresa.
+
+Essa posição determina a prioridade em que o Sentus procura os preços.
+
+### Exemplo
+
+A empresa possui:
+
+| Tabela | Posição |
+| --- | ---: |
+| Tabela Promocional | **99** |
+| Tabela do Representante 1 | **50** |
+
+Mesmo que o representante esteja vinculado à tabela de posição **50**, o Sentus procura primeiro os preços da tabela de posição **99**, pois ela possui uma posição superior.
+
+A ordem de busca será:
+
+1. **Posição 99**
+2. **Posição 50**
+
+Se o produto possuir preço cadastrado na tabela **99**, esse será o preço utilizado.
+
+Caso o produto não esteja na tabela **99**, o sistema continua a busca e utiliza a tabela **50** do representante.
+
+## Onde está o problema?
+
+Suponha que existam outras tabelas abaixo da posição 50:
+
+| Tabela | Posição |
+| --- | ---: |
+| Tabela Promocional | **99** |
+| Tabela Representante 1 | **50** |
+| Tabela Especial | **40** |
+| Tabela Atacado | **30** |
+| Tabela Mínima | **20** |
+
+Sem um **Ponto de Corte**, durante a emissão do pedido pela Web, o representante pode ter acesso às demais tabelas disponíveis e alterar a tabela utilizada no pedido.
+
+Isso pode permitir, por exemplo, que um representante vinculado à tabela **50** escolha a tabela **30**, que possui preços menores.
+
+:::warning Importante
+O Ponto de Corte existe justamente para impedir que o representante selecione manualmente tabelas abaixo do limite definido pela empresa.
+:::
+
+## Como funciona o Ponto de Corte?
+
+Ao definir a tabela de posição **50** como **Ponto de Corte**, estamos dizendo ao Sentus:
+
+> **Este representante pode utilizar as tabelas permitidas até a posição 50, mas não pode escolher tabelas abaixo desse limite.**
+
+Nesse exemplo:
+
+| Posição | Situação |
+| ---: | --- |
+| **99** | Permitida |
+| **50** | Permitida — **Ponto de Corte** |
+| **40** | Bloqueada |
+| **30** | Bloqueada |
+| **20** | Bloqueada |
+
+Dessa forma, o representante não consegue selecionar manualmente uma tabela inferior ao limite estabelecido pela empresa.
+
+## E quando o cliente possui uma tabela específica?
+
+Existe uma **exceção importante**.
+
+Um determinado cliente pode possuir uma configuração comercial própria que determine a utilização de uma tabela específica, inclusive uma tabela que esteja **abaixo do Ponto de Corte do representante**.
+
+Nesse caso, o Sentus **respeita a configuração do cliente**.
+
+### Exemplo
+
+O representante possui:
+
+- **Tabela Representante**
+- Posição **50**
+- Definida como **Ponto de Corte**
+
+Porém, determinado cliente possui uma configuração específica para utilizar:
+
+- **Tabela Cliente Especial**
+- Posição **30**
+
+Ao emitir um pedido para esse cliente, o Sentus permite utilizar a tabela **30**, porque ela foi previamente definida pela empresa para aquele cliente.
+
+O representante consegue emitir normalmente o pedido, porém **não pode trocar manualmente essa tabela por outra**.
+
+:::warning Importante
+O Ponto de Corte impede a escolha indevida pelo representante, mas não interfere em uma condição comercial que a própria empresa já tenha configurado especificamente para o cliente.
+:::
+
+## Resumindo
+
+### Matriz Comercial
+
+Define qual tabela de preços pertence ao representante.
+
+### Posição da tabela
+
+Define a prioridade de busca dos preços.
+
+### Ponto de Corte
+
+Define o limite de tabelas que o representante pode selecionar manualmente.
+
+### Tabela específica do cliente
+
+Tem sua configuração respeitada pelo Sentus, mesmo quando estiver abaixo do Ponto de Corte, sem permitir que o representante altere livremente a tabela.
+
+## Exemplo completo
+
+| Tabela | Posição | Situação |
+| --- | ---: | --- |
+| Tabela Promocional | **99** | Permitida |
+| Tabela Representante | **50** | **Ponto de Corte** |
+| Tabela Especial | **40** | Bloqueada |
+| Tabela Atacado | **30** | Bloqueada |
+| Tabela Mínima | **20** | Bloqueada |
+
+Nesse exemplo, o representante pode trabalhar com as tabelas permitidas até a posição **50**, mas não pode selecionar manualmente as tabelas de posições **40**, **30** ou **20**.
