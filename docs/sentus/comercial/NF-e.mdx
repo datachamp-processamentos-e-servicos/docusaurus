@@ -233,6 +233,27 @@ Essa rejeição ocorre quando a NF-e possui um **CFOP de devolução**, porém a
 Após a autorização da NF-e, entre em contato com o **Suporte** para solicitar o ajuste da **matriz tributária**. Dessa forma, as próximas emissões serão geradas com a configuração correta, evitando que essa rejeição volte a ocorrer.
 :::
 
+**Rejeição 600 - CSOSN Incompatível na Operação com não Contribuinte**
+
+**Mensagem**
+
+```text
+600 - CSOSN Incompatível na Operação com não Contribuinte.
+```
+
+**Motivo**
+
+Geralmente, esse erro ocorre quando a venda está configurada para um cliente Contribuinte  **(com Inscrição Estadual)**, mas o cliente **não** é mais contribuinte **(Não possui Inscrição Estadual).**
+
+**Como corrigir**
+
+1. Localize a nota e abra-a para edição;\
+2. No campo Ind.Consumidor Final, altere para **1 - Consumidor Final**;
+3. Clique em Salvar.
+4. Tente enviar a nota novamente;
+
+- Não é para acontecer, mas se caso o problema persistir existe algum outro erro, entre em contato com o nosso suporte;
+
 ---
 
 **Finalizando**
