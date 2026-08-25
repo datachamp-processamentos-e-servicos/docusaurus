@@ -308,6 +308,38 @@ Esse comportamento pode ser alterado por meio do **parâmetro ID 44**. Quando co
 
 ---
 
+## Pedidos de Locação (Recibo de Aluguel)
+
+Para identificar um pedido como uma **cobrança de locação**, preencha os seguintes campos no pedido:
+
+- **TAG:** informe `#locacao`;
+- **LOTE:** informe o número sequencial que será utilizado para o recibo de locação.
+
+### Impressão do recibo de locação
+
+Ao imprimir o pedido utilizando a opção **Locação** do exportador:
+
+**+ Ações → Exportador → Layout → Locação**
+
+Se o pedido possuir um número informado no campo **LOTE**, esse número será utilizado como o número do **Recibo de Locação (Fatura de Locação)** gerado.
+
+:::info[Informação]
+O campo **LOTE** funciona como o número sequencial do recibo de locação.
+:::
+
+### Como consultar os pedidos de locação
+
+Para visualizar somente os pedidos de locação:
+
+1. Acesse a tela de **Pedidos**.
+2. Clique em **Pesquisa Avançada**.
+3. No campo **TAG**, informe `#locacao`.
+4. Realize a pesquisa.
+
+Dessa forma, serão exibidos apenas os pedidos de locação, facilitando a consulta do **último número sequencial utilizado no campo LOTE**.
+
+---
+
 **Finalizando**
 
 Após revisar todas as informações, clique em **Salvar** para concluir o cadastro do pedido.
