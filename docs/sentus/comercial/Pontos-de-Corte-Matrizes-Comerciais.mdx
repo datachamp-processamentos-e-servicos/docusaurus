@@ -20,6 +20,8 @@ As tabelas possuem uma **posição**, definida pela própria empresa.
 
 Essa posição determina a prioridade em que o Sentus procura os preços.
 
+---
+
 ### Exemplo
 
 A empresa possui:
@@ -39,6 +41,8 @@ A ordem de busca será:
 Se o produto possuir preço cadastrado na tabela **99**, esse será o preço utilizado.
 
 Caso o produto não esteja na tabela **99**, o sistema continua a busca e utiliza a tabela **50** do representante.
+
+---
 
 ## Onde está o problema?
 
@@ -60,6 +64,8 @@ Isso pode permitir, por exemplo, que um representante vinculado à tabela **50**
 O Ponto de Corte existe justamente para impedir que o representante selecione manualmente tabelas abaixo do limite definido pela empresa.
 :::
 
+---
+
 ## Como funciona o Ponto de Corte?
 
 Ao definir a tabela de posição **50** como **Ponto de Corte**, estamos dizendo ao Sentus:
@@ -78,6 +84,8 @@ Nesse exemplo:
 
 Dessa forma, o representante não consegue selecionar manualmente uma tabela inferior ao limite estabelecido pela empresa.
 
+---
+
 ## E quando o cliente possui uma tabela específica?
 
 Existe uma **exceção importante**.
@@ -85,6 +93,8 @@ Existe uma **exceção importante**.
 Um determinado cliente pode possuir uma configuração comercial própria que determine a utilização de uma tabela específica, inclusive uma tabela que esteja **abaixo do Ponto de Corte do representante**.
 
 Nesse caso, o Sentus **respeita a configuração do cliente**.
+
+---
 
 ### Exemplo
 
@@ -106,6 +116,8 @@ O representante consegue emitir normalmente o pedido, porém **não pode trocar 
 :::warning[Importante]
 O Ponto de Corte impede a escolha indevida pelo representante, mas não interfere em uma condição comercial que a própria empresa já tenha configurado especificamente para o cliente.
 :::
+
+---
 
 ## Resumindo
 
