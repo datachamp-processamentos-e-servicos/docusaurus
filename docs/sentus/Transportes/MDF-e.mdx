@@ -235,6 +235,57 @@ Clique em **Add** para incluir cada parcela.
 
 ---
 
+## MDF-e com cargas em estados diferentes
+
+Quando uma mesma viagem possui cargas com **descarregamento em estados diferentes**, é necessário emitir um **MDF-e para cada UF de descarregamento**.
+
+Cada MDF-e deve conter apenas os **CT-es correspondentes às mercadorias que serão descarregadas naquela UF**.
+
+À medida que os descarregamentos forem concluídos, o MDF-e correspondente àquela UF deverá ser encerrado. Os demais MDF-es permanecem em aberto até a conclusão das respectivas entregas.
+
+### Como emitir o MDF-e para cargas em diferentes estados
+
+1. Identifique a UF de descarregamento de cada carga e agrupe os CT-es conforme o estado correspondente.
+2. Emita um **MDF-e distinto para cada UF onde ocorrerá descarregamento**.
+3. Em cada MDF-e, informe somente os CT-es das mercadorias que serão descarregadas naquela UF.
+4. Ao chegar à primeira UF de descarregamento, realize as entregas correspondentes.
+5. Após concluir os descarregamentos previstos para aquela UF, encerre o MDF-e correspondente.
+6. Continue a viagem com os MDF-es referentes às próximas UFs de descarregamento ainda em aberto.
+7. Repita o processo em cada UF até a conclusão da viagem.
+
+### Exemplo
+
+Considere uma viagem iniciada no **Rio Grande do Sul (RS)** com cargas que serão descarregadas em **Santa Catarina (SC)** e no **Paraná (PR)**.
+
+Nesse caso, deverão ser emitidos dois MDF-es:
+
+- **MDF-e para Santa Catarina:** contendo os CT-es das cargas que serão descarregadas em SC;
+- **MDF-e para o Paraná:** contendo os CT-es das cargas que serão descarregadas no PR.
+
+Após concluir as entregas em Santa Catarina, encerre o MDF-e correspondente a essa UF.
+
+O veículo poderá continuar a viagem com o MDF-e do Paraná em aberto. Após concluir os descarregamentos no Paraná, encerre também o MDF-e correspondente.
+
+:::warning[Atenção]
+Não deve ser utilizado um único MDF-e para agrupar cargas que serão descarregadas em diferentes UFs.
+:::
+
+É possível que o mesmo veículo possua **mais de um MDF-e em aberto durante o percurso**, desde que cada manifesto corresponda à respectiva UF de descarregamento.
+
+### Resumo
+
+**1 UF de descarregamento = 1 MDF-e**
+
+Por exemplo:
+
+- RS → SC = MDF-e de SC;
+- RS → PR = MDF-e do PR;
+- RS → SP = MDF-e de SP.
+
+Cada MDF-e deve possuir somente os CT-es correspondentes às cargas que serão descarregadas naquela UF.
+
+---
+
 **Finalizando**
 
 Após revisar todas as informações, clique em **Salvar** para emitir o MDF-e.
