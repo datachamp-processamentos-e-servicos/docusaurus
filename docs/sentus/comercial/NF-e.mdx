@@ -349,9 +349,38 @@ Geralmente, esse erro ocorre quando a venda está configurada para um cliente Co
 
 ---
 
+## Rejeição 778 - Informado NCM inexistente
+
+### Erro
+
+**778 - Rejeição: Informado NCM inexistente [nItem:1]**
+
+### Causa
+
+Este erro ocorre quando o código **NCM** informado em um dos itens da NF-e não é válido ou não existe na tabela de NCM utilizada pela SEFAZ.
+
+A informação **[nItem:1]** indica em qual item da nota foi identificado o problema. Neste exemplo, a rejeição está relacionada ao **item 1** da NF-e.
+
+### Como corrigir
+
+1. Localize a **NF-e** que apresentou a rejeição e abra a nota.
+2. No menu lateral esquerdo, acesse **Itens da NF-e**.
+3. Localize o item indicado na mensagem de rejeição.
+4. Em **Ações**, clique nos **detalhes do item**.
+5. Localize o campo **NCM**.
+6. Informe o **NCM correto do produto**.
+7. Clique em **Confirmar**.
+8. Clique em **Salvar**.
+9. Envie novamente a NF-e para autorização.
+
+Após informar um NCM válido e reenviar a nota, a rejeição deverá ser solucionada.
+
+> **Importante:** Caso tenha dúvidas sobre qual NCM utilizar, confirme a classificação fiscal correta do produto antes de realizar a alteração.
+
+---
+
 **Finalizando**
 
 Caso alguma informação esteja faltando, o pedido ficará pendente com o status “Em Digitação”, aguardando que você finalize a edição.\
 Após revisar todas as informações, clique em **Salvar** para gravar a nota e realize a transmissão da NF-e quando necessário.
 
----
