@@ -370,6 +370,48 @@ Será exibida a tela com os itens da nota disponíveis para devolução.
 
 ---
 
+### Rejeição 391 – Não informados os dados do cartão de crédito/débito nas Formas de Pagamento da Nota Fiscal
+
+**Mensagem**
+
+```text
+>  391 – Rejeição: Não informados os dados do cartão de crédito/débito nas Formas de Pagamento da Nota Fiscal [Ocorr: 1].
+```
+
+**Causa**
+
+Essa rejeição ocorre quando, na cobrança da Nota Fiscal, foi utilizada uma forma de pagamento do tipo **Cartão de Crédito** ou **Cartão de Débito**, porém os dados referentes à transação com cartão não foram informados.
+
+Para que a Nota Fiscal seja autorizada, é necessário complementar as informações do pagamento com cartão.
+
+**Como corrigir**
+
+1. Localize e abra a **Nota Fiscal** que apresentou a rejeição.
+
+2. No menu localizado à esquerda, acesse a opção **Cobrança**.
+
+3. Na seção **Ações**, clique no ícone do cartão correspondente à opção **Informações do Pagamento com Cartão**.
+
+4. Será aberta uma nova janela. Preencha os seguintes campos:
+
+   - **Bandeira do Cartão**
+   - **CNPJ da Credenciadora**
+   - **Nº da Autorização**
+
+5. Após preencher as informações, clique em **Confirmar**.
+
+6. **Salve** novamente a Nota Fiscal.
+
+7. Realize um novo **envio da nota**.
+
+
+:::info
+Após informar corretamente os dados do pagamento com cartão, salve e transmita novamente a Nota Fiscal.\
+A rejeição **391** não deverá mais ser apresentada.
+:::
+
+---
+
 ### Rejeição 600 - CSOSN Incompatível na Operação com não Contribuinte
 
 **Mensagem**
@@ -443,48 +485,6 @@ Volte para a nota, faça o mesmo caminho para chegar no item e clique no botão 
 ![Rejeição de NCM](/img/RejeicaoNCM.jpeg)
 
 Salve a nota e realize novamente o envio na NF-e.
-
----
-
-### Rejeição 391 – Não informados os dados do cartão de crédito/débito nas Formas de Pagamento da Nota Fiscal
-
-**Mensagem**
-
-```text
->  391 – Rejeição: Não informados os dados do cartão de crédito/débito nas Formas de Pagamento da Nota Fiscal [Ocorr: 1].
-```
-
-**Causa**
-
-Essa rejeição ocorre quando, na cobrança da Nota Fiscal, foi utilizada uma forma de pagamento do tipo **Cartão de Crédito** ou **Cartão de Débito**, porém os dados referentes à transação com cartão não foram informados.
-
-Para que a Nota Fiscal seja autorizada, é necessário complementar as informações do pagamento com cartão.
-
-**Como corrigir**
-
-1. Localize e abra a **Nota Fiscal** que apresentou a rejeição.
-
-2. No menu localizado à esquerda, acesse a opção **Cobrança**.
-
-3. Na seção **Ações**, clique no ícone do cartão correspondente à opção **Informações do Pagamento com Cartão**.
-
-4. Será aberta uma nova janela. Preencha os seguintes campos:
-
-   - **Bandeira do Cartão**
-   - **CNPJ da Credenciadora**
-   - **Nº da Autorização**
-
-5. Após preencher as informações, clique em **Confirmar**.
-
-6. **Salve** novamente a Nota Fiscal.
-
-7. Realize um novo **envio da nota**.
-
-
-:::info
-Após informar corretamente os dados do pagamento com cartão, salve e transmita novamente a Nota Fiscal.\
-A rejeição **391** não deverá mais ser apresentada.
-:::
 
 ---
 
