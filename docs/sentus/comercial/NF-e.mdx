@@ -488,6 +488,44 @@ A rejeição **391** não deverá mais ser apresentada.
 
 ---
 
+## Rejeição 805: A SEFAZ do destinatário não permite Contribuinte Isento de Inscrição Estadual
+
+A rejeição `805` ocorre quando as informações do **Indicador de IE** e da **Inscrição Estadual** do destinatário não estão de acordo com a situação cadastral aceita pela SEFAZ.
+
+Antes de realizar qualquer alteração, confirme a situação cadastral do destinatário. A consulta também pode ser realizada pelo [Sintegra](https://www.sintegra.gov.br/).
+
+**Como verificar e corrigir**
+
+1. Acesse **Cadastros > Clientes**.
+2. Localize o cliente destinatário da nota e clique em **Editar**.
+3. No canto direito da tela, clique na **lupa azul de pesquisa**.
+4. Clique em **Filtrar** para consultar as informações de **Indicador IE**, **Inscrição Estadual** e **Regime Tributário**.
+5. Confira o resultado da consulta e verifique a situação do destinatário perante o ICMS.
+6. Se a consulta indicar que o destinatário é contribuinte, confira se o **Indicador IE** e a **Inscrição Estadual** estão preenchidos corretamente.
+7. Realize as correções necessárias e clique em **Salvar**.
+
+:::warning
+Não altere o **Indicador IE** apenas como tentativa de autorizar a nota. As informações devem corresponder à situação cadastral do destinatário perante a SEFAZ.
+:::
+
+**Falha ao consultar o cadastro**
+
+Durante a consulta, pode ser apresentada a seguinte mensagem:
+
+`Falha ao Consultar Cadastro, Codigo do Erro: 259, Motivo: Rejeicao: CNPJ da consulta nao cadastrado como contribuinte na UF`
+
+Essa mensagem informa que o CNPJ consultado não foi localizado como contribuinte na UF.
+
+Nesse caso, confirme a situação cadastral e os dados do destinatário antes de realizar uma alteração manual no **Indicador IE** ou na **Inscrição Estadual**.
+
+**Validação**
+
+Após salvar os dados corretos do cliente, envie a nota novamente.
+
+A correção estará validada quando a nota for autorizada sem apresentar novamente a **Rejeição 805**.
+
+---
+
 **Finalizando**
 
 Caso alguma informação esteja faltando, o pedido ficará pendente com o status “Em Digitação”, aguardando que você finalize a edição.\
