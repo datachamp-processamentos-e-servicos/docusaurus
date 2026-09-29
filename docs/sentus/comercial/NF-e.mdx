@@ -161,7 +161,7 @@ Os principais dados são:
 
 ## Estorno de NF-e Não Cancelada no Prazo Legal
 
-### Para Que Serve?
+**Para Que Serve?**
 
 Quando o prazo permitido para o cancelamento da NF-e já tiver expirado, não será mais possível cancelar o documento pelo procedimento normal.
 
@@ -241,7 +241,7 @@ As principais opções são:
 
 Em **Comercial → Pedidos e/ou NF-e**, é possível incluir **acréscimos, frete ou descontos** no valor total dos produtos.
 
-### Como realizar o ajuste 
+## Como realizar o ajuste 
 
 No **Pedido** ou na **NF-e**, acesse:
 
@@ -251,7 +251,7 @@ Na parte inferior da tela, clique no ícone de **lápis (Editar)**.
 
 Em seguida, preencha o campo correspondente ao ajuste que deseja realizar
 
-### Outras Desp. Acessórias
+**Outras Desp. Acessórias**
 
 No campo **Outras Desp. Acessórias**, informe o valor que deseja **acrescentar** ao total da nota ou pedido.
 
@@ -276,11 +276,11 @@ Confira os valores informados antes de confirmar, pois eles irão alterar o valo
 
 ---
 
-# Rejeição de Notas
+## Rejeição de Notas
 
 A seguir possíveis rejeições de notas, explicações e como corrigi-las.
 
-**Rejeição 225 - Falha no Schema XML da NF-e**
+### Rejeição 225 - Falha no Schema XML da NF-e
 
 **Mensagem**
 
@@ -316,7 +316,7 @@ Mesmo que o XML seja validado, a SEFAZ ainda poderá verificar o dígito da insc
 
 ---
 
-**Rejeição 328 - CFOP de devolução para NF-e sem finalidade de devolução**
+### Rejeição 328 - CFOP de devolução para NF-e sem finalidade de devolução
 
 **Mensagem**
 
@@ -370,7 +370,7 @@ Será exibida a tela com os itens da nota disponíveis para devolução.
 
 ---
 
-**Rejeição 600 - CSOSN Incompatível na Operação com não Contribuinte**
+### Rejeição 600 - CSOSN Incompatível na Operação com não Contribuinte
 
 **Mensagem**
 
@@ -393,7 +393,7 @@ Geralmente, esse erro ocorre quando a venda está configurada para um cliente Co
 
 ---
 
-**Rejeição 778 - Informado NCM inexistente**
+### Rejeição 778 - Informado NCM inexistente
 
 **Mensagem**
 
@@ -401,13 +401,13 @@ Geralmente, esse erro ocorre quando a venda está configurada para um cliente Co
 778 - Rejeição: Informado NCM inexistente [nItem:1].
 ```
 
-### Causa
+**Causa**
 
 Este erro ocorre quando o código **NCM** informado em um dos itens da NF-e não é válido ou não existe na tabela de NCM utilizada pela SEFAZ.
 
 A informação **[nItem:1]** indica em qual item da nota foi identificado o problema. Neste exemplo, a rejeição está relacionada ao **item 1** da NF-e.
 
-### Como corrigir
+**Como corrigir**
 
 1. Localize a **NF-e** que apresentou a rejeição e abra a nota.
 2. No menu lateral esquerdo, acesse **Itens da NF-e**.
@@ -429,7 +429,7 @@ Caso tenha dúvidas sobre qual NCM utilizar, confirme a classificação fiscal c
 
 ---
 
-**Rejeição 391 – Não informados os dados do cartão de crédito/débito nas Formas de Pagamento da Nota Fiscal**
+### Rejeição 391 – Não informados os dados do cartão de crédito/débito nas Formas de Pagamento da Nota Fiscal
 
 **Mensagem**
 
@@ -437,13 +437,13 @@ Caso tenha dúvidas sobre qual NCM utilizar, confirme a classificação fiscal c
 >  391 – Rejeição: Não informados os dados do cartão de crédito/débito nas Formas de Pagamento da Nota Fiscal [Ocorr: 1].
 ```
 
-### Causa
+**Causa**
 
 Essa rejeição ocorre quando, na cobrança da Nota Fiscal, foi utilizada uma forma de pagamento do tipo **Cartão de Crédito** ou **Cartão de Débito**, porém os dados referentes à transação com cartão não foram informados.
 
 Para que a Nota Fiscal seja autorizada, é necessário complementar as informações do pagamento com cartão.
 
-### Como corrigir
+**Como corrigir**
 
 1. Localize e abra a **Nota Fiscal** que apresentou a rejeição.
 
