@@ -412,6 +412,59 @@ A rejeição **391** não deverá mais ser apresentada.
 
 ---
 
+### Rejeição 502: Erro na Chave de Acesso
+
+A rejeição `502` indica que a **chave de acesso** do documento não corresponde às informações utilizadas na composição do campo `ID`.
+
+Uma possível causa é a existência de uma chave de acesso armazenada incorretamente no documento.
+
+**Como corrigir**
+
+1. Localize a nota que apresentou a **Rejeição 502**.
+2. Clique no botão **+** para visualizar as opções do documento.
+3. Acesse **Eventos**.
+4. Clique em **Remover chave**.
+5. Após remover a chave, envie a nota novamente.
+
+Ao realizar o novo envio, o sistema poderá gerar novamente as informações necessárias para a chave de acesso.
+
+**Validação**
+
+Verifique o resultado do novo envio. A correção estará validada quando a nota for autorizada sem apresentar novamente a mensagem:
+
+`502-Rejeicao: Erro na Chave de Acesso - Campo ID nao corresponde a concatenacao dos campos`
+
+---
+
+### Rejeição 551: IE da NF referenciada de produtor inválida
+
+A rejeição `551` indica que a **Inscrição Estadual (IE)** informada no documento referenciado de produtor está inválida.
+
+Esse erro pode ocorrer quando o campo **Inscrição Estadual** do produtor foi informado como **Isento** ou não corresponde à IE correta do produtor.
+
+**Como corrigir**
+
+1. Abra a nota que apresentou a **Rejeição 551**.
+2. Acesse **Doc. Ref.**.
+3. Localize o documento referenciado e clique em **Editar**.
+4. Confira o campo **Inscrição Estadual**.
+5. Se o campo estiver preenchido como **Isento**, consulte a Inscrição Estadual correta do produtor.
+6. Informe a IE do produtor no campo **Inscrição Estadual** do documento referenciado.
+7. Salve a alteração.
+8. Envie a nota novamente.
+
+:::warning
+Antes de alterar o campo, confirme a **Inscrição Estadual** correta do produtor. Não informe uma IE diferente da situação cadastral do emitente do documento referenciado.
+:::
+
+**Validação**
+
+Após realizar a correção, envie a nota novamente. A correção estará validada quando a nota for autorizada sem apresentar novamente a mensagem:
+
+`551-Rejeicao: IE da NF referenciada de produtor invalido.`
+
+---
+
 ### Rejeição 600 - CSOSN Incompatível na Operação com não Contribuinte
 
 **Mensagem**
