@@ -67,6 +67,74 @@ Quando houver inconsistências, poderão ser exibidos registros contendo documen
 
 ---
 
+## Vincular Contas Contábeis
+
+Para utilizar as contas contábeis nas operações tributárias, primeiro é necessário habilitar o controle de contabilização no emitente. Depois, cadastre as contas e faça o vínculo com a operação tributária correspondente.
+
+### Configurar o emitente
+
+1. Acesse a configuração do **Emitente**.
+2. Localize o parâmetro **Emitente - Contabilização - Tipo de Controle [40]**.
+3. Defina o valor como `1 - Apenas Acesso as Contas Contábeis`.
+
+![Exemplo Contas](/img/Contas-contabeis.jpeg)
+
+
+### Cadastrar as contas contábeis
+
+Após configurar o emitente:
+
+1. Acesse **Contábil > Contas**.
+2. Clique em **Novo** para cadastrar uma conta contábil.
+3. Preencha os dados da conta conforme as informações fornecidas pelo escritório contábil.
+4. Clique em **Salvar**.
+
+:::warning
+O código das contas contábeis deve ser definido pelo escritório contábil do cliente. Utilize os códigos fornecidos pela contabilidade para evitar divergências na escrituração.
+:::
+
+### Vincular a conta à operação tributária
+
+Com a conta contábil cadastrada:
+
+1. Acesse **Tributos > Auxiliares > Operações Tributárias**.
+2. Localize e edite a operação tributária desejada.
+3. No campo **Conta Contábil**, informe ou selecione a conta correspondente à operação.
+4. Confira se a conta apresentada é a correta.
+5. Clique em **Salvar**.
+
+## Validação
+
+Acesse novamente a operação tributária e verifique se o campo **Conta Contábil** apresenta a conta que foi vinculada.
+
+---
+
+## Vincular Conta Contábil de Estoque
+
+O vínculo da conta contábil de estoque é utilizado para os **Inventários no SPED**.
+
+Antes de realizar o vínculo, a conta contábil correspondente ao estoque deve estar cadastrada no sistema.
+
+### Como vincular
+
+1. Acesse **Cadastros > Emitentes**.
+2. Localize o emitente desejado.
+3. Acesse **+ Ações > Contas**.
+4. No campo **Origem**, selecione a opção correspondente ao estoque do participante.
+5. No campo **Conta**, selecione a conta contábil de estoque correspondente.
+6. Clique em **Add** para adicionar o vínculo.
+7. Confira a conta adicionada e clique em **Salvar**.
+
+:::warning
+A conta contábil utilizada deve corresponder à conta definida pela contabilidade do cliente para o estoque.
+:::
+
+### Validação
+
+Acesse novamente **Cadastros > Emitentes > + Ações > Contas** e verifique se a origem do estoque está vinculada à conta contábil correta.
+
+---
+
 **Finalizando**
 
 Após revisar os parâmetros e gerar o arquivo, realize a conferência do arquivo fiscal antes de transmiti-lo ao órgão competente.
