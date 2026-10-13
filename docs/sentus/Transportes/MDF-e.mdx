@@ -103,6 +103,119 @@ Quando aplicável, informe:
 - Local de carregamento.
 - Local de descarregamento.
 
+
+**Problema**
+
+Ao transmitir um MDF-e sem as informações obrigatórias do seguro da carga, o Sentus pode apresentar o status **Rejeitado**, com a seguinte mensagem:
+
+```text
+698 - Rejeição: Seguro da carga é obrigatório para modal Prestador de Serviço de Transporte no modal rodoviário
+```
+
+**Por que ocorre a rejeição?**
+
+A rejeição 698 ocorre quando um MDF-e emitido por um **Prestador de Serviço de Transporte**, no modal rodoviário, não contém as informações obrigatórias do seguro da carga.
+
+Nessa situação, a SEFAZ exige o preenchimento do grupo de informações do seguro no MDF-e. Caso essas informações não sejam enviadas, o documento é rejeitado.
+
+O Sentus normalmente recupera as informações do seguro utilizadas no último MDF-e emitido. Entretanto, se os campos estiverem vazios ou apresentarem dados que não correspondem à operação atual, será necessário realizar o preenchimento ou a correção antes de uma nova transmissão.
+
+**Como corrigir**
+
+1. Acessar os dados do seguro
+
+1. No Sentus, acesse **Manifestos de Documentos Eletrônicos → MDF-e**.
+2. Abra o MDF-e que apresenta a rejeição para edição.
+3. No menu lateral, clique em **Mod.Transp.**.
+4. Na tela **Rodoviário**, selecione a aba **Seguro**.
+
+2. Preencher as informações do seguro
+
+Na aba **Seguro**, confira os seguintes campos:
+
+| Campo | Informação |
+|---|---|
+| **Responsável Seguro** | Responsável pelo seguro da carga. |
+| **Documento Responsável** | Documento do responsável pelo seguro. |
+| **Nome da Seguradora** | Nome da seguradora responsável pela cobertura. |
+| **Documento Seguradora** | Documento da seguradora. |
+| **Apólice** | Número da apólice do seguro. |
+| **Averbação** | Número da averbação, informado no quadro **Averbações**. |
+
+Após conferir os campos:
+
+1. Preencha as informações do seguro correspondentes à operação.
+2. Informe o número da **Averbação** e clique em **+ Add** para incluí-la na lista.
+3. Clique em **Confirmar** para registrar os dados do seguro.
+4. Verifique se o registro aparece na tabela localizada abaixo dos campos.
+
+:::warning Atenção
+
+As informações do seguro devem corresponder à operação de transporte realizada.
+
+Caso os dados da seguradora, apólice ou averbação não estejam disponíveis, solicite as informações ao responsável pelo seguro antes de transmitir o MDF-e.
+
+:::
+
+3. Exemplo de preenchimento provisório: SEM SEGURO
+
+O exemplo abaixo apresenta valores provisórios que podem ser utilizados como referência durante a identificação de campos sem informações no Sentus.
+
+| Campo | Exemplo |
+|---|---|
+| **Responsável Seguro** | `1-Emitente` |
+| **Documento Responsável** | `00000000000000` |
+| **Nome da Seguradora** | `SEM SEGURO` |
+| **Documento Seguradora** | `00000000000000` |
+| **Apólice** | `0000000` |
+| **Averbação** | `00000000` |
+
+:::danger Importante
+
+O preenchimento com **SEM SEGURO** e documentos ou números zerados é apenas ilustrativo e não representa informações válidas de seguro.
+
+Esses valores não substituem o seguro obrigatório nem representam uma dispensa concedida pela SEFAZ.
+
+**Não transmita o MDF-e utilizando esses dados fictícios.** Antes do envio, obtenha as informações corretas com o responsável pelo seguro e substitua todos os valores provisórios.
+
+:::
+
+4. Salvar e reenviar o MDF-e
+
+Após preencher e confirmar as informações corretas do seguro:
+
+1. Salve as alterações realizadas no MDF-e.
+2. Retorne à tela de envio dos documentos.
+3. Selecione o MDF-e corrigido.
+4. Clique em **Enviar** para realizar uma nova transmissão.
+5. Confira o retorno apresentado pelo Sentus.
+
+Validação
+
+Após o reenvio, verifique se:
+
+- As informações do seguro foram registradas corretamente no MDF-e.
+- A rejeição `698` não é mais apresentada.
+- O documento recebeu o status **Autorizado**.
+
+Se a rejeição persistir, confira novamente os dados do seguro e verifique se as informações obrigatórias foram incluídas no documento transmitido.
+
+A correção das informações do seguro resolve a ausência desse grupo, mas não impede que outras rejeições sejam apresentadas pela SEFAZ.
+
+Cuidados nas próximas emissões
+
+Antes de transmitir um novo MDF-e, confira as informações disponíveis na aba **Seguro**, mesmo quando o Sentus recuperar automaticamente os dados do último documento emitido.
+
+Verifique principalmente:
+
+- Se os dados do responsável pelo seguro estão corretos.
+- Se a seguradora informada corresponde à operação atual.
+- Se o número da apólice está correto.
+- Se a averbação foi informada e adicionada à lista.
+- Se não existem valores provisórios, fictícios ou informações de uma operação anterior.
+
+Essa conferência ajuda a evitar a rejeição `698` e garante que as informações do seguro correspondam ao transporte realizado.
+
 ---
 
 ## Documentos
