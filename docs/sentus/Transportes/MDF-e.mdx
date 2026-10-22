@@ -104,7 +104,9 @@ Quando aplicável, informe:
 - Local de descarregamento.
 
 
-**Problema**
+## Rejeições
+
+### Seguro de carga
 
 Ao transmitir um MDF-e sem as informações obrigatórias do seguro da carga, o Sentus pode apresentar o status **Rejeitado**, com a seguinte mensagem:
 
@@ -215,6 +217,47 @@ Verifique principalmente:
 - Se não existem valores provisórios, fictícios ou informações de uma operação anterior.
 
 Essa conferência ajuda a evitar a rejeição `698` e garante que as informações do seguro correspondam ao transporte realizado.
+
+---
+
+### MDF-e - Erro nas informações do seguro de carga
+
+Quando um **MDF-e apresentar erro relacionado ao seguro de carga**, pode existir alguma informação obrigatória não preenchida ou preenchida incorretamente.
+
+**Como resolver?**
+
+1. Acesse **Transportes → MDF-e**.
+2. Localize o manifesto que apresentou o erro.
+3. Abra o MDF-e no **modo de edição**.
+4. No menu lateral, acesse **Mod. Transp.**.
+5. Selecione a aba **Seguro**.
+6. Verifique e preencha as informações do seguro de carga.
+
+**Quais campos verificar?**
+
+Na aba **Seguro**, confira os seguintes campos:
+
+- **Responsável Seguro:** Selecione o responsável pela contratação do seguro.
+- **Documento Responsável:** Informe o CPF ou CNPJ do responsável, quando aplicável.
+- **Nome da Seguradora:** Informe o nome da seguradora.
+- **Documento Seguradora:** Informe o CNPJ da seguradora.
+- **Apólice:** Informe o número da apólice do seguro.
+- **Averbação:** Informe o número da averbação, quando necessário, e clique em **+ Add** para adicioná-la.
+
+```text
+> Importante: As informações devem ser preenchidas conforme os dados fornecidos pela seguradora ou pelo responsável pelo seguro. A obrigatoriedade de cada campo pode variar conforme a operação.
+```
+
+**Após o preenchimento**
+
+1. Confira se todas as informações estão corretas.
+2. Clique em *Confirmar* para registrar os dados do seguro.
+3. Em seguida, clique em *Salvar* para gravar as alterações no MDF-e.
+4. Por fim, *envie o MDF-e novamente* para autorização.
+
+:::tip[Dica]
+Se o erro persistir, entre em contato com nosso suporte e informe a mensagem de rejeição apresentada.
+:::
 
 ---
 
