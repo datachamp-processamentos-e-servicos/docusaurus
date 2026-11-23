@@ -64,11 +64,11 @@ Com o MDF-e ainda em digitação:
 
 3.1 Dados Contrato
 
-Preencha os seguintes campos:
+Preencha ou Altere os seguintes campos:
 
 - Data de Emissão (do CIOT)
 - Data de Saída  (da viagem)
-- Data de Chegada  (da viagem 
+- Data de Chegada  (da viagem) 
 - Operação - **01 – Carga Lotação** - **02 – Carga Fracionada** - **03 – Operação TAC Agregado**
 
 > ⚠️ **IMPORTANTE**  
@@ -77,16 +77,21 @@ Preencha os seguintes campos:
 
 3.2 Participantes
 
-- **Contratante:** - Pessoa física ou jurídica que paga pelo frete e contrata o serviço.
-- **Contratado:** - Empresa de transporte (ETC) responsável pela execução do transporte.
+- **Contratante:** - Pessoa física ou jurídica que paga pelo frete e contrata o serviço (Preenchido pelo MDFe). 
+- **Contratado:** - Empresa de transporte (ETC) responsável pela execução do transporte (Preenchido pelo MDFe).
 - **Destinatário:** - Quem recebe a carga (não emite CIOT, mas é obrigatório no MDF-e).
-- **Condutor:** - Motorista responsável pela viagem.
+- **Condutor:** - Motorista responsável pela viagem (Não obrigatório).
+
+3.3 Dados Carga
 
 > ⚠️ **Carga Fracionada**  
 > Para operações do tipo **02 – Carga Fracionada**, é obrigatório preencher:  
 > **Contratantes da Carga Fracionada**
 
-3.3 Valores
+- **Natureza da Carga:** - O sistema utiliza os 4 primeiros dígitos da NCM do item principal para determinar a natureza da carga. Caso ocorra rejeição por natureza da carga inválida, deve-se remover os zeros à esquerda desses 4 dígitos e completar o código com os dígitos subsequentes da NCM, até atingir novamente 4 dígitos.
+- Demais campos devem ser conferidos e preenchidos de acordo com a realidade da carga.
+
+3.4 Valores
 
 - **Peso Bruto:** - Preenchido automaticamente pelo MDF-e  
 - **Valor do Frete:** - Deve ser preenchido corretamente - O sistema pode trazer o valor da carga automaticamente - O valor informado deve respeitar o piso mínimo da ANTT  
@@ -106,7 +111,7 @@ Preencha os seguintes campos:
 > https://calculadorafrete.antt.gov.br/
 
 
-3.4 Dados do Veículo
+3.5 Dados do Veículo
 
 - Placa e RNTRC são preenchidos automaticamente pelo MDF-e  
 
@@ -119,7 +124,7 @@ Preencha os seguintes campos:
 
 ---
 
-## 3.5 Origem e Destino
+3.6 Origem e Destino
 
 - Em caso de necessidade de alterar os dados, clique no botão de edição  
 
@@ -129,17 +134,17 @@ Informe:
 - Município OU CEP de destino OU Coordenadas Geográficas 
 - Distância da viagem  
 
----
-
-### Carga Fracionada
-
-Devem ser informadas todas as origens e destinos.
-
 **Exemplo:**
 
 - Origem: Garibaldi/RS OU INFORMAR CEP 95720-000  
 - Destino: Santos/SP OU INFORMAR CEP conforme documento  
 - Distância: 1204 km  
+
+---
+
+### Carga Fracionada
+
+Devem ser informadas todas as origens e destinos.
 
 Para múltiplos destinos:
 
@@ -150,7 +155,7 @@ Para múltiplos destinos:
 
 ---
 
-## 3.6 Pagamentos
+3.7 Pagamentos
 
 Selecione o tipo de pagamento:
 
@@ -158,11 +163,11 @@ Selecione o tipo de pagamento:
 
 Informar:
 
-- Código da Instituição Financeira  
-- Agência  
-- Conta  
+- Código da Instituição Financeira (Sistema sugere conforme MDFe);
+- Agência (Sistema sugere conforme MDFe);
+- Conta  (Sistema sugere conforme MDFe);
 - Indicador de pagamento  
-- CNPJ/CPF do favorecido  
+- CNPJ/CPF do favorecido (se for PIX);
 > Após clicar em CONFIRMAR
 
 ### PIX
@@ -172,15 +177,6 @@ Informar:
 - CNPJ/CPF do favorecido  
 - Chave PIX  
 > Após clicar em CONFIRMAR
-
----
-
-## 3.7 Dados da Carga
-
-Informar o tipo de carga:
-- **NCM - Os 4 primeiros dígitos do NCM**
-- **0001 – Carga Geral**  
-- **2 – Carga Fracionada**
 
 ---
 
