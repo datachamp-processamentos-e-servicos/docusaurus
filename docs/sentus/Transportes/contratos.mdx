@@ -21,7 +21,86 @@ sidebar_position: 6
 
 ---
 
-# CIOT- Passo a passo para emitir
+## CIOT no MDF-e: quando informar e quem deve emitir
+
+**Datachamp | Sentus · Atualizado em 24/11/2026**
+
+Desde **23/11/2026**, a SEFAZ passou a validar o preenchimento das informações do CIOT nos MDF-e rodoviários previstos na **Nota Técnica MDF-e 2026.001**. Quando o grupo de dados do CIOT é exigido e está ausente, o ambiente autorizador devolve a **rejeição 684**. O Sentus exibe o retorno da SEFAZ.
+
+O **CIOT (Código Identificador da Operação de Transporte)** é gerado com o registro da operação perante a ANTT. A regra geral é registrar o **transporte rodoviário remunerado de cargas por conta de terceiros**, antes de iniciar a operação. Quem emite o CIOT depende de **quem efetivamente faz o transporte** e de **quem o contratou**. [CIOT Para Todos — ANTT](https://www.gov.br/antt/pt-br/assuntos/cargas/ciot-para-todos-1/codigo-identificador-da-operacao-de-transporte-ciot/)
+
+---
+
+### O que mudou em 2026
+
+| Data | Mudança |
+| --- | --- |
+| **24/05/2026** | A ANTT ampliou a exigência de CIOT para o transporte rodoviário remunerado de cargas por conta de terceiros, inclusive nas operações executadas por transportadoras com mais de três veículos. |
+| **18/09/2026** | A Resolução ANTT nº 6.090/2026 confirmou a exigência do registro sob a Lei nº 15.485/2026 e preservou a obrigação que já estava em vigor. As funcionalidades novas que dependem de implantação seguem cronograma próprio. |
+| **05/11/2026** | O prazo máximo de **30 dias úteis** para quitação do frete passou a valer também para operações de contratos anteriores à publicação da lei, após o período de adequação. Para novas contratações, o limite já valia desde 06/08/2026. A ANTT informou que os novos campos específicos para registrar a forma e o prazo pactuados no CIOT ainda dependem de implantação. |
+| **23/11/2026** | Entrou em produção a regra **F113**, que exige o grupo do CIOT nas situações previstas para o MDF-e rodoviário. |
+
+[Resolução ANTT nº 6.078/2026](https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=abrirTextoAto&cod_menu=7796&cod_modulo=161&link=S&numeroAto=00006078&orgao=DG%2FANTT%2FMT&seqAto=000&tipo=RES&valorAno=2026) · [Resolução ANTT nº 6.090/2026](https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=abrirTextoAto&cod_menu=8561&cod_modulo=161&link=S&numeroAto=00006090&orgao=DG%2FANTT%2FMT&seqAto=000&tipo=RES&valorAno=2026) · [Comunicado da ANTT sobre o pagamento do frete](https://www.gov.br/antt/pt-br/assuntos/ultimas-noticias-antt/antt-esclarece-prazo-de-30-dias-uteis-para-pagamento-do-frete-apos-fim-da-adaptacao-dos-contratos-anteriores) · [Cronograma oficial do MDF-e](https://moc.sped.fazenda.pr.gov.br/MDFe/HistoricoDeImplantacao.html)
+
+### Quando a SEFAZ exige o CIOT no MDF-e
+
+- **Prestador de serviço de transporte** que emite o MDF-e rodoviário, inclusive se usar caminhão da própria transportadora.
+- **Transportador que emitirá CT-e globalizado.**
+- **Emitente de MDF-e de carga própria** que informou o **tipo de transportador** no manifesto, como em uma operação com contratação de frete em que o próprio embarcador é o emitente do MDF-e.
+
+A empresa que transporta a **própria mercadoria**, com veículo próprio ou sob sua posse e **sem contratar frete de terceiro**, fica fora da obrigação de gerar CIOT. Se houver veículo locado ou arrendado sem contratação de frete e o MDF-e retornar a rejeição 684, confira com o suporte como o tipo de transportador foi informado no manifesto.
+
+A ANTT também prevê dispensas específicas para **autotransporte de veículo novo ainda não emplacado**, **cargas especiais em composição veicular não homologada pela Senatran** e **transporte rodoviário internacional de cargas** nos termos da regulamentação. A obrigação perante a ANTT também pode alcançar fretes municipais, conforme a natureza da operação, mesmo quando o documento fiscal aplicável é municipal.
+
+[Regra F113 no Manual do MDF-e](https://moc.sped.fazenda.pr.gov.br/MDFe/RegrasDeValidacao.html) · [Ajuste SINIEF 03/2026](https://www.confaz.fazenda.gov.br/legislacao/ajustes/2026/AJ003_26) · [Portaria SUROC nº 6/2026, art. 29](https://anttlegis.antt.gov.br/action/UrlPublicasAction.php?acao=abrirAtoPublico&cod_menu=5408&cod_modulo=161&num_ato=00000006&seq_ato=000&sgl_orgao=SUROC%2FANTT%2FMT&sgl_tipo=POR&vlr_ano=2026) · [Perguntas frequentes da ANTT](https://www.gov.br/antt/pt-br/assuntos/cargas/ciot-para-todos-1/perguntas-frequentes/perguntas-e-respostas)
+
+---
+
+### Quem deve emitir o CIOT
+
+**TAC** é o transportador autônomo. **ETC** é a empresa transportadora. Para fins de CIOT, são **equiparadas a TAC** todas as cooperativas de transporte (**CTC**) e as ETCs com **até três veículos automotores de carga** na frota registrada no **RNTRC**. A contagem considera a frota registrada na data do cadastro do CIOT ou, na ausência do cadastro, no início da viagem. [Perguntas frequentes da ANTT](https://www.gov.br/antt/pt-br/assuntos/cargas/ciot-para-todos-1/perguntas-frequentes/perguntas-e-respostas)
+
+| Situação | Quem emite | Exemplo |
+| --- | --- | --- |
+| A empresa transporta a própria mercadoria, sem contratar frete. | **CIOT dispensado.** | Um atacado entrega seu estoque em caminhão próprio, conduzido por funcionário. |
+| O embarcador contrata diretamente um TAC. | **O embarcador contratante**, por instituição de pagamento apta a gerar CIOT. | Uma fábrica contrata um motorista autônomo para entregar suas mercadorias. A fábrica providencia o código. |
+| O embarcador contrata uma ETC com até três veículos. | **O embarcador contratante**, por instituição de pagamento apta. | Uma loja contrata uma transportadora com dois caminhões registrados. A loja providencia o código. |
+| O embarcador contrata uma cooperativa (CTC). | **O embarcador contratante**, por instituição de pagamento apta. | Uma indústria contrata uma cooperativa para fazer o frete. A indústria providencia o código. |
+| Uma ETC com mais de três veículos executa diretamente o transporte. | **A própria ETC que realiza a viagem**, pela integração direta com a ANTT ou por instituição de pagamento apta. | Uma transportadora com oito caminhões faz o frete de um cliente com um caminhão da sua frota. A transportadora gera o código. A regra vale também se ela emitir CT-e globalizado. |
+| A transportadora contratada subcontrata um TAC, uma ETC equiparada ou uma CTC para executar a viagem. | **A transportadora que subcontratou**, por instituição de pagamento apta. | Uma fábrica contrata a Transportadora A, que subcontrata um autônomo. A Transportadora A providencia o código para a contratação do autônomo. |
+| A transportadora contratada subcontrata outra ETC com mais de três veículos, que faz a viagem diretamente. | **A ETC subcontratada que efetivamente executa o transporte**, pela integração direta com a ANTT ou por instituição de pagamento apta. | A Transportadora A repassa a viagem à Transportadora B, que tem dez caminhões registrados e executa o frete com a própria frota. A Transportadora B gera o código. |
+
+Em caso de acordo, o contratante pode delegar o **cadastro operacional** à **ETC equiparada** ou à **cooperativa contratada**. Nesse caso, a geração também passa por **instituição de pagamento apta**, e o contratante continua responsável pelas obrigações legais. Quem emite o **MDF-e** deve obter o código da operação e vinculá-lo ao manifesto quando exigido. [Portaria SUROC nº 6/2026, arts. 3º e 7º](https://anttlegis.antt.gov.br/action/UrlPublicasAction.php?acao=abrirAtoPublico&cod_menu=5408&cod_modulo=161&num_ato=00000006&seq_ato=000&sgl_orgao=SUROC%2FANTT%2FMT&sgl_tipo=POR&vlr_ano=2026) · [Lei nº 15.485/2026](https://legis.senado.gov.br/norma/43632992/publicacao/43634632)
+
+### Se aparecer o bloqueio de emissão em nome próprio
+
+> Não é permitida a emissão de CIOT em nome próprio por transportador enquadrado como CTC ou ETC equiparado a TAC.
+
+Esse retorno é da **ANTT**, na tentativa de gerar o CIOT pela integração direta. A orientação é **solicitar o CIOT a quem contratou ou subcontratou o frete**. O responsável deve usar uma **instituição de pagamento apta**. Quando houver delegação à ETC equiparada ou à cooperativa, a instituição deve registrar a operação conforme o acordo e identificar corretamente o contratante.
+
+A **APROMS NET** consta na lista oficial de instituições aptas a gerar CIOT. Se a empresa possui mais de três veículos automotores de carga e foi identificada como equiparada, confira a categoria, a situação e a frota registrada no RNTRC antes de tentar novamente.
+
+[Instituições aptas a gerar CIOT](https://www.gov.br/antt/pt-br/assuntos/cargas/pagamento-eletronico-de-fretes-pef-ciot/instituicoes-de-pagamento-eletronico-de-frete) · [Consulta pública do RNTRC](https://consultapublica.antt.gov.br/Site/ConsultaRNTRC.aspx/ConsultaPublica/)
+
+---
+
+## O que conferir antes de reenviar o MDF-e no Sentus
+
+| Retorno | O que fazer |
+| --- | --- |
+| **684 — CIOT deverá ser informado** | Obtenha o CIOT de quem deve gerá-lo e preencha no MDF-e os **12 dígitos** do código, sem espaços ou pontuação, e o **CPF ou CNPJ do responsável pela geração**, conforme os dados da operação. Se a viagem for de carga própria sem contratação de frete, confira a classificação do manifesto. |
+| **716 — CPF/CNPJ do responsável pela geração do CIOT inválido** | Confira o documento informado no grupo do CIOT com o comprovante da operação. Corrija o CPF ou CNPJ e reenvie. |
+| **215 — Falha no schema XML** | Confira o campo apontado no retorno. Se for o CIOT, revise o formato de 12 dígitos. O código 215 também pode indicar problemas em outros campos do XML. |
+| **681 — RNTRC inexistente** | Confira o número informado e confirme se ele existe na consulta da ANTT. |
+| **682 — Situação do RNTRC inválida** | Consulte a situação cadastral do RNTRC e regularize a pendência antes de reenviar. |
+
+[Regras de validação do MDF-e](https://moc.sped.fazenda.pr.gov.br/MDFe/RegrasDeValidacao.html) · [Leiaute do MDF-e](https://moc.sped.fazenda.pr.gov.br/MDFe/Leiaute.html) · [Consulta pública do CIOT](https://consultapublica.antt.gov.br/Site/ConsultaCIOT.aspx)
+
+**Precisa de ajuda para identificar o responsável ou preencher o manifesto?** Fale com o suporte Datachamp e envie a mensagem completa de retorno do Sentus.
+
+---
+
+## CIOT- Passo a passo para emitir
 
 :::warning[Importante]
 
@@ -43,14 +122,14 @@ Antes de gerar o primeiro CIOT, entrar em contato com o suporte para configuraç
 
 ---
 
-## 1. Preparação do MDF-e
+### 1. Preparação do MDF-e
 
 - Gere o MDF-e normalmente  
 - **Não autorize o MDF-e neste momento**
 
 ---
 
-## 2. Gerar CIOT
+### 2. Gerar CIOT
 
 Com o MDF-e ainda em digitação:
 
@@ -60,7 +139,7 @@ Com o MDF-e ainda em digitação:
 
 ---
 
-## 3. Preenchimento da Tela de Contrato
+### 3. Preenchimento da Tela de Contrato
 
 3.1 Dados Contrato
 
@@ -180,7 +259,7 @@ Informar:
 
 ---
 
-## 4. Salvamento do Contrato
+### 4. Salvamento do Contrato
 
 Após preencher todas as informações:
 
@@ -189,7 +268,7 @@ Após preencher todas as informações:
 
 ---
 
-## 5. Envio do CIOT
+### 5. Envio do CIOT
 
 Após salvar:
 
@@ -201,14 +280,14 @@ Após salvar:
 
 ---
 
-## 6. Retorno da ANTT e Vinculação ao MDF-e
+### 6. Retorno da ANTT e Vinculação ao MDF-e
 
 Após o envio:
 
 - Se autorizado, o sistema exibirá o CIOT no campo **Número**  
 - Copie o CIOT gerado  
 
-### Importante
+#### Importante
 
 - Retorne ao MDF-e  
 - Informe o CIOT  
@@ -216,7 +295,7 @@ Após o envio:
 
 ---
 
-## 7. Finalização
+### 7. Finalização
 
 - Após vincular o CIOT ao MDF-e  
 - Autorize o MDF-e normalmente  
